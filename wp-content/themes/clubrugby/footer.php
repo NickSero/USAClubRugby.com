@@ -20,12 +20,23 @@
 
 		<footer id="footer" class="site-footer row" role="contentinfo">
 			<div class="column site-info">
-				<p>Website created &amp; designed by my good buddy <a href="http://about.me/daveyjacobson" rel="designer">Davey Jacobson</a></p>
+				<p>Website created &amp; designed by <a href="http://usarugby.org" rel="designer">USA Rugby Football Union Ltd.</a></p>
 			</div><!-- .site-info -->
 		</footer><!-- #footer -->
 
 		<?php wp_footer(); ?>
-		<script src="<?php echo esc_url(home_url('/')); ?>wp-content/themes/usacr/js/custom.js"></script>
+		<script src="<?php echo esc_url(home_url('/')); ?>wp-content/themes/clubrugby/js/foundation.min.js"></script>
+		<script src="<?php echo esc_url(home_url('/')); ?>wp-content/themes/clubrugby/js/placeholder.js"></script>
+		<script src="<?php echo esc_url(home_url('/')); ?>wp-content/themes/clubrugby/js/jquery.cookie.js"></script>
+		<script src="<?php echo esc_url(home_url('/')); ?>wp-content/themes/clubrugby/js/jquery.fittext.js"></script>
+		<script src="<?php echo esc_url(home_url('/')); ?>wp-content/themes/clubrugby/js/custom.js"></script>
+		<script>
+			$('#site-menu > li > a').fitText(1);
+			$('.rsContent').each(function(i){
+    			i = i+1;
+    			$(this).addClass('rsContent-' + i);
+  			});
+		</script>
 
 	</div><!-- #main-wrapper -->
 

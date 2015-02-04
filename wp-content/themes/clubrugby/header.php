@@ -11,18 +11,14 @@
 <head>
 <meta charset="<?php bloginfo('charset'); ?>">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title><?php wp_title('| EdwinTodd.com',true,'right'); ?></title>
+<title><?php wp_title('| USAClubRdugby.com',true,'right'); ?></title>
 <link rel="profile" href="http://gmpg.org/xfn/11">
 <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">
-<script src="<?php echo esc_url(home_url('/')); ?>wp-content/themes/usacr/js/jquery.js"></script>
-<script src="<?php echo esc_url(home_url('/')); ?>wp-content/themes/usacr/js/cssua.min.js"></script>
-<script src="<?php echo esc_url(home_url('/')); ?>wp-content/themes/usacr/js/foundation.min.js"></script>
-<script src="<?php echo esc_url(home_url('/')); ?>wp-content/themes/usacr/js/fastclick.js"></script>
-<script src="<?php echo esc_url(home_url('/')); ?>wp-content/themes/usacr/js/modernizr.min.js"></script>
-<script src="<?php echo esc_url(home_url('/')); ?>wp-content/themes/usacr/js/placeholder.js"></script>
-<script src="<?php echo esc_url(home_url('/')); ?>wp-content/themes/usacr/js/jquery.mmenu.min.js"></script>
-<script src="<?php echo esc_url(home_url('/')); ?>wp-content/themes/usacr/js/jquery.cookie.js"></script>
-<script src="//use.typekit.net/ciz6rhj.js"></script>
+<script src="<?php echo esc_url(home_url('/')); ?>wp-content/themes/clubrugby/js/jquery.js"></script>
+<script src="<?php echo esc_url(home_url('/')); ?>wp-content/themes/clubrugby/js/cssua.min.js"></script>
+<script src="<?php echo esc_url(home_url('/')); ?>wp-content/themes/clubrugby/js/fastclick.js"></script>
+<script src="<?php echo esc_url(home_url('/')); ?>wp-content/themes/clubrugby/js/modernizr.min.js"></script>
+<script src="//use.typekit.net/ebu2luj.js"></script>
 <script>try{Typekit.load();}catch(e){}</script>
 
 <?php wp_head(); ?>
@@ -30,27 +26,31 @@
 
 <body <?php body_class(); ?>>
 
-	<div id="main-wrapper" class="off-cavas-wrap" data-offcanvas>
+	<div id="main-wrapper" class="off-canvas-wrap" data-offcanvas>
 
 		<div id="content-wrapper" class="inner-wrap">		
 
-			<header id="masthead" class="site-header row" role="banner">
+			<header id="masthead" class="site-header" role="banner">
 
-				<div id="mobile-header">
+				<div id="mobile-header" class="small-12 show-for-small-only show-for-portrait">
 
-					<a id="mobile-menu-button" class="left-off-canvas-toggle" href="#">
+					<a id="mobile-menu-button" class="left-off-canvas-toggle small-1" href="#mobile-site-navigation">
 						<span class="line line-1"></span>
 						<span class="line line-2"></span>
 						<span class="line line-3"></span>
 					</a>
 
-					<aside class="left-off-canvas-menu">
-						<nav id="mobile-site-navigation" class="mobile-menu" role="navigation">
-							<?php if (!dynamic_sidebar('Primary Menu')): ?>
-								<?php wp_nav_menu( array('theme_location' => 'primary','id' => 'mobile-site-menu')); ?>
+					<h1 class="site-branding right small-11">
+						<a href="<?php echo esc_url(home_url('/')); ?>" rel="home">USAClubRugby<span>.com</span></a>			
+					</h1>
+
+					<section class="mobile-menu">
+						<aside id="mobile-site-navigation" class="left-off-canvas-menu" role="navigation">
+							<?php if (!dynamic_sidebar('Main Menu')): ?>
+								<?php wp_nav_menu( array('theme_location' => 'main','menu_id' => 'mobile-site-menu','menu_class' => 'menu off-canvas-list')); ?>
 							<?php endif; ?>
-						</nav><!-- #site-navigation -->
-					</aside>
+						</aside><!-- #site-navigation -->
+					</section>
 					
 					<a class="exit-off-canvas">
 						<span class="line line-1"></span>
@@ -60,17 +60,17 @@
 
 				</div>
 
-				<div id="desktop-header">
+				<div id="desktop-header" class="medium-12 large-12 show-for-medium-up show-for-landscape">
 
 					<div class="desktop-header-wrapper">
 
-						<h1 class="site-branding right">
-							<a href="<?php echo esc_url(home_url('/')); ?>" rel="home">EdwinTodd<span>.com</span></a>			
+						<h1 class="site-branding">
+							<div id="logo-holder"><a href="<?php echo esc_url(home_url('/')); ?>" rel="home"><img src="/USAClubRugby.com/wp-content/themes/clubrugby/img/usacr-logo.png" width="100%" /></a></div>			
 						</h1><!-- .site-branding -->
 
 						<nav id="desktop-site-navigation" class="main-navigation" role="navigation">
-							<?php if (!dynamic_sidebar('Primary Menu')): ?>
-								<?php wp_nav_menu(array('theme_location' => 'primary','id' => 'site-menu','container_class' => 'button-group round even-5')); ?>
+							<?php if (!dynamic_sidebar('Main Menu')): ?>
+								<?php wp_nav_menu(array('theme_location' => 'main','menu_id' => 'site-menu','container_class' => 'button-group even-9')); ?>
 							<?php endif; ?>
 						</nav><!-- #site-navigation -->
 

@@ -1,0 +1,1 @@
+jQuery(document).ready(function($){if($(window).resize(function(){$(window).width()>=960}).resize(),$(window).width()>=1024){var i=$('<li class="menu-item menu-item-divider"></li>');$(i).insertAfter("#site-menu > .before-divider"),$(document).foundation(),FastClick.attach(document.body)}});

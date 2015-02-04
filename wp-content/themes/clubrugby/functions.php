@@ -20,7 +20,7 @@ function usacr_setup() {
 
 	// Menus Locations ----------------------------------------------------------------------------
 	register_nav_menus( array(
-		'primary'			=> __( 'Primary Menu', 'usacr' ),
+		'main'			=> __( 'Main Menu', 'usacr' ),
 	));
 
 }
