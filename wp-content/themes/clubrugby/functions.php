@@ -53,7 +53,7 @@ add_action( 'widgets_init', 'usacr_widgets_init' );
 
 // Enqueue scripts and styles ------------------------------------------------------------------------
 function usacr_scripts() {
-	wp_enqueue_style( 'usacr-style', get_template_directory_uri() . '/css/style.css', false, '1.0.0' );
+	wp_enqueue_style( 'usacr-style', get_template_directory_uri() . '/css/style.css', false, '1.0.0.1' );
 }
 add_action( 'wp_enqueue_scripts', 'usacr_scripts' );
 

@@ -65,7 +65,7 @@
 					<div class="desktop-header-wrapper">
 
 						<h1 class="site-branding">
-							<div id="logo-holder"><a href="<?php echo esc_url(home_url('/')); ?>" rel="home"><img src="/USAClubRugby.com/wp-content/themes/clubrugby/img/usacr-logo.png" width="100%" /></a></div>			
+							<div id="logo-holder"><a href="<?php echo esc_url(home_url('/')); ?>" rel="home"><img src="/USAClubRugby.com/wp-content/themes/clubrugby/img/usacr-logo-2.png" width="100%" /></a></div>			
 						</h1><!-- .site-branding -->
 
 						<nav id="desktop-site-navigation" class="main-navigation" role="navigation">

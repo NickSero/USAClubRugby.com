@@ -8,9 +8,8 @@
     right: 0;
     width: 100%;
     padding-top: 50px;
-    margin-top: -30px;
+    margin-top: -4px;
     z-index: 999;
-    box-shadow: 0 3px 3px rgba(0,0,0,.7);
     h1 {
       &.site-branding {
         text-align: center;
@@ -21,12 +20,13 @@
         font-size: 5rem !important;
         #logo-holder {
           margin: 0 auto;
+          position: relative;
           a {
-            position: relative;
-            top: -36px;
-            width: 109px;
-            padding: 13px 13px 13px 40px;
+            width: 8.25%;
             img {
+              position: absolute;
+              top: -39px;
+              margin-left: -3.5%;
               width: inherit;
             } 
           }
@@ -35,7 +35,7 @@
     }
     #desktop-site-navigation {
       background: @blue;
-      border-bottom: 2px solid @red;
+      border-top: 13px solid @red;
       text-align: center;
       -webkit-border-top-left-radius: 0px;
       -moz-border-radius-topleft: 0px;
@@ -51,12 +51,25 @@
             text-align: center;
             font-size: 0.5rem;
             margin-bottom: -5px;
+            &:last-child {
+              border-left: 0;
+            }
+            &:not(:first-child) {
+              border-left: 1px solid @transwhite;
+            }
+            &:last-child {
+              border-right: 0;
+            }
+            &:not(:last-child) {
+              border-right: 1px solid @transwhite;
+            }
             &.menu-item-divider {
               position: relative;
               height: 27px;
             }
             a {
               padding: 19px 0;
+              color: @white;
               text-align: center;
               font-family: @jaf;
               text-transform: uppercase;
@@ -71,8 +84,12 @@
               -webkit-transition-property: all;
               -webkit-transition-duration: 0.25s;
               &:hover {
-                background: rgba(255,255,255,.25);
-                color: #f00;
+                background: rgba(255,255,255,.1);
+                text-shadow: 
+                  0 0 1px @white,
+                  0 0 2px @white,
+                  0 0 20px @neonblue;
+                letter-spacing: .05rem;
                 transition-property: all;
                 transition-duration: 0.25s;
                 -moz-transition-property: all;
@@ -93,9 +110,10 @@
               -o-border-top-left-radius: 0;
               -ms-border-radius-topleft: 0;
             }
-            a {
+            a, a:hover {
               color: #f00;
               text-shadow: 0 1px 1px rgba(0,0,0,.5);
+              letter-spacing: 0;
             }
             &:after {
               content: "";
@@ -357,6 +375,21 @@
   #main-wrapper {
     #masthead {
 
+    }
+  }
+}
+
+@media screen and (min-width : 1024px) and (max-width : 1050px) {
+  #masthead {
+    .desktop-header-wrapper {
+      h1.site-branding {
+        #logo-holder {
+          a {
+            top: -41px;
+            width: 7.3%;
+          }
+        }
+      }
     }
   }
 }
