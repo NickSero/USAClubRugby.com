@@ -8,7 +8,7 @@
  */
 ?>
 
-			</div><!-- #content -->
+			</main><!-- #content -->
 
 		</div><!-- #content-wrapper -->
 
@@ -31,7 +31,9 @@
 		<script src="<?php echo esc_url(home_url('/')); ?>wp-content/themes/clubrugby/js/jquery.fittext.js"></script>
 		<script src="<?php echo esc_url(home_url('/')); ?>wp-content/themes/clubrugby/js/custom.js"></script>
 		<script>
-			$('#site-menu > li > a').fitText(1);
+			$('#site-menu > li:not(.has-dropdown) > a').fitText(1);
+			$('#site-menu > li.has-dropdown > a').fitText(0.79079);
+			$('#site-menu > li.has-dropdown > .sub-menu > li > a').fitText(1.15);
 			$('.rsContent').each(function(i){
     			i = i+1;
     			$(this).addClass('rsContent-' + i);

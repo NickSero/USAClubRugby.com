@@ -15,6 +15,7 @@
 <link rel="profile" href="http://gmpg.org/xfn/11">
 <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">
 <script src="<?php echo esc_url(home_url('/')); ?>wp-content/themes/clubrugby/js/jquery.js"></script>
+<!-- script src="<?php echo esc_url(home_url('/')); ?>wp-content/themes/clubrugby/js/masonry.min.js"></script -->
 <script src="<?php echo esc_url(home_url('/')); ?>wp-content/themes/clubrugby/js/cssua.min.js"></script>
 <script src="<?php echo esc_url(home_url('/')); ?>wp-content/themes/clubrugby/js/fastclick.js"></script>
 <script src="<?php echo esc_url(home_url('/')); ?>wp-content/themes/clubrugby/js/modernizr.min.js"></script>
@@ -65,13 +66,18 @@
 					<div class="desktop-header-wrapper">
 
 						<h1 class="site-branding">
-							<div id="logo-holder"><a href="<?php echo esc_url(home_url('/')); ?>" rel="home"><img src="/USAClubRugby.com/wp-content/themes/clubrugby/img/usacr-logo-2.png" width="100%" /></a></div>			
+							<div id="logo-holder"><a href="<?php echo esc_url(home_url('/')); ?>" rel="home">
+								<img id="logo-text" src="/USAClubRugby.com/wp-content/themes/clubrugby/img/club-rugby-text.png"/>
+								<img id="shield" src="/USAClubRugby.com/wp-content/themes/clubrugby/img/shield-digital.png" width="100%" />
+							</a></div>			
 						</h1><!-- .site-branding -->
 
-						<nav id="desktop-site-navigation" class="main-navigation" role="navigation">
+						<nav id="desktop-site-navigation" class="main-navigation top-bar" data-topbar role="navigation" data-options="is_hover: false">
+							<section class="top-bar-section">
 							<?php if (!dynamic_sidebar('Main Menu')): ?>
-								<?php wp_nav_menu(array('theme_location' => 'main','menu_id' => 'site-menu','container_class' => 'button-group even-9')); ?>
+								<?php wp_nav_menu(array('theme_location' => 'main','menu_id' => 'site-menu','container_class' => 'button-group even-11')); ?>
 							<?php endif; ?>
+							</section>
 						</nav><!-- #site-navigation -->
 
 					</div>
@@ -80,4 +86,4 @@
 						
 			</header><!-- #masthead -->
 
-			<div id="content" class="row">
+			<main id="content" class="row small-12 medium-12 large-12">

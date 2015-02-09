@@ -4180,6 +4180,840 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/css\/acf-field-group.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/css\/acf-field-group.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/css\/acf-global.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/css\/acf-global.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/css\/acf-input.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/css\/acf-input.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/images\/sprite.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8342,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/images\/sprite.png",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/images\/sprite.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/images\/sprite@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 19074,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/images\/sprite@2x.png",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/images\/sprite@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/datepicker\/images\/ui-bg_flat_0_2EA2CC_40x100.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 206,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/datepicker\/images\/ui-bg_flat_0_2EA2CC_40x100.png",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/datepicker\/images\/ui-bg_flat_0_2EA2CC_40x100.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/datepicker\/images\/ui-bg_flat_0_aaaaaa_40x100.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 212,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/datepicker\/images\/ui-bg_flat_0_aaaaaa_40x100.png",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/datepicker\/images\/ui-bg_flat_0_aaaaaa_40x100.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/datepicker\/images\/ui-bg_flat_0_E14D43_40x100.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 206,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/datepicker\/images\/ui-bg_flat_0_E14D43_40x100.png",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/datepicker\/images\/ui-bg_flat_0_E14D43_40x100.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/datepicker\/images\/ui-bg_flat_0_F0F0F0_40x100.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 230,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/datepicker\/images\/ui-bg_flat_0_F0F0F0_40x100.png",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/datepicker\/images\/ui-bg_flat_0_F0F0F0_40x100.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/datepicker\/images\/ui-bg_flat_0_F9F9F9_40x100.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 230,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/datepicker\/images\/ui-bg_flat_0_F9F9F9_40x100.png",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/datepicker\/images\/ui-bg_flat_0_F9F9F9_40x100.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/datepicker\/images\/ui-bg_flat_0_ffffff_40x100.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 208,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/datepicker\/images\/ui-bg_flat_0_ffffff_40x100.png",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/datepicker\/images\/ui-bg_flat_0_ffffff_40x100.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/datepicker\/images\/ui-bg_flat_75_ffffff_40x100.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 208,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/datepicker\/images\/ui-bg_flat_75_ffffff_40x100.png",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/datepicker\/images\/ui-bg_flat_75_ffffff_40x100.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/datepicker\/images\/ui-bg_highlight-soft_0_ffffff_1x100.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 203,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/datepicker\/images\/ui-bg_highlight-soft_0_ffffff_1x100.png",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/datepicker\/images\/ui-bg_highlight-soft_0_ffffff_1x100.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/datepicker\/images\/ui-icons_222222_256x240.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6922,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/datepicker\/images\/ui-icons_222222_256x240.png",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/datepicker\/images\/ui-icons_222222_256x240.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/datepicker\/images\/ui-icons_2EA2CC_256x240.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4549,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/datepicker\/images\/ui-icons_2EA2CC_256x240.png",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/datepicker\/images\/ui-icons_2EA2CC_256x240.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/datepicker\/images\/ui-icons_444444_256x240.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6992,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/datepicker\/images\/ui-icons_444444_256x240.png",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/datepicker\/images\/ui-icons_444444_256x240.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/datepicker\/images\/ui-icons_454545_256x240.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6992,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/datepicker\/images\/ui-icons_454545_256x240.png",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/datepicker\/images\/ui-icons_454545_256x240.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/datepicker\/images\/ui-icons_DDDDDD_256x240.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6923,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/datepicker\/images\/ui-icons_DDDDDD_256x240.png",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/datepicker\/images\/ui-icons_DDDDDD_256x240.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/datepicker\/images\/ui-icons_ffffff_256x240.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6299,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/datepicker\/images\/ui-icons_ffffff_256x240.png",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/datepicker\/images\/ui-icons_ffffff_256x240.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/datepicker\/jquery-ui-1.10.4.custom.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/datepicker\/jquery-ui-1.10.4.custom.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/datepicker\/jquery-ui-1.10.4.custom.min.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/datepicker\/jquery-ui-1.10.4.custom.min.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/select2\/README.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/select2\/README.md",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/select2\/README.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2-bootstrap.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2-bootstrap.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2.js",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/select2\/min\/select2-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2.min.js",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/select2\/min\/select2.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 613,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2.png",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2_locale_ar.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2_locale_ar.js",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/select2\/min\/select2_locale_ar-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2_locale_az.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2_locale_az.js",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/select2\/min\/select2_locale_az-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2_locale_bg.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2_locale_bg.js",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/select2\/min\/select2_locale_bg-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2_locale_ca.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2_locale_ca.js",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/select2\/min\/select2_locale_ca-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2_locale_cs.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2_locale_cs.js",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/select2\/min\/select2_locale_cs-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2_locale_da.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2_locale_da.js",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/select2\/min\/select2_locale_da-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2_locale_de.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2_locale_de.js",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/select2\/min\/select2_locale_de-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2_locale_el.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2_locale_el.js",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/select2\/min\/select2_locale_el-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2_locale_es.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2_locale_es.js",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/select2\/min\/select2_locale_es-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2_locale_et.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2_locale_et.js",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/select2\/min\/select2_locale_et-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2_locale_eu.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2_locale_eu.js",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/select2\/min\/select2_locale_eu-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2_locale_fa.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2_locale_fa.js",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/select2\/min\/select2_locale_fa-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2_locale_fi.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2_locale_fi.js",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/select2\/min\/select2_locale_fi-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2_locale_fr.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2_locale_fr.js",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/select2\/min\/select2_locale_fr-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2_locale_gl.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2_locale_gl.js",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/select2\/min\/select2_locale_gl-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2_locale_he.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2_locale_he.js",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/select2\/min\/select2_locale_he-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2_locale_hr.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2_locale_hr.js",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/select2\/min\/select2_locale_hr-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2_locale_hu.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2_locale_hu.js",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/select2\/min\/select2_locale_hu-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2_locale_id.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2_locale_id.js",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/select2\/min\/select2_locale_id-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2_locale_is.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2_locale_is.js",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/select2\/min\/select2_locale_is-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2_locale_it.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2_locale_it.js",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/select2\/min\/select2_locale_it-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2_locale_ja.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2_locale_ja.js",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/select2\/min\/select2_locale_ja-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2_locale_ka.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2_locale_ka.js",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/select2\/min\/select2_locale_ka-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2_locale_ko.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2_locale_ko.js",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/select2\/min\/select2_locale_ko-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2_locale_lt.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2_locale_lt.js",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/select2\/min\/select2_locale_lt-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2_locale_lv.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2_locale_lv.js",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/select2\/min\/select2_locale_lv-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2_locale_mk.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2_locale_mk.js",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/select2\/min\/select2_locale_mk-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2_locale_ms.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2_locale_ms.js",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/select2\/min\/select2_locale_ms-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2_locale_nl.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2_locale_nl.js",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/select2\/min\/select2_locale_nl-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2_locale_no.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2_locale_no.js",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/select2\/min\/select2_locale_no-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2_locale_pl.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2_locale_pl.js",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/select2\/min\/select2_locale_pl-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2_locale_pt-BR.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2_locale_pt-BR.js",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/select2\/min\/select2_locale_pt-BR-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2_locale_pt-PT.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2_locale_pt-PT.js",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/select2\/min\/select2_locale_pt-PT-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2_locale_ro.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2_locale_ro.js",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/select2\/min\/select2_locale_ro-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2_locale_rs.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2_locale_rs.js",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/select2\/min\/select2_locale_rs-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2_locale_ru.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2_locale_ru.js",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/select2\/min\/select2_locale_ru-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2_locale_sk.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2_locale_sk.js",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/select2\/min\/select2_locale_sk-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2_locale_sv.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2_locale_sv.js",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/select2\/min\/select2_locale_sv-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2_locale_th.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2_locale_th.js",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/select2\/min\/select2_locale_th-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2_locale_tr.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2_locale_tr.js",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/select2\/min\/select2_locale_tr-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2_locale_ug-CN.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2_locale_ug-CN.js",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/select2\/min\/select2_locale_ug-CN-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2_locale_uk.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2_locale_uk.js",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/select2\/min\/select2_locale_uk-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2_locale_vi.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2_locale_vi.js",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/select2\/min\/select2_locale_vi-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2_locale_zh-CN.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2_locale_zh-CN.js",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/select2\/min\/select2_locale_zh-CN-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2_locale_zh-TW.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2_locale_zh-TW.js",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/select2\/min\/select2_locale_zh-TW-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2x2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 845,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2x2.png",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2x2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/js\/acf-field-group.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/js\/acf-field-group.js",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/js\/min\/acf-field-group-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/js\/acf-field-group.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/js\/acf-field-group.min.js",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/js\/min\/acf-field-group.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/js\/acf-input.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/js\/acf-input.js",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/js\/min\/acf-input-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/js\/acf-input.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/js\/acf-input.min.js",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/assets\/js\/min\/acf-input.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/wp-content\/plugins\/advanced-custom-fields-pro\/core\/ajax.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -4266,33 +5100,6 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/core\/wpml.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/wp-content\/plugins\/advanced-custom-fields-pro\/css\/field-group.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/css\/field-group.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/wp-content\/plugins\/advanced-custom-fields-pro\/css\/global.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/css\/global.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/wp-content\/plugins\/advanced-custom-fields-pro\/css\/input.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/css\/input.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -4567,1011 +5374,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/wp-content\/plugins\/advanced-custom-fields-pro\/images\/sprite.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 8342,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/images\/sprite.png",
-		"outputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/images\/sprite.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/wp-content\/plugins\/advanced-custom-fields-pro\/images\/sprite@2x.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 19074,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/images\/sprite@2x.png",
-		"outputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/images\/sprite@2x.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/datepicker\/images\/ui-bg_flat_0_2EA2CC_40x100.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 206,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/datepicker\/images\/ui-bg_flat_0_2EA2CC_40x100.png",
-		"outputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/datepicker\/images\/ui-bg_flat_0_2EA2CC_40x100.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/datepicker\/images\/ui-bg_flat_0_aaaaaa_40x100.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 212,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/datepicker\/images\/ui-bg_flat_0_aaaaaa_40x100.png",
-		"outputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/datepicker\/images\/ui-bg_flat_0_aaaaaa_40x100.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/datepicker\/images\/ui-bg_flat_0_E14D43_40x100.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 206,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/datepicker\/images\/ui-bg_flat_0_E14D43_40x100.png",
-		"outputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/datepicker\/images\/ui-bg_flat_0_E14D43_40x100.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/datepicker\/images\/ui-bg_flat_0_F0F0F0_40x100.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 230,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/datepicker\/images\/ui-bg_flat_0_F0F0F0_40x100.png",
-		"outputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/datepicker\/images\/ui-bg_flat_0_F0F0F0_40x100.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/datepicker\/images\/ui-bg_flat_0_F9F9F9_40x100.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 230,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/datepicker\/images\/ui-bg_flat_0_F9F9F9_40x100.png",
-		"outputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/datepicker\/images\/ui-bg_flat_0_F9F9F9_40x100.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/datepicker\/images\/ui-bg_flat_0_ffffff_40x100.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 208,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/datepicker\/images\/ui-bg_flat_0_ffffff_40x100.png",
-		"outputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/datepicker\/images\/ui-bg_flat_0_ffffff_40x100.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/datepicker\/images\/ui-bg_flat_75_ffffff_40x100.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 208,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/datepicker\/images\/ui-bg_flat_75_ffffff_40x100.png",
-		"outputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/datepicker\/images\/ui-bg_flat_75_ffffff_40x100.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/datepicker\/images\/ui-bg_highlight-soft_0_ffffff_1x100.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 203,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/datepicker\/images\/ui-bg_highlight-soft_0_ffffff_1x100.png",
-		"outputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/datepicker\/images\/ui-bg_highlight-soft_0_ffffff_1x100.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/datepicker\/images\/ui-icons_222222_256x240.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 6922,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/datepicker\/images\/ui-icons_222222_256x240.png",
-		"outputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/datepicker\/images\/ui-icons_222222_256x240.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/datepicker\/images\/ui-icons_2EA2CC_256x240.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 4549,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/datepicker\/images\/ui-icons_2EA2CC_256x240.png",
-		"outputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/datepicker\/images\/ui-icons_2EA2CC_256x240.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/datepicker\/images\/ui-icons_444444_256x240.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 6992,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/datepicker\/images\/ui-icons_444444_256x240.png",
-		"outputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/datepicker\/images\/ui-icons_444444_256x240.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/datepicker\/images\/ui-icons_454545_256x240.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 6992,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/datepicker\/images\/ui-icons_454545_256x240.png",
-		"outputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/datepicker\/images\/ui-icons_454545_256x240.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/datepicker\/images\/ui-icons_DDDDDD_256x240.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 6923,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/datepicker\/images\/ui-icons_DDDDDD_256x240.png",
-		"outputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/datepicker\/images\/ui-icons_DDDDDD_256x240.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/datepicker\/images\/ui-icons_ffffff_256x240.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 6299,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/datepicker\/images\/ui-icons_ffffff_256x240.png",
-		"outputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/datepicker\/images\/ui-icons_ffffff_256x240.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/datepicker\/jquery-ui-1.10.4.custom.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/datepicker\/jquery-ui-1.10.4.custom.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/datepicker\/jquery-ui-1.10.4.custom.min.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/datepicker\/jquery-ui-1.10.4.custom.min.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/select2\/README.md": {
-		"enableFootnoteSupport": 0,
-		"enableSmartyPants": 1,
-		"expandTabs": 1,
-		"fileType": 4096,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/select2\/README.md",
-		"outputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/select2\/README.html",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/select2\/select2-bootstrap.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/select2\/select2-bootstrap.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/select2\/select2.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/select2\/select2.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/select2\/select2.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/select2\/select2.js",
-		"outputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/select2\/min\/select2-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/select2\/select2.min.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/select2\/select2.min.js",
-		"outputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/select2\/min\/select2.min-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/select2\/select2.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 613,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/select2\/select2.png",
-		"outputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/select2\/select2.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/select2\/select2_locale_ar.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/select2\/select2_locale_ar.js",
-		"outputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/select2\/min\/select2_locale_ar-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/select2\/select2_locale_az.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/select2\/select2_locale_az.js",
-		"outputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/select2\/min\/select2_locale_az-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/select2\/select2_locale_bg.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/select2\/select2_locale_bg.js",
-		"outputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/select2\/min\/select2_locale_bg-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/select2\/select2_locale_ca.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/select2\/select2_locale_ca.js",
-		"outputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/select2\/min\/select2_locale_ca-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/select2\/select2_locale_cs.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/select2\/select2_locale_cs.js",
-		"outputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/select2\/min\/select2_locale_cs-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/select2\/select2_locale_da.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/select2\/select2_locale_da.js",
-		"outputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/select2\/min\/select2_locale_da-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/select2\/select2_locale_de.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/select2\/select2_locale_de.js",
-		"outputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/select2\/min\/select2_locale_de-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/select2\/select2_locale_el.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/select2\/select2_locale_el.js",
-		"outputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/select2\/min\/select2_locale_el-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/select2\/select2_locale_es.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/select2\/select2_locale_es.js",
-		"outputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/select2\/min\/select2_locale_es-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/select2\/select2_locale_et.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/select2\/select2_locale_et.js",
-		"outputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/select2\/min\/select2_locale_et-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/select2\/select2_locale_eu.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/select2\/select2_locale_eu.js",
-		"outputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/select2\/min\/select2_locale_eu-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/select2\/select2_locale_fa.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/select2\/select2_locale_fa.js",
-		"outputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/select2\/min\/select2_locale_fa-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/select2\/select2_locale_fi.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/select2\/select2_locale_fi.js",
-		"outputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/select2\/min\/select2_locale_fi-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/select2\/select2_locale_fr.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/select2\/select2_locale_fr.js",
-		"outputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/select2\/min\/select2_locale_fr-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/select2\/select2_locale_gl.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/select2\/select2_locale_gl.js",
-		"outputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/select2\/min\/select2_locale_gl-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/select2\/select2_locale_he.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/select2\/select2_locale_he.js",
-		"outputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/select2\/min\/select2_locale_he-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/select2\/select2_locale_hr.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/select2\/select2_locale_hr.js",
-		"outputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/select2\/min\/select2_locale_hr-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/select2\/select2_locale_hu.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/select2\/select2_locale_hu.js",
-		"outputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/select2\/min\/select2_locale_hu-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/select2\/select2_locale_id.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/select2\/select2_locale_id.js",
-		"outputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/select2\/min\/select2_locale_id-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/select2\/select2_locale_is.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/select2\/select2_locale_is.js",
-		"outputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/select2\/min\/select2_locale_is-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/select2\/select2_locale_it.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/select2\/select2_locale_it.js",
-		"outputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/select2\/min\/select2_locale_it-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/select2\/select2_locale_ja.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/select2\/select2_locale_ja.js",
-		"outputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/select2\/min\/select2_locale_ja-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/select2\/select2_locale_ka.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/select2\/select2_locale_ka.js",
-		"outputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/select2\/min\/select2_locale_ka-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/select2\/select2_locale_ko.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/select2\/select2_locale_ko.js",
-		"outputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/select2\/min\/select2_locale_ko-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/select2\/select2_locale_lt.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/select2\/select2_locale_lt.js",
-		"outputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/select2\/min\/select2_locale_lt-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/select2\/select2_locale_lv.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/select2\/select2_locale_lv.js",
-		"outputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/select2\/min\/select2_locale_lv-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/select2\/select2_locale_mk.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/select2\/select2_locale_mk.js",
-		"outputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/select2\/min\/select2_locale_mk-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/select2\/select2_locale_ms.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/select2\/select2_locale_ms.js",
-		"outputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/select2\/min\/select2_locale_ms-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/select2\/select2_locale_nl.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/select2\/select2_locale_nl.js",
-		"outputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/select2\/min\/select2_locale_nl-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/select2\/select2_locale_no.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/select2\/select2_locale_no.js",
-		"outputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/select2\/min\/select2_locale_no-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/select2\/select2_locale_pl.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/select2\/select2_locale_pl.js",
-		"outputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/select2\/min\/select2_locale_pl-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/select2\/select2_locale_pt-BR.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/select2\/select2_locale_pt-BR.js",
-		"outputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/select2\/min\/select2_locale_pt-BR-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/select2\/select2_locale_pt-PT.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/select2\/select2_locale_pt-PT.js",
-		"outputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/select2\/min\/select2_locale_pt-PT-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/select2\/select2_locale_ro.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/select2\/select2_locale_ro.js",
-		"outputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/select2\/min\/select2_locale_ro-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/select2\/select2_locale_rs.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/select2\/select2_locale_rs.js",
-		"outputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/select2\/min\/select2_locale_rs-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/select2\/select2_locale_ru.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/select2\/select2_locale_ru.js",
-		"outputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/select2\/min\/select2_locale_ru-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/select2\/select2_locale_sk.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/select2\/select2_locale_sk.js",
-		"outputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/select2\/min\/select2_locale_sk-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/select2\/select2_locale_sv.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/select2\/select2_locale_sv.js",
-		"outputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/select2\/min\/select2_locale_sv-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/select2\/select2_locale_th.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/select2\/select2_locale_th.js",
-		"outputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/select2\/min\/select2_locale_th-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/select2\/select2_locale_tr.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/select2\/select2_locale_tr.js",
-		"outputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/select2\/min\/select2_locale_tr-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/select2\/select2_locale_ug-CN.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/select2\/select2_locale_ug-CN.js",
-		"outputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/select2\/min\/select2_locale_ug-CN-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/select2\/select2_locale_uk.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/select2\/select2_locale_uk.js",
-		"outputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/select2\/min\/select2_locale_uk-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/select2\/select2_locale_vi.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/select2\/select2_locale_vi.js",
-		"outputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/select2\/min\/select2_locale_vi-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/select2\/select2_locale_zh-CN.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/select2\/select2_locale_zh-CN.js",
-		"outputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/select2\/min\/select2_locale_zh-CN-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/select2\/select2_locale_zh-TW.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/select2\/select2_locale_zh-TW.js",
-		"outputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/select2\/min\/select2_locale_zh-TW-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/select2\/select2x2.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 845,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/select2\/select2x2.png",
-		"outputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/inc\/select2\/select2x2.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/wp-content\/plugins\/advanced-custom-fields-pro\/js\/field-group.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/js\/field-group.js",
-		"outputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/js\/min\/field-group-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/wp-content\/plugins\/advanced-custom-fields-pro\/js\/field-group.min.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/js\/field-group.min.js",
-		"outputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/js\/min\/field-group.min-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/wp-content\/plugins\/advanced-custom-fields-pro\/js\/input.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/js\/input.js",
-		"outputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/js\/min\/input-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/wp-content\/plugins\/advanced-custom-fields-pro\/js\/input.min.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/js\/input.min.js",
-		"outputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/js\/min\/input.min-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/wp-content\/plugins\/advanced-custom-fields-pro\/js\/input\/_listener.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/js\/input\/_listener.js",
-		"outputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/js\/input\/min\/_listener-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/wp-content\/plugins\/advanced-custom-fields-pro\/js\/input\/_listener.min.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/js\/input\/_listener.min.js",
-		"outputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/js\/input\/min\/_listener.min-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/wp-content\/plugins\/advanced-custom-fields-pro\/js\/input\/acf.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/js\/input\/acf.js",
-		"outputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/js\/input\/min\/acf-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/wp-content\/plugins\/advanced-custom-fields-pro\/js\/input\/ajax.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/js\/input\/ajax.js",
-		"outputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/js\/input\/min\/ajax-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/wp-content\/plugins\/advanced-custom-fields-pro\/js\/input\/color-picker.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/js\/input\/color-picker.js",
-		"outputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/js\/input\/min\/color-picker-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/wp-content\/plugins\/advanced-custom-fields-pro\/js\/input\/date-picker.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/js\/input\/date-picker.js",
-		"outputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/js\/input\/min\/date-picker-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/wp-content\/plugins\/advanced-custom-fields-pro\/js\/input\/event-manager.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/js\/input\/event-manager.js",
-		"outputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/js\/input\/min\/event-manager-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/wp-content\/plugins\/advanced-custom-fields-pro\/js\/input\/file.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/js\/input\/file.js",
-		"outputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/js\/input\/min\/file-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/wp-content\/plugins\/advanced-custom-fields-pro\/js\/input\/google-map.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/js\/input\/google-map.js",
-		"outputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/js\/input\/min\/google-map-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/wp-content\/plugins\/advanced-custom-fields-pro\/js\/input\/image.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/js\/input\/image.js",
-		"outputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/js\/input\/min\/image-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/wp-content\/plugins\/advanced-custom-fields-pro\/js\/input\/oembed.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/js\/input\/oembed.js",
-		"outputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/js\/input\/min\/oembed-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/wp-content\/plugins\/advanced-custom-fields-pro\/js\/input\/radio.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/js\/input\/radio.js",
-		"outputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/js\/input\/min\/radio-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/wp-content\/plugins\/advanced-custom-fields-pro\/js\/input\/relationship.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/js\/input\/relationship.js",
-		"outputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/js\/input\/min\/relationship-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/wp-content\/plugins\/advanced-custom-fields-pro\/js\/input\/select.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/js\/input\/select.js",
-		"outputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/js\/input\/min\/select-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/wp-content\/plugins\/advanced-custom-fields-pro\/js\/input\/tab.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/js\/input\/tab.js",
-		"outputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/js\/input\/min\/tab-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/wp-content\/plugins\/advanced-custom-fields-pro\/js\/input\/url.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/js\/input\/url.js",
-		"outputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/js\/input\/min\/url-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/wp-content\/plugins\/advanced-custom-fields-pro\/js\/input\/validation.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/js\/input\/validation.js",
-		"outputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/js\/input\/min\/validation-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/wp-content\/plugins\/advanced-custom-fields-pro\/js\/input\/wysiwyg.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/js\/input\/wysiwyg.js",
-		"outputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/js\/input\/min\/wysiwyg-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
 	"\/wp-content\/plugins\/advanced-custom-fields-pro\/pro\/acf-pro.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -5644,23 +5446,67 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/wp-content\/plugins\/advanced-custom-fields-pro\/pro\/css\/pro-field-group.css": {
+	"\/wp-content\/plugins\/advanced-custom-fields-pro\/pro\/assets\/css\/acf-pro-field-group.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/pro\/css\/pro-field-group.css",
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/pro\/assets\/css\/acf-pro-field-group.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/wp-content\/plugins\/advanced-custom-fields-pro\/pro\/css\/pro-input.css": {
+	"\/wp-content\/plugins\/advanced-custom-fields-pro\/pro\/assets\/css\/acf-pro-input.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/pro\/css\/pro-input.css",
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/pro\/assets\/css\/acf-pro-input.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/advanced-custom-fields-pro\/pro\/assets\/js\/acf-pro-field-group.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/pro\/assets\/js\/acf-pro-field-group.js",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/pro\/assets\/js\/min\/acf-pro-field-group-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/plugins\/advanced-custom-fields-pro\/pro\/assets\/js\/acf-pro-field-group.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/pro\/assets\/js\/acf-pro-field-group.min.js",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/pro\/assets\/js\/min\/acf-pro-field-group.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/plugins\/advanced-custom-fields-pro\/pro\/assets\/js\/acf-pro-input.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/pro\/assets\/js\/acf-pro-input.js",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/pro\/assets\/js\/min\/acf-pro-input-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/plugins\/advanced-custom-fields-pro\/pro\/assets\/js\/acf-pro-input.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/pro\/assets\/js\/acf-pro-input.min.js",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/pro\/assets\/js\/min\/acf-pro-input.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
 	"\/wp-content\/plugins\/advanced-custom-fields-pro\/pro\/fields\/flexible-content.php": {
 		"fileType": 8192,
@@ -5686,62 +5532,6 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/pro\/fields\/repeater.php",
 		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/wp-content\/plugins\/advanced-custom-fields-pro\/pro\/js\/pro-field-group.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/pro\/js\/pro-field-group.js",
-		"outputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/pro\/js\/min\/pro-field-group-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/wp-content\/plugins\/advanced-custom-fields-pro\/pro\/js\/pro-field-group.min.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/pro\/js\/pro-field-group.min.js",
-		"outputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/pro\/js\/min\/pro-field-group.min-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/wp-content\/plugins\/advanced-custom-fields-pro\/pro\/js\/pro-input.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/pro\/js\/pro-input.js",
-		"outputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/pro\/js\/min\/pro-input-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/wp-content\/plugins\/advanced-custom-fields-pro\/pro\/js\/pro-input.min.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/pro\/js\/pro-input.min.js",
-		"outputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/pro\/js\/min\/pro-input.min-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/wp-content\/plugins\/advanced-custom-fields-pro\/README.md": {
-		"enableFootnoteSupport": 0,
-		"enableSmartyPants": 1,
-		"expandTabs": 1,
-		"fileType": 4096,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/README.md",
-		"outputAbbreviatedPath": "\/wp-content\/plugins\/advanced-custom-fields-pro\/README.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -5920,6 +5710,97 @@
 		"initialSize": 65581,
 		"inputAbbreviatedPath": "\/wp-content\/plugins\/custom-post-type-ui\/screenshot-5.png",
 		"outputAbbreviatedPath": "\/wp-content\/plugins\/custom-post-type-ui\/screenshot-5.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/plugins\/duplicate-post\/duplicate-post-admin.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/duplicate-post\/duplicate-post-admin.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/duplicate-post\/duplicate-post-common.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/duplicate-post\/duplicate-post-common.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/duplicate-post\/duplicate-post-options.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/duplicate-post\/duplicate-post-options.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/duplicate-post\/duplicate-post.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/duplicate-post\/duplicate-post.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/duplicate-post\/screenshot-1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 20658,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/duplicate-post\/screenshot-1.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/duplicate-post\/screenshot-1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/plugins\/duplicate-post\/screenshot-2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 16423,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/duplicate-post\/screenshot-2.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/duplicate-post\/screenshot-2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/plugins\/duplicate-post\/screenshot-3.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 80835,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/duplicate-post\/screenshot-3.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/duplicate-post\/screenshot-3.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/plugins\/duplicate-post\/screenshot-4.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 16735,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/duplicate-post\/screenshot-4.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/duplicate-post\/screenshot-4.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/plugins\/duplicate-post\/screenshot-5.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 14558,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/duplicate-post\/screenshot-5.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/duplicate-post\/screenshot-5.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -7490,6 +7371,15 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/wp-content\/plugins\/wp-migrate-db-pro-media-files\/class\/wpmdbpro-media-files-cli.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/wp-migrate-db-pro-media-files\/class\/wpmdbpro-media-files-cli.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/wp-content\/plugins\/wp-migrate-db-pro-media-files\/class\/wpmdbpro-media-files.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -7958,47 +7848,20 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/wp-content\/themes\/clubrugby\/content-page.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/content-page.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/wp-content\/themes\/clubrugby\/content-search.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/content-search.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/wp-content\/themes\/clubrugby\/content-single.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/content-single.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/wp-content\/themes\/clubrugby\/content.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/content.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/wp-content\/themes\/clubrugby\/css\/style.css": {
 		"fileType": 16,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/css\/style.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/themes\/clubrugby\/dev-only\/blocks.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/dev-only\/blocks.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -8041,6 +7904,72 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/wp-content\/themes\/clubrugby\/img\/club-rugby-text.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 47457,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/img\/club-rugby-text.png",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/img\/club-rugby-text.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/themes\/clubrugby\/img\/header-backdrop.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3.99488e+06,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/img\/header-backdrop.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/img\/header-backdrop.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/themes\/clubrugby\/img\/rugby-pitch.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 251646,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/img\/rugby-pitch.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/img\/rugby-pitch.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/themes\/clubrugby\/img\/shield-digital.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 164409,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/img\/shield-digital.png",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/img\/shield-digital.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/themes\/clubrugby\/img\/usacr-logo-2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 201772,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/img\/usacr-logo-2.png",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/img\/usacr-logo-2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/themes\/clubrugby\/img\/usacr-logo-3.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 217948,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/img\/usacr-logo-3.png",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/img\/usacr-logo-3.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/wp-content\/themes\/clubrugby\/img\/usacr-logo.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -8051,24 +7980,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
-		},
-	"\/wp-content\/themes\/clubrugby\/inc\/custom-header.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/inc\/custom-header.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/wp-content\/themes\/clubrugby\/inc\/customizer.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/inc\/customizer.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
 		},
 	"\/wp-content\/themes\/clubrugby\/inc\/extras.php": {
 		"fileType": 8192,
@@ -8084,6 +7995,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/inc\/jetpack.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/themes\/clubrugby\/inc\/match-widget.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/inc\/match-widget.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -8183,17 +8103,6 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/wp-content\/themes\/clubrugby\/js\/jquery.mmenu.min.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/js\/jquery.mmenu.min.js",
-		"outputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/js\/min\/jquery.mmenu.min-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
 	"\/wp-content\/themes\/clubrugby\/js\/js\/main.min.js": {
 		"fileType": 64,
 		"ignore": 0,
@@ -8227,12 +8136,45 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/wp-content\/themes\/clubrugby\/js\/masonry.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/js\/masonry.min.js",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/js\/min\/masonry.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/wp-content\/themes\/clubrugby\/js\/min\/custom-min.js": {
 		"fileType": 64,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/js\/min\/custom-min.js",
 		"outputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/js\/min\/min\/custom-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/themes\/clubrugby\/js\/min\/freewall-index-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/js\/min\/freewall-index-min.js",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/js\/min\/min\/freewall-index-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/themes\/clubrugby\/js\/min\/freewall-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/js\/min\/freewall-min.js",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/js\/min\/min\/freewall-min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -8270,24 +8212,6 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
-		},
-	"\/wp-content\/themes\/clubrugby\/layouts\/content-sidebar.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/layouts\/content-sidebar.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/wp-content\/themes\/clubrugby\/layouts\/sidebar-content.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/layouts\/sidebar-content.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
 		},
 	"\/wp-content\/themes\/clubrugby\/less\/global\/footer.less": {
 		"allowInsecureImports": 0,
@@ -8409,6 +8333,26 @@
 		"strictMath": 0,
 		"strictUnits": 0
 		},
+	"\/wp-content\/themes\/clubrugby\/less\/vendor\/font-awesome.min.less": {
+		"allowInsecureImports": 0,
+		"createSourceMap": 0,
+		"disableJavascript": 0,
+		"fileType": 1,
+		"ieCompatibility": 1,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/less\/vendor\/font-awesome.min.less",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/less\/css\/font-awesome.min.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"relativeURLS": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"strictImports": 0,
+		"strictMath": 0,
+		"strictUnits": 0
+		},
 	"\/wp-content\/themes\/clubrugby\/less\/vendor\/foundation.min.less": {
 		"allowInsecureImports": 0,
 		"createSourceMap": 0,
@@ -8469,6 +8413,15 @@
 		"strictMath": 0,
 		"strictUnits": 0
 		},
+	"\/wp-content\/themes\/clubrugby\/niu\/custom-header.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/niu\/custom-header.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/wp-content\/themes\/clubrugby\/niu\/customizer.js": {
 		"fileType": 64,
 		"ignore": 0,
@@ -8479,6 +8432,33 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/themes\/clubrugby\/niu\/customizer.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/niu\/customizer.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/themes\/clubrugby\/niu\/layouts\/content-sidebar.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/niu\/layouts\/content-sidebar.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/themes\/clubrugby\/niu\/layouts\/sidebar-content.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/niu\/layouts\/sidebar-content.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		},
 	"\/wp-content\/themes\/clubrugby\/niu\/navigation.js": {
 		"fileType": 64,
@@ -8561,20 +8541,65 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/wp-content\/themes\/clubrugby\/single.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/single.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/wp-content\/themes\/clubrugby\/style.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/style.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/themes\/clubrugby\/views\/content-none.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/views\/content-none.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/themes\/clubrugby\/views\/content-page.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/views\/content-page.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/themes\/clubrugby\/views\/content-search.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/views\/content-search.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/themes\/clubrugby\/views\/content-single.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/views\/content-single.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/themes\/clubrugby\/views\/content.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/views\/content.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/themes\/clubrugby\/views\/content\/content-club.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/views\/content\/content-club.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -8602,6 +8627,33 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/views\/page-news.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/themes\/clubrugby\/views\/page.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/views\/page.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/themes\/clubrugby\/views\/single-club.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/views\/single-club.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/themes\/clubrugby\/views\/single.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/views\/single.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -8692,6 +8744,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/wp-content\/uploads\/back-bay-01-700x400.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 109508,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/back-bay-01-700x400.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/back-bay-01-700x400.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/wp-content\/uploads\/back-bay-01.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -8743,6 +8806,17 @@
 		"initialSize": 21977,
 		"inputAbbreviatedPath": "\/wp-content\/uploads\/club-01-300x200.jpg",
 		"outputAbbreviatedPath": "\/wp-content\/uploads\/club-01-300x200.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/uploads\/club-01-700x400.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 70433,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/club-01-700x400.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/club-01-700x400.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -8802,6 +8876,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/wp-content\/uploads\/club-02-700x400.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 98975,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/club-02-700x400.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/club-02-700x400.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/wp-content\/uploads\/club-02.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -8853,6 +8938,17 @@
 		"initialSize": 29493,
 		"inputAbbreviatedPath": "\/wp-content\/uploads\/club-03-300x214.jpg",
 		"outputAbbreviatedPath": "\/wp-content\/uploads\/club-03-300x214.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/uploads\/club-03-700x400.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 97001,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/club-03-700x400.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/club-03-700x400.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -8912,6 +9008,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/wp-content\/uploads\/club-04-700x400.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 97931,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/club-04-700x400.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/club-04-700x400.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/wp-content\/uploads\/club-04.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -8952,6 +9059,17 @@
 		"initialSize": 34288,
 		"inputAbbreviatedPath": "\/wp-content\/uploads\/club-05-300x200.jpg",
 		"outputAbbreviatedPath": "\/wp-content\/uploads\/club-05-300x200.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/uploads\/club-05-700x400.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 147293,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/club-05-700x400.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/club-05-700x400.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -9011,6 +9129,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/wp-content\/uploads\/old-aztecs-01-700x400.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 116629,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/old-aztecs-01-700x400.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/old-aztecs-01-700x400.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/wp-content\/uploads\/old-aztecs-01.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -9062,6 +9191,17 @@
 		"initialSize": 25421,
 		"inputAbbreviatedPath": "\/wp-content\/uploads\/old-aztecs-02-300x200.jpg",
 		"outputAbbreviatedPath": "\/wp-content\/uploads\/old-aztecs-02-300x200.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/uploads\/old-aztecs-02-700x400.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 91322,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/old-aztecs-02-700x400.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/old-aztecs-02-700x400.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -9121,6 +9261,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/wp-content\/uploads\/ombac-01-700x400.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 108288,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/ombac-01-700x400.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/ombac-01-700x400.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/wp-content\/uploads\/ombac-01.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -9172,6 +9323,17 @@
 		"initialSize": 25661,
 		"inputAbbreviatedPath": "\/wp-content\/uploads\/ombac-02-300x200.jpg",
 		"outputAbbreviatedPath": "\/wp-content\/uploads\/ombac-02-300x200.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/uploads\/ombac-02-700x400.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 84977,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/ombac-02-700x400.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/ombac-02-700x400.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

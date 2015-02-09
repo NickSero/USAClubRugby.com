@@ -1,26 +1,44 @@
 jQuery(document).ready(function($){
 
-  // This will fire when document is ready:
-  $(window).resize(function() {
-      // This will fire each time the window is resized:
-      if($(window).width() >= 960) {
-        // if larger or equal
+  $('.menu-item-divider, .menu-item-divider > a').css({'height':$('.before-divider').height()});
 
-      } else {
-        // if smaller
+  $('.sub-nav > dd').click(function(){
+    $(this).toggleClass('active');
+    $(this).siblings().removeClass('active');
+  });
 
+  $('#news-menu').width($('#content').width());
+
+/*
+  // free wall news feed
+  if($('.home')){
+    var temp = "<div class='news-item brick' style='width:{width}px;'></div>";
+    var w = 1, h = 1, html = '', limitItem = 49;
+    for (var i = 0; i < limitItem; ++i) {
+      w = 1 + 3 * Math.random() << 0;
+      html += temp.replace(/\{width\}/g, w*150).replace("{index}", i + 1);
+    }
+    $("#container").html(html);
+    
+    var wall = new freewall("#container");
+    wall.reset({
+      selector: '.brick',
+      animate: true,
+      cellW: 150,
+      cellH: 'auto',
+      onResize: function() {
+        wall.fitWidth();
       }
-  }).resize(); // This will simulate a resize to trigger the initial run.
+    });
 
-  if($(window).width() >= 1024) {
-  
-    var divider = $('<li class="menu-item menu-item-divider"></li>');
-    $(divider).insertAfter('#site-menu > .before-divider');
-  
-  }
-  else {
+    var images = wall.container.find('.brick');
+    images.find('img').load(function() {
+      wall.fitWidth();
+    });
+  } else {
     return;
   }
+*/
 
   $(document).foundation();
   

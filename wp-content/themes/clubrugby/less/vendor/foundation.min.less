@@ -2124,10 +2124,9 @@ meta.foundation-mq-topbar {
 }
 .top-bar {
     overflow: hidden;
-    height: 2.8125rem;
-    line-height: 2.8125rem;
-    position: relative;
-    background: #333;
+    //height: 2.8125rem;
+    //line-height: 2.8125rem;
+    //position: relative;
     margin-bottom: 0
 }
 .top-bar ul {
@@ -2268,7 +2267,7 @@ meta.foundation-mq-topbar {
     width: 100%
 }
 .top-bar-section ul li {
-    background: #333
+    background: @blue;
 }
 .top-bar-section ul li>a {
     display: block;
@@ -2276,7 +2275,7 @@ meta.foundation-mq-topbar {
     color: #fff;
     padding: 12px 0 12px 0;
     padding-left: 0.9375rem;
-    font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    font-family: @jaf, Helvetica, Roboto, Arial, sans-serif;
     font-size: 0.8125rem;
     font-weight: normal;
     text-transform: none
@@ -2291,20 +2290,20 @@ meta.foundation-mq-topbar {
 }
 .top-bar-section ul li>a.button:hover,
 .top-bar-section ul li>a.button:focus {
-    background-color: #500200
+    //background-color: #500200
 }
 .top-bar-section ul li>a.button:hover,
 .top-bar-section ul li>a.button:focus {
     color: #fff
 }
 .top-bar-section ul li>a.button.secondary {
-    background-color: #ffc300;
-    border-color: #cc9c00;
+    //background-color: #ffc300;
+    //border-color: #cc9c00;
     color: #fff
 }
 .top-bar-section ul li>a.button.secondary:hover,
 .top-bar-section ul li>a.button.secondary:focus {
-    background-color: #cc9c00
+    //background-color: #cc9c00
 }
 .top-bar-section ul li>a.button.secondary:hover,
 .top-bar-section ul li>a.button.secondary:focus {
@@ -2418,8 +2417,8 @@ meta.foundation-mq-topbar {
     color: #fff
 }
 .top-bar-section ul li:hover:not(.has-form)>a {
-    background-color: #555;
-    background: #333;
+    //background-color: #555;
+    //background: #333;
     color: #fff
 }
 .top-bar-section ul li.active>a {
@@ -2434,18 +2433,16 @@ meta.foundation-mq-topbar {
     padding: 0.9375rem
 }
 .top-bar-section .has-dropdown {
-    position: relative
+    //position: relative
 }
 .top-bar-section .has-dropdown>a:after {
-    content: "";
+    font-family: @fawesome;
+    content: "\f0dd";
     display: block;
-    width: 0;
     height: 0;
-    border: inset 5px;
-    border-color: transparent transparent transparent rgba(255, 255, 255, 0.4);
-    border-left-style: solid;
+    width: 0;
     margin-right: 0.9375rem;
-    margin-top: -4.5px;
+    margin-top: -23.5px;
     position: absolute;
     top: 50%;
     right: 0
@@ -2525,7 +2522,7 @@ meta.foundation-mq-topbar {
 }
 @media only screen and (min-width: 40.063em) {
     .top-bar {
-        background: #333;
+        //background: #333;
         overflow: visible
     }
     .top-bar:before,
@@ -2577,22 +2574,22 @@ meta.foundation-mq-topbar {
         display: none
     }
     .top-bar-section li.hover>a:not(.button) {
-        background-color: #555;
-        background: #333;
+        //background-color: #555;
+        //background: #333;
         color: #fff
     }
     .top-bar-section li:not(.has-form) a:not(.button) {
         padding: 0 0.9375rem;
-        line-height: 2.8125rem;
-        background: #333
+        line-height: 2.4rem;
+        background: inherit
     }
     .top-bar-section li:not(.has-form) a:not(.button):hover {
-        background-color: #555;
-        background: #333
+        //background-color: #555;
+        background: @blue
     }
     .top-bar-section li.active:not(.has-form) a:not(.button) {
         padding: 0 0.9375rem;
-        line-height: 2.8125rem;
+        line-height: 2.4rem;
         color: #fff;
         background: #640300
     }
@@ -2604,14 +2601,12 @@ meta.foundation-mq-topbar {
         padding-right: 2.1875rem !important
     }
     .top-bar-section .has-dropdown>a:after {
-        content: "";
-        display: block;
-        width: 0;
+        font-family: @fawesome;
+        content: "\f0dd";
         height: 0;
-        border: inset 5px;
-        border-color: rgba(255, 255, 255, 0.4) transparent transparent transparent;
-        border-top-style: solid;
-        margin-top: -2.5px;
+        width: 0;
+        display: block;
+        margin-top: -23.5px;
         top: 1.40625rem
     }
     .top-bar-section .has-dropdown.moved {
@@ -2721,6 +2716,7 @@ meta.foundation-mq-topbar {
     }
     .no-js .top-bar-section .has-dropdown:hover>.dropdown {
         display: block;
+        visibility: hidden;
         position: static !important;
         height: auto;
         width: auto;
@@ -3506,6 +3502,24 @@ meta.foundation-mq-topbar {
 .button-group.even-10 li .button {
     width: 100%
 }
+.button-group.even-11 ul:not(.sub-menu) > li {
+    margin: 0 -1px;
+    display: inline-block;
+    width: 9.09%
+}
+.button-group.even-11 li>button,
+.button-group.even-11 li .button {
+    border-left: 1px solid;
+    border-color: rgba(255, 255, 255, 0.5)
+}
+.button-group.even-11 li:first-child button,
+.button-group.even-11 li:first-child .button {
+    border-left: 0
+}
+.button-group.even-11 li button,
+.button-group.even-11 li .button {
+    width: 100%
+}
 .button-bar:before,
 .button-bar:after {
     content: " ";
@@ -4002,20 +4016,20 @@ button.dropdown.secondary:after {
 .tabs .tab-title>a {
     outline: none;
     display: block;
-    background-color: #EFEFEF;
-    color: #222;
-    padding: 1rem 2rem;
-    font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
-    font-size: 1rem
+    background-color: inherit;
+    color: @darkgray;
+    padding: 0.1875rem 1rem;
+    font-family: @jaf, Helvetica, Roboto, Arial, sans-serif;
+    font-size: 0.875rem
 }
 .tabs dd>a:hover,
 .tabs .tab-title>a:hover {
-    background-color: #e1e1e1
+    background-color: @lightgray
 }
 .tabs dd.active a,
 .tabs .tab-title.active a {
-    background-color: #fff;
-    color: #222
+    background-color: @red;
+    color: @white
 }
 .tabs.radius dd:first-child a,
 .tabs.radius .tab:first-child a {
@@ -5360,8 +5374,9 @@ dialog[open] {
     display: block;
     width: auto;
     overflow: hidden;
-    margin: -0.25rem 0 1.125rem;
-    padding-top: 0.25rem
+    margin: 4.25rem 0 1.125rem;
+    padding: 1rem;
+    background: @gray;
 }
 .sub-nav dt {
     text-transform: uppercase
@@ -5373,37 +5388,39 @@ dialog[open] {
     display: inline;
     margin-left: 1rem;
     margin-bottom: 0;
-    font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    font-family: @jaf, Helvetica, Roboto, Arial, sans-serif;
     font-weight: normal;
     font-size: 0.875rem;
-    color: #999
+    color: @darkgray
 }
 .sub-nav dt a,
 .sub-nav dd a,
 .sub-nav li a {
     text-decoration: none;
-    color: #999;
+    background: transparent;
+    color: @darkgray !important;
     padding: 0.1875rem 1rem
 }
-.sub-nav dt a:hover,
-.sub-nav dd a:hover,
-.sub-nav li a:hover {
-    color: #737373
+.sub-nav dt:not(:active) a:hover,
+.sub-nav dd:not(:active) a:hover,
+.sub-nav li:not(:active) a:hover {
+    background: @lightgray !important;
+    padding: 0.1875rem 1rem
 }
 .sub-nav dt.active a,
 .sub-nav dd.active a,
 .sub-nav li.active a {
     border-radius: 3px;
     font-weight: normal;
-    background: #640300;
+    background: @red;
     padding: 0.1875rem 1rem;
     cursor: default;
-    color: #fff
+    color: #fff !important
 }
 .sub-nav dt.active a:hover,
 .sub-nav dd.active a:hover,
 .sub-nav li.active a:hover {
-    background: #560300
+    background: @red !important;
 }
 .joyride-list {
     display: none
@@ -5612,7 +5629,10 @@ dialog[open] {
     -webkit-backface-visibility: hidden;
     position: relative;
     width: 100%;
-    overflow: hidden
+/*  MODIFICATIONS */
+    overflow-y: auto;
+    overflow-x: hidden;
+/* END MODIFICATIONS */
 }
 .off-canvas-wrap.move-right,
 .off-canvas-wrap.move-left {

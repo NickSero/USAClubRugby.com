@@ -1,0 +1,31 @@
+.block {
+  background: #555;
+  color: #fff;
+  font-family: "proxima-nova";
+  font-weight: light;
+  font-size: 1rem;
+  text-align: center;
+}
+.w100 {
+  width: 100%;
+}
+.h350 {
+  height: 350px;
+}
+.square {
+  width: 400px;
+  height: 400px;
+}
+.pA {
+  position: absolute;
+}
+.pR {
+  position: relative;
+}
+.proh {
+  position: relative;
+  overflow: hidden;
+}
+.title {
+  height: 50px;
+}

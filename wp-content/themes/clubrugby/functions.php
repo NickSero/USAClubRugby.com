@@ -27,6 +27,35 @@ function usacr_setup() {
 endif; // usacr_setup
 add_action( 'after_setup_theme', 'usacr_setup' );
 
+
+// Make WP menus play nice with Foundation 5 ------------------------------------------------------------------------------
+class GC_walker_nav_menu extends Walker_Nav_Menu {
+  // add classes to ul sub-menus
+  function start_lvl(&$output, $depth) {
+    // depth dependent classes
+    $indent = ( $depth > 0 ? str_repeat("\t", $depth) : '' ); // code indent
+    // build html
+    $output .= "\n" . $indent . '<ul class="dropdown">' . "\n";
+  }
+}
+if (!function_exists('GC_menu_set_dropdown')) :
+function GC_menu_set_dropdown($sorted_menu_items, $args) {
+  $last_top = 0;
+  foreach ($sorted_menu_items as $key => $obj) {
+    // it is a top lv item?
+    if (0 == $obj->menu_item_parent) {
+      // set the key of the parent
+      $last_top = $key;
+    } else {
+      $sorted_menu_items[$last_top]->classes['dropdown'] = 'has-dropdown';
+    }
+  }
+  return $sorted_menu_items;
+}
+endif; // GC_menu_set_dropdown
+add_filter('wp_nav_menu_objects', 'GC_menu_set_dropdown', 10, 2);
+
+
 // Sidebars & Modules ------------------------------------------------------------------------
 function usacr_widgets_init() {
 	register_sidebar( array(
@@ -48,6 +77,17 @@ function usacr_widgets_init() {
 		'before_title'  => '<h1 class="hide">',
 		'after_title'   => '</h1>',
 	));
+
+	register_sidebar( array(
+		'name'          => __( 'Featured Matches', 'usacr' ),
+		'id'            => 'featured-matches',
+		'description'   => '',
+		'before_widget' => '<div id="%1$s" class="widget %2$s">',
+		'after_widget'  => '</div>',
+		'before_title'  => '<h1 class="hide">',
+		'after_title'   => '</h1>',
+	));
+
 }
 add_action( 'widgets_init', 'usacr_widgets_init' );
 
@@ -91,6 +131,16 @@ function new_content_more($more) {
        return ' <a href="' . get_permalink() . ' " class="more-link ajax">Read More...</a> ';
 }   
 add_filter( 'the_content_more_link', 'new_content_more' );
+
+
+// Adjust Match Post Title ------------------------------------------------------------------------------------------------------
+function change_default_title($title){
+     $screen = get_current_screen();
+     if  ( $screen->post_type == 'match' ) {
+          return 'Enter Date of First Featured Match (ex: 2015-04-24)';
+     }
+}
+add_filter( 'enter_title_here', 'change_default_title' );
 
 // Exerpt Filter ----------------------------------------------------------------------------------------------------------------
 function get_excerpt($count){

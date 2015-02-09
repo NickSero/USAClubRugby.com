@@ -3,17 +3,28 @@
   box-shadow: 0 0 20px #000;
   .desktop-header-wrapper {
     position: fixed;
-    top: 0;
+    top: 42px;
     left: 0;
     right: 0;
     width: 100%;
-    padding-top: 50px;
-    margin-top: -4px;
+    padding-top: 0;
+    margin-top: 5px;
     z-index: 999;
+    &:before {
+      content: "";
+      position: absolute;
+      top: -795px; left: -18px;
+      bottom: 0; right: 0;
+      width: 106%;
+      z-index: -1;
+      height: auto;
+      background:url(/USAClubRugby.com/wp-content/themes/clubrugby/img/rugby-pitch.jpg) no-repeat center center #222;
+      background-size: 100% auto;
+    }
     h1 {
       &.site-branding {
         text-align: center;
-        margin-bottom: -129px;
+        margin-bottom: 20px;
         padding-right: 0.985rem;
         font-family: @heading;
         font-weight: 400;
@@ -25,9 +36,13 @@
             width: 8.25%;
             img {
               position: absolute;
-              top: -39px;
-              margin-left: -3.5%;
+              top: -40px;
+              margin-left: -3.8%;
               width: inherit;
+              &#shield {
+                top: -26px;
+                z-index: 99;
+              }
             } 
           }
         }
@@ -35,7 +50,7 @@
     }
     #desktop-site-navigation {
       background: @blue;
-      border-top: 13px solid @red;
+      border-top: 2px solid @red;
       text-align: center;
       -webkit-border-top-left-radius: 0px;
       -moz-border-radius-topleft: 0px;
@@ -45,12 +60,12 @@
       .menu {
         width: 100%; 
         li {
-          margin-left: 0 !important;
-          margin-right: 0 !important;
+          margin-left: -0.02rem !important;
+          margin-right: -0.02rem !important;
           &.menu-item {
             text-align: center;
             font-size: 0.5rem;
-            margin-bottom: -5px;
+            margin-bottom: 0;
             &:last-child {
               border-left: 0;
             }
@@ -65,18 +80,15 @@
             }
             &.menu-item-divider {
               position: relative;
-              height: 27px;
+              min-height: 39px;
+              a {
+                visibility: hidden;
+              }
             }
             a {
-              padding: 19px 0;
-              color: @white;
-              text-align: center;
               font-family: @jaf;
-              text-transform: uppercase;
-              text-shadow: 0 1px 1px #000;
-              //letter-spacing: 1px;
-              font-size: 1rem;
               font-weight: 700;
+              text-transform: uppercase;
               transition-property: all;
               transition-duration: 0.25s;
               -moz-transition-property: all;
@@ -96,6 +108,14 @@
                 -moz-transition-duration: 0.25s;
                 -webkit-transition-property: all;
                 -webkit-transition-duration: 0.25s;
+              }
+            }
+            .sub-menu {
+              margin-left: -65px;
+              li {
+                a {
+                  white-space: nowrap;
+                }
               }
             }
           }

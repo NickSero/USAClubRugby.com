@@ -126,7 +126,7 @@ q {
 }
 
 a:focus {
-	outline: thin dotted;
+	outline: 0;
 }
 
 a:hover,
@@ -406,17 +406,17 @@ textarea {
 5.1 Links
 --------------------------------------------------------------*/
 a {
-	color: royalblue;
+	color: @blue;
 }
 
 a:visited {
-	color: purple;
+	color: @red;
 }
 
 a:hover,
 a:focus,
 a:active {
-	color: midnightblue;
+	color: @red;
 }
 
 /*--------------------------------------------------------------
@@ -449,7 +449,7 @@ a:active {
 	box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
 	float: left;
 	position: absolute;
-	top: 1.5em;
+	top: 2.46em;
 	left: -999em;
 	z-index: 99999;
 }

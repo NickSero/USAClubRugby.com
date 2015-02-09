@@ -1,32 +1,23 @@
 <?php
 /**
- * The template for displaying all single posts.
- *
- * @package USA Club Rugby
+ * @package D1A Rugby
  */
+?>
 
-get_header(); ?>
+<?php get_header();  ?>
 
-	<div id="primary" class="content-area">
-		<main id="main" class="site-main" role="main">
+<?php $post = get_post($_POST['id']); ?>
 
-		<?php while ( have_posts() ) : the_post(); ?>
+    <div id="single-post post-<?php the_ID(); ?>">
+ 
+    <?php while (have_posts()) : the_post(); ?>
+ 
+        <?php get_template_part('/views/single', get_post_type()); ?>
+ 
+    <?php endwhile;?> 
+ 
+    </div>
 
-			<?php get_template_part( 'content', 'single' ); ?>
+<?php edit_post_link( __( 'Edit', 'diarugby' ), '<span class="edit-link">', '</span>' ); ?>
 
-			<?php usacr_post_nav(); ?>
-
-			<?php
-				// If comments are open or we have at least one comment, load up the comment template
-				if ( comments_open() || get_comments_number() ) :
-					comments_template();
-				endif;
-			?>
-
-		<?php endwhile; // end of the loop. ?>
-
-		</main><!-- #main -->
-	</div><!-- #primary -->
-
-<?php get_sidebar(); ?>
 <?php get_footer(); ?>
