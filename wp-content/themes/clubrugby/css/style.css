@@ -11609,8 +11609,8 @@ body {
 }
 body {
   font-family: "jaf-facitweb";
-  background: url(none) no-repeat fixed center center #cccccc;
-  background-size: 100% 100%;
+  background: url(/USAClubRugby.com/wp-content/themes/clubrugby/img/background.png) no-repeat fixed top center #cccccc;
+  background-size: 2880px auto;
   color: #fff;
 }
 body a,
