@@ -11,6 +11,7 @@
 @import "specific/home.less";
 @import "specific/news.less";
 @import "specific/slider.less";
+@import "specific/union.less";
 
 /* Fonts */
 @jaf : "jaf-facitweb";
@@ -40,3 +41,17 @@
 
 /* 1200px Width */
 @w12: 75em;
+
+i {
+	font-family: @fawesome;
+}
+
+.sub-nav dt:not(:active) a.font-icon .fa-external-link:hover {
+	color: @red
+}
+.sub-nav dt:not(:active) a.font-icon .fa-facebook-official:hover {
+	color: #3b5998;
+}
+.sub-nav dt:not(:active) a.font-icon .fa-twitter:hover {
+	color: #55acee;
+}

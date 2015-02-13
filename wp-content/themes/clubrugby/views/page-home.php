@@ -6,10 +6,12 @@ get_header(); ?>
 
 <section id="hero" class="small-12 medium-7 large-7">
 
-	<?php if(!dynamic_sidebar('Hero')): ?>
+	<?php if(!dynamic_sidebar('hero')): ?>
 	<?php endif; ?>
 
 </section>
+
+<hr/>
 
 <section id="featured-matches" class="small-12 medium-12 large-12">
 	
@@ -85,16 +87,6 @@ get_header(); ?>
 		<?php endif; ?>
 
 	</div>
-
-	<!-- script type="text/javascript">
-		$(function() {
-			var $container = $('#container');
-			$container.masonry({
-				itemSelector: '.brick'
-			});
-			var msnry = $container.data('masonry');
-		});
-	</script -->
 
 </section>
 

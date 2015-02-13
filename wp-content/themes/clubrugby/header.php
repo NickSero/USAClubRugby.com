@@ -47,17 +47,11 @@
 
 					<section class="mobile-menu">
 						<aside id="mobile-site-navigation" class="left-off-canvas-menu" role="navigation">
-							<?php if (!dynamic_sidebar('Main Menu')): ?>
-								<?php wp_nav_menu( array('theme_location' => 'main','menu_id' => 'mobile-site-menu','menu_class' => 'menu off-canvas-list')); ?>
-							<?php endif; ?>
+							<?php wp_nav_menu( array('theme_location' => 'main','menu_id' => 'mobile-site-menu','menu_class' => 'menu off-canvas-list')); ?>
 						</aside><!-- #site-navigation -->
 					</section>
 					
-					<a class="exit-off-canvas">
-						<span class="line line-1"></span>
-		 				<span class="line line-2"></span>
-						<span class="line line-3"></span>
-					</a>
+					<a class="exit-off-canvas"></a>
 
 				</div>
 
@@ -67,16 +61,14 @@
 
 						<h1 class="site-branding">
 							<div id="logo-holder"><a href="<?php echo esc_url(home_url('/')); ?>" rel="home">
-								<img id="logo-text" src="/USAClubRugby.com/wp-content/themes/clubrugby/img/club-rugby-text.png"/>
 								<img id="shield" src="/USAClubRugby.com/wp-content/themes/clubrugby/img/shield-digital.png" width="100%" />
+								<img id="logo-text" src="/USAClubRugby.com/wp-content/themes/clubrugby/img/club-rugby-text.png"/>
 							</a></div>			
 						</h1><!-- .site-branding -->
 
-						<nav id="desktop-site-navigation" class="main-navigation top-bar" data-topbar role="navigation" data-options="is_hover: false">
+						<nav id="desktop-site-navigation" class="main-navigation top-bar" data-topbar role="navigation">
 							<section class="top-bar-section">
-							<?php if (!dynamic_sidebar('Main Menu')): ?>
 								<?php wp_nav_menu(array('theme_location' => 'main','menu_id' => 'site-menu','container_class' => 'button-group even-11')); ?>
-							<?php endif; ?>
 							</section>
 						</nav><!-- #site-navigation -->
 

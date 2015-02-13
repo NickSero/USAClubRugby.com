@@ -2658,16 +2658,16 @@ meta.foundation-mq-topbar {
         line-height: 2.8125rem;
         white-space: nowrap;
         padding: 12px 0.9375rem;
-        background: #333
+        //background: #333
     }
     .top-bar-section .dropdown li:not(.has-form):not(.active)>a:not(.button) {
         color: #fff;
-        background: #333
+        background: @blue
     }
     .top-bar-section .dropdown li:not(.has-form):not(.active):hover>a:not(.button) {
         color: #fff;
-        background-color: #555;
-        background: #333
+        //background-color: #555;
+        background: @blue
     }
     .top-bar-section .dropdown li label {
         white-space: nowrap;
@@ -5374,7 +5374,7 @@ dialog[open] {
     display: block;
     width: auto;
     overflow: hidden;
-    margin: 4.25rem 0 1.125rem;
+    margin: 0 0 1.125rem;
     padding: 1rem;
     background: @gray;
 }
@@ -5401,9 +5401,9 @@ dialog[open] {
     color: @darkgray !important;
     padding: 0.1875rem 1rem
 }
-.sub-nav dt:not(:active) a:hover,
-.sub-nav dd:not(:active) a:hover,
-.sub-nav li:not(:active) a:hover {
+.sub-nav dt:not(:active) a:not(.font-icon):hover,
+.sub-nav dd:not(:active) a:not(.font-icon):hover,
+.sub-nav li:not(:active) a:not(.font-icon):hover {
     background: @lightgray !important;
     padding: 0.1875rem 1rem
 }

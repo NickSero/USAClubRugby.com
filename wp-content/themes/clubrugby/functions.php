@@ -28,6 +28,7 @@ endif; // usacr_setup
 add_action( 'after_setup_theme', 'usacr_setup' );
 
 
+/*
 // Make WP menus play nice with Foundation 5 ------------------------------------------------------------------------------
 class GC_walker_nav_menu extends Walker_Nav_Menu {
   // add classes to ul sub-menus
@@ -38,6 +39,7 @@ class GC_walker_nav_menu extends Walker_Nav_Menu {
     $output .= "\n" . $indent . '<ul class="dropdown">' . "\n";
   }
 }
+*/
 if (!function_exists('GC_menu_set_dropdown')) :
 function GC_menu_set_dropdown($sorted_menu_items, $args) {
   $last_top = 0;
@@ -58,6 +60,87 @@ add_filter('wp_nav_menu_objects', 'GC_menu_set_dropdown', 10, 2);
 
 // Sidebars & Modules ------------------------------------------------------------------------
 function usacr_widgets_init() {
+	
+	register_sidebar( array(
+		'name'          => __( 'News Menu Mod', 'usacr' ),
+		'id'            => 'news-menu-mod',
+		'description'   => '',
+		'before_widget' => '<div id="%1$s" class="widget %2$s">',
+		'after_widget'  => '</div>',
+		'before_title'  => '<h1 class="hide">',
+		'after_title'   => '</h1>',
+	));
+
+	register_sidebar( array(
+		'name'          => __( 'Club Menu Mod', 'usacr' ),
+		'id'            => 'club-menu-mod',
+		'description'   => '',
+		'before_widget' => '<div id="%1$s" class="widget %2$s">',
+		'after_widget'  => '</div>',
+		'before_title'  => '<h1 class="hide">',
+		'after_title'   => '</h1>',
+	));
+
+	register_sidebar( array(
+		'name'          => __( 'Schedule Menu Mod', 'usacr' ),
+		'id'            => 'schedule-menu-mod',
+		'description'   => '',
+		'before_widget' => '<div id="%1$s" class="widget %2$s">',
+		'after_widget'  => '</div>',
+		'before_title'  => '<h1 class="hide">',
+		'after_title'   => '</h1>',
+	));
+
+	register_sidebar( array(
+		'name'          => __( 'Standings Menu Mod', 'usacr' ),
+		'id'            => 'standings-menu-mod',
+		'description'   => '',
+		'before_widget' => '<div id="%1$s" class="widget %2$s">',
+		'after_widget'  => '</div>',
+		'before_title'  => '<h1 class="hide">',
+		'after_title'   => '</h1>',
+	));
+
+	register_sidebar( array(
+		'name'          => __( 'Stats Menu Mod', 'usacr' ),
+		'id'            => 'stats-menu-mod',
+		'description'   => '',
+		'before_widget' => '<div id="%1$s" class="widget %2$s">',
+		'after_widget'  => '</div>',
+		'before_title'  => '<h1 class="hide">',
+		'after_title'   => '</h1>',
+	));
+
+	register_sidebar( array(
+		'name'          => __( 'Championships Menu Mod', 'usacr' ),
+		'id'            => 'championships-menu-mod',
+		'description'   => '',
+		'before_widget' => '<div id="%1$s" class="widget %2$s">',
+		'after_widget'  => '</div>',
+		'before_title'  => '<h1 class="hide">',
+		'after_title'   => '</h1>',
+	));
+
+	register_sidebar( array(
+		'name'          => __( 'Social Menu Mod', 'usacr' ),
+		'id'            => 'social-menu-mod',
+		'description'   => '',
+		'before_widget' => '<div id="%1$s" class="widget %2$s">',
+		'after_widget'  => '</div>',
+		'before_title'  => '<h1 class="hide">',
+		'after_title'   => '</h1>',
+	));
+
+	register_sidebar( array(
+		'name'          => __( 'News Menu Mod', 'usacr' ),
+		'id'            => 'news-menu-mod',
+		'description'   => '',
+		'before_widget' => '<div id="%1$s" class="widget %2$s">',
+		'after_widget'  => '</div>',
+		'before_title'  => '<h1 class="hide">',
+		'after_title'   => '</h1>',
+	));
+
 	register_sidebar( array(
 		'name'          => __( 'Hero', 'usacr' ),
 		'id'            => 'hero',

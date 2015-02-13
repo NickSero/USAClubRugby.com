@@ -18,7 +18,7 @@
       width: 106%;
       z-index: -1;
       height: auto;
-      background:url(/USAClubRugby.com/wp-content/themes/clubrugby/img/rugby-pitch.jpg) no-repeat center center #222;
+      background: @blue;
       background-size: 100% auto;
     }
     h1 {
@@ -36,12 +36,18 @@
             width: 8.25%;
             img {
               position: absolute;
-              top: -40px;
+              top: 65px;
               margin-left: -3.8%;
               width: inherit;
+              z-index: 1;
               &#shield {
                 top: -26px;
-                z-index: 99;
+                z-index: 9999;
+              }
+              &#logo-text {
+                width: 11.5rem;
+                margin-left: -92px;
+                margin-top: -2px;
               }
             } 
           }
@@ -83,6 +89,18 @@
               min-height: 39px;
               a {
                 visibility: hidden;
+              }
+            }
+            &.has-dropdown {
+              .dropdown {
+                display: none;
+              }
+              &.hover {
+                .dropdown {
+                  display: block;
+                  background: @blue;
+                  height: 10rem !important;
+                }
               }
             }
             a {

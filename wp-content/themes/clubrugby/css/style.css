@@ -462,8 +462,6 @@ a:active {
   float: left;
   position: absolute;
   top: 2.46em;
-  left: -999em;
-  z-index: 99999;
 }
 .main-navigation ul ul ul {
   left: -999em;
@@ -5522,16 +5520,14 @@ meta.foundation-mq-topbar {
     line-height: 2.8125rem;
     white-space: nowrap;
     padding: 12px 0.9375rem;
-    background: #333333;
   }
   .top-bar-section .dropdown li:not(.has-form):not(.active) > a:not(.button) {
     color: #fff;
-    background: #333333;
+    background: #001830;
   }
   .top-bar-section .dropdown li:not(.has-form):not(.active):hover > a:not(.button) {
     color: #fff;
-    background-color: #555;
-    background: #333333;
+    background: #001830;
   }
   .top-bar-section .dropdown li label {
     white-space: nowrap;
@@ -8236,7 +8232,7 @@ dialog[open] {
   display: block;
   width: auto;
   overflow: hidden;
-  margin: 4.25rem 0 1.125rem;
+  margin: 0 0 1.125rem;
   padding: 1rem;
   background: #cccccc;
 }
@@ -8263,9 +8259,9 @@ dialog[open] {
   color: #555555 !important;
   padding: 0.1875rem 1rem;
 }
-.sub-nav dt:not(:active) a:hover,
-.sub-nav dd:not(:active) a:hover,
-.sub-nav li:not(:active) a:hover {
+.sub-nav dt:not(:active) a:not(.font-icon):hover,
+.sub-nav dd:not(:active) a:not(.font-icon):hover,
+.sub-nav li:not(:active) a:not(.font-icon):hover {
   background: #dadada !important;
   padding: 0.1875rem 1rem;
 }
@@ -11261,7 +11257,7 @@ th.hide-for-touch {
   width: 106%;
   z-index: -1;
   height: auto;
-  background: url(/USAClubRugby.com/wp-content/themes/clubrugby/img/rugby-pitch.jpg) no-repeat center center #222222;
+  background: #001830;
   background-size: 100% auto;
 }
 #masthead .desktop-header-wrapper h1.site-branding {
@@ -11281,13 +11277,19 @@ th.hide-for-touch {
 }
 #masthead .desktop-header-wrapper h1.site-branding #logo-holder a img {
   position: absolute;
-  top: -40px;
+  top: 65px;
   margin-left: -3.8%;
   width: inherit;
+  z-index: 1;
 }
 #masthead .desktop-header-wrapper h1.site-branding #logo-holder a img#shield {
   top: -26px;
-  z-index: 99;
+  z-index: 9999;
+}
+#masthead .desktop-header-wrapper h1.site-branding #logo-holder a img#logo-text {
+  width: 11.5rem;
+  margin-left: -92px;
+  margin-top: -2px;
 }
 #masthead .desktop-header-wrapper #desktop-site-navigation {
   background: #001830;
@@ -11329,6 +11331,14 @@ th.hide-for-touch {
 }
 #masthead .desktop-header-wrapper #desktop-site-navigation .menu li.menu-item.menu-item-divider a {
   visibility: hidden;
+}
+#masthead .desktop-header-wrapper #desktop-site-navigation .menu li.menu-item.has-dropdown .dropdown {
+  display: none;
+}
+#masthead .desktop-header-wrapper #desktop-site-navigation .menu li.menu-item.has-dropdown.hover .dropdown {
+  display: block;
+  background: #001830;
+  height: 10rem !important;
 }
 #masthead .desktop-header-wrapper #desktop-site-navigation .menu li.menu-item a {
   font-family: "jaf-facitweb";
@@ -11609,8 +11619,8 @@ body {
 }
 body {
   font-family: "jaf-facitweb";
-  background: url(/USAClubRugby.com/wp-content/themes/clubrugby/img/background.png) no-repeat fixed top center #cccccc;
-  background-size: 2880px auto;
+  background: url(/USAClubRugby.com/wp-content/themes/clubrugby/img/background.jpg) no-repeat fixed center 100px #cccccc;
+  background-size: cover;
   color: #fff;
 }
 body a,
@@ -11628,10 +11638,12 @@ body #main-wrapper #content-wrapper {
 }
 body #main-wrapper #content-wrapper #content {
   position: relative;
-  margin-top: 5rem;
+  margin-top: 9rem;
+  padding-top: 0;
   background: #ffffff;
   box-shadow: 0 0 20px #000;
   min-height: 719px;
+  z-index: 998 !important;
 }
 body #main-wrapper #content-wrapper #content article,
 body #main-wrapper #content-wrapper #content .entry-content {
@@ -11644,6 +11656,13 @@ body #main-wrapper #content-wrapper #content #divider {
   height: 100%;
   width: 2px;
   background: #4e5065;
+}
+body #main-wrapper #content-wrapper #content .no-bottom-margin {
+  margin-bottom: 0 !important;
+}
+body #main-wrapper #content-wrapper #content .no-bottom-margin dt {
+  font-size: 2rem;
+  margin-bottom: -1.4rem;
 }
 .bottom {
   top: -34px;
@@ -11677,8 +11696,8 @@ h5 {
   font-weight: 500;
   font-size: 3rem;
 }
-.home #main-wrapper #content-wrapper #content {
-  padding-top: 5rem;
+.home #main-wrapper #content-wrapper #content #featured-matches {
+  margin-top: 2rem;
 }
 .home #main-wrapper #content-wrapper #content #latest-news-headlines {
   position: relative;
@@ -11716,8 +11735,8 @@ h5 {
 #news #news-articles {
   margin-top: 9.9875rem;
 }
-.royalSlider {
-  overflow-y: hidden;
+#hero {
+  padding-bottom: 1.5rem;
 }
 .royalSlider .rsContent .rsGCaption {
   margin-top: -189px;
@@ -11749,8 +11768,47 @@ h5 {
 .rsUni .rsThumbs {
   background: #554345 !important;
 }
+.single-union .no-bottom-margin dt .font-icons a.font-icon {
+  padding-right: 0;
+}
+.single-union .no-bottom-margin dt .font-icons a.font-icon:nth-child(2),
+.single-union .no-bottom-margin dt .font-icons a.font-icon:last-child {
+  padding-left: 0.1rem;
+}
+.single-union .no-bottom-margin dt img {
+  max-height: 1.6rem !important;
+  position: relative !important;
+  top: -0.15722656rem !important;
+}
+.single-union .no-bottom-margin dt .fa {
+  font-size: 1.75rem;
+  position: relative !important;
+  top: -2px !important;
+}
+.single-union .tabs-content .content .panel ul.no-bullet {
+  margin-top: -12px;
+}
+.single-union .tabs-content .content .panel ul.no-bullet li {
+  font-size: 1rem;
+}
+.single-union .tabs-content .content p {
+  font-family: "kulturista-web" !important;
+  color: #333;
+}
 /* Fonts */
 /* Colors */
 /* Items */
 /* Effects */
 /* 1200px Width */
+i {
+  font-family: "FontAwesome";
+}
+.sub-nav dt:not(:active) a.font-icon .fa-external-link:hover {
+  color: #a80019;
+}
+.sub-nav dt:not(:active) a.font-icon .fa-facebook-official:hover {
+  color: #3b5998;
+}
+.sub-nav dt:not(:active) a.font-icon .fa-twitter:hover {
+  color: #55acee;
+}

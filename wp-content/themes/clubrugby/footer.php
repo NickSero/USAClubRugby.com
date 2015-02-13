@@ -30,17 +30,20 @@
 		<script src="<?php echo esc_url(home_url('/')); ?>wp-content/themes/clubrugby/js/jquery.cookie.js"></script>
 		<script src="<?php echo esc_url(home_url('/')); ?>wp-content/themes/clubrugby/js/jquery.fittext.js"></script>
 		<script src="<?php echo esc_url(home_url('/')); ?>wp-content/themes/clubrugby/js/custom.js"></script>
+		<?php if(is_home()) : ?>
+			<script src="/USAClubrugby.com/wp-content/themes/clubrugby/js/jquery.royalslider.min.js"></script>
+		<?php endif; ?>
 		<script>
-			$('#site-menu > li:not(.has-dropdown) > a').fitText(1);
-			$('#site-menu > li.has-dropdown > a').fitText(0.79079);
-			$('#site-menu > li.has-dropdown > .sub-menu > li > a').fitText(1.15);
-			$('.rsContent').each(function(i){
+			jQuery('#site-menu > li:not(.has-dropdown) > a').fitText(1);
+			jQuery('#site-menu > li.has-dropdown > a').fitText(0.79079);
+			jQuery('#site-menu > li.has-dropdown > .sub-menu > li > a').fitText();
+			jQuery('.rsContent').each(function(i){
     			i = i+1;
-    			$(this).addClass('rsContent-' + i);
+    			jQuery(this).addClass('rsContent-' + i);
   			});
 		</script>
 
 	</div><!-- #main-wrapper -->
-
+	<script> jQuery(document).foundation(); jQuery(function($){FastClick.attach(document.body)}); </script>
 </body>
 </html>

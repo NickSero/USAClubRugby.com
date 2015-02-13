@@ -6,7 +6,15 @@
 			
 			<?php while (have_posts()) : the_post(); ?>
 
-				<h2>About</h2>
+				<div class="panel">
+					<ul class="no-bullet button-group even-5">
+						<li>Founded: <?php echo the_field('year_founded'); ?></li>
+						<li>Members: 8,231</li>
+						<li>Clubs: 189</li>
+						<li>President: Jeremiah Johnson</li>
+						<li>Congress Reps: <?php if(have_rows('congress_reps')) : while(have_rows('congress_reps')) : the_row(); the_sub_field('congress_reps_names'); endwhile; endif; ?></li>
+					</ul>
+				</div>
 				<?php echo the_field('about'); ?>
 		
 			<?php endwhile; ?>

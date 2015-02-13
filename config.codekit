@@ -1,6 +1,6 @@
 {
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
-"creatorBuild": "18270",
+"creatorBuild": "18493",
 "files": {
 	"\/index.php": {
 		"fileType": 8192,
@@ -5617,6 +5617,24 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/wp-content\/plugins\/custom-post-type-ui\/classes\/class.cptui_admin_ui.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/custom-post-type-ui\/classes\/class.cptui_admin_ui.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/custom-post-type-ui\/css\/cptui.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/custom-post-type-ui\/css\/cptui.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/wp-content\/plugins\/custom-post-type-ui\/custom-post-type-ui.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -5637,27 +5655,63 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/wp-content\/plugins\/custom-post-type-ui\/images\/professional-wordpress-secondedition.jpg": {
+	"\/wp-content\/plugins\/custom-post-type-ui\/images\/professional-wordpress-thirdedition.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 93790,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/custom-post-type-ui\/images\/professional-wordpress-secondedition.jpg",
-		"outputAbbreviatedPath": "\/wp-content\/plugins\/custom-post-type-ui\/images\/professional-wordpress-secondedition.jpg",
+		"initialSize": 20091,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/custom-post-type-ui\/images\/professional-wordpress-thirdedition.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/custom-post-type-ui\/images\/professional-wordpress-thirdedition.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/wp-content\/plugins\/custom-post-type-ui\/images\/professional-wordpress.jpg": {
-		"fileType": 16384,
+	"\/wp-content\/plugins\/custom-post-type-ui\/inc\/import_export.php": {
+		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 26266,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/custom-post-type-ui\/images\/professional-wordpress.jpg",
-		"outputAbbreviatedPath": "\/wp-content\/plugins\/custom-post-type-ui\/images\/professional-wordpress.jpg",
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/custom-post-type-ui\/inc\/import_export.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/custom-post-type-ui\/inc\/post-types.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/custom-post-type-ui\/inc\/post-types.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/custom-post-type-ui\/inc\/support.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/custom-post-type-ui\/inc\/support.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/custom-post-type-ui\/inc\/taxonomies.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/custom-post-type-ui\/inc\/taxonomies.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/custom-post-type-ui\/js\/cptui.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/custom-post-type-ui\/js\/cptui.js",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/custom-post-type-ui\/js\/min\/cptui-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
 	"\/wp-content\/plugins\/custom-post-type-ui\/screenshot-1.png": {
 		"fileType": 32768,
@@ -5710,6 +5764,50 @@
 		"initialSize": 65581,
 		"inputAbbreviatedPath": "\/wp-content\/plugins\/custom-post-type-ui\/screenshot-5.png",
 		"outputAbbreviatedPath": "\/wp-content\/plugins\/custom-post-type-ui\/screenshot-5.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/plugins\/custom-post-type-ui\/screenshot-6.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 134836,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/custom-post-type-ui\/screenshot-6.png",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/custom-post-type-ui\/screenshot-6.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/plugins\/custom-post-type-ui\/screenshot-7.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 134407,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/custom-post-type-ui\/screenshot-7.png",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/custom-post-type-ui\/screenshot-7.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/plugins\/custom-post-type-ui\/screenshot-8.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 92180,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/custom-post-type-ui\/screenshot-8.png",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/custom-post-type-ui\/screenshot-8.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/plugins\/custom-post-type-ui\/screenshot-9.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 177008,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/custom-post-type-ui\/screenshot-9.png",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/custom-post-type-ui\/screenshot-9.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -7893,6 +7991,28 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/wp-content\/themes\/clubrugby\/img\/background--.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.02706e+06,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/img\/background--.png",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/img\/background--.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/themes\/clubrugby\/img\/background-.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 164835,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/img\/background-.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/img\/background-.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/wp-content\/themes\/clubrugby\/img\/background.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -7900,6 +8020,17 @@
 		"initialSize": 164835,
 		"inputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/img\/background.jpg",
 		"outputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/img\/background.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/themes\/clubrugby\/img\/background.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 431080,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/img\/background.png",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/img\/background.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -8103,12 +8234,12 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/wp-content\/themes\/clubrugby\/js\/js\/main.min.js": {
+	"\/wp-content\/themes\/clubrugby\/js\/jquery.royalslider.min.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/js\/js\/main.min.js",
-		"outputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/js\/js\/min\/main.min-min.js",
+		"inputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/js\/jquery.royalslider.min.js",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/js\/min\/jquery.royalslider.min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -8158,23 +8289,12 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/wp-content\/themes\/clubrugby\/js\/min\/freewall-index-min.js": {
+	"\/wp-content\/themes\/clubrugby\/js\/min\/foundation.min-min.js": {
 		"fileType": 64,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/js\/min\/freewall-index-min.js",
-		"outputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/js\/min\/min\/freewall-index-min-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/wp-content\/themes\/clubrugby\/js\/min\/freewall-min.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/js\/min\/freewall-min.js",
-		"outputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/js\/min\/min\/freewall-min-min.js",
+		"inputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/js\/min\/foundation.min-min.js",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/js\/min\/min\/foundation.min-min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -8293,6 +8413,26 @@
 		"strictMath": 0,
 		"strictUnits": 0
 		},
+	"\/wp-content\/themes\/clubrugby\/less\/specific\/news.less": {
+		"allowInsecureImports": 0,
+		"createSourceMap": 0,
+		"disableJavascript": 0,
+		"fileType": 1,
+		"ieCompatibility": 1,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/less\/specific\/news.less",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/less\/css\/news.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"relativeURLS": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"strictImports": 0,
+		"strictMath": 0,
+		"strictUnits": 0
+		},
 	"\/wp-content\/themes\/clubrugby\/less\/specific\/slider.less": {
 		"allowInsecureImports": 0,
 		"createSourceMap": 0,
@@ -8303,6 +8443,26 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/less\/specific\/slider.less",
 		"outputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/less\/css\/slider.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"relativeURLS": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"strictImports": 0,
+		"strictMath": 0,
+		"strictUnits": 0
+		},
+	"\/wp-content\/themes\/clubrugby\/less\/specific\/union.less": {
+		"allowInsecureImports": 0,
+		"createSourceMap": 0,
+		"disableJavascript": 0,
+		"fileType": 1,
+		"ieCompatibility": 1,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/less\/specific\/union.less",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/less\/css\/union.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -8412,6 +8572,15 @@
 		"strictImports": 0,
 		"strictMath": 0,
 		"strictUnits": 0
+		},
+	"\/wp-content\/themes\/clubrugby\/niu\/content-single.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/niu\/content-single.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		},
 	"\/wp-content\/themes\/clubrugby\/niu\/custom-header.php": {
 		"fileType": 8192,
@@ -8541,20 +8710,20 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/wp-content\/themes\/clubrugby\/single.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/single.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/wp-content\/themes\/clubrugby\/style.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/style.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/wp-content\/themes\/clubrugby\/views\/content-none.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/views\/content-none.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -8577,15 +8746,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/wp-content\/themes\/clubrugby\/views\/content-single.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/views\/content-single.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/wp-content\/themes\/clubrugby\/views\/content.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -8600,6 +8760,51 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/views\/content\/content-club.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/themes\/clubrugby\/views\/content\/content-union.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/views\/content\/content-union.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/themes\/clubrugby\/views\/content\/taxonomy-competitive_regions.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/views\/content\/taxonomy-competitive_regions.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/themes\/clubrugby\/views\/content\/taxonomy-levels.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/views\/content\/taxonomy-levels.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/themes\/clubrugby\/views\/content\/taxonomy-sex.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/views\/content\/taxonomy-sex.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/themes\/clubrugby\/views\/content\/taxonomy-union.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/views\/content\/taxonomy-union.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -8649,11 +8854,20 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/wp-content\/themes\/clubrugby\/views\/single.php": {
+	"\/wp-content\/themes\/clubrugby\/views\/single-post.php": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/views\/single.php",
+		"inputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/views\/single-post.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/themes\/clubrugby\/views\/single-union.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/views\/single-union.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -8762,6 +8976,61 @@
 		"initialSize": 902608,
 		"inputAbbreviatedPath": "\/wp-content\/uploads\/back-bay-01.jpg",
 		"outputAbbreviatedPath": "\/wp-content\/uploads\/back-bay-01.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/uploads\/brfc-badge-1030x571.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 423971,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/brfc-badge-1030x571.png",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/brfc-badge-1030x571.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/uploads\/brfc-badge-150x150.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 24915,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/brfc-badge-150x150.png",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/brfc-badge-150x150.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/uploads\/brfc-badge-263x300.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 63535,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/brfc-badge-263x300.png",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/brfc-badge-263x300.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/uploads\/brfc-badge-902x1030.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 33,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/brfc-badge-902x1030.png",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/brfc-badge-902x1030.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/uploads\/brfc-badge.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 187088,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/brfc-badge.png",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/brfc-badge.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -9345,6 +9614,28 @@
 		"initialSize": 875555,
 		"inputAbbreviatedPath": "\/wp-content\/uploads\/ombac-02.jpg",
 		"outputAbbreviatedPath": "\/wp-content\/uploads\/ombac-02.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/uploads\/rocky-mountain-150x120.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 27595,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/rocky-mountain-150x120.png",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/rocky-mountain-150x120.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/uploads\/rocky-mountain.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 30325,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/rocky-mountain.png",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/rocky-mountain.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -14219,6 +14510,10 @@
 			"active": 0,
 			"flagValue": -1
 			},
+		"ensure_comprehensions": {
+			"active": 1,
+			"flagValue": -1
+			},
 		"indentation": {
 			"active": 1,
 			"flagValue": 2
@@ -14310,6 +14605,10 @@
 		"space_operators": {
 			"active": 0,
 			"flagValue": -1
+			},
+		"spacing_after_comma": {
+			"active": 1,
+			"flagValue": -1
 			}
 		},
 	"coffeeMinifyOutput": 1,
@@ -14366,6 +14665,10 @@
 			"active": 1,
 			"flagValue": -1
 			},
+		"browserify": {
+			"active": 0,
+			"flagValue": -1
+			},
 		"camelcase": {
 			"active": 0,
 			"flagValue": -1
@@ -14388,6 +14691,10 @@
 			},
 		"dojo": {
 			"active": 0,
+			"flagValue": -1
+			},
+		"elision": {
+			"active": 1,
 			"flagValue": -1
 			},
 		"eqeqeq": {
@@ -14442,6 +14749,10 @@
 			"active": 0,
 			"flagValue": -1
 			},
+		"jasmine": {
+			"active": 0,
+			"flagValue": -1
+			},
 		"jquery": {
 			"active": 1,
 			"flagValue": -1
@@ -14485,6 +14796,10 @@
 		"maxstatements": {
 			"active": 0,
 			"flagValue": 4
+			},
+		"mocha": {
+			"active": 0,
+			"flagValue": -1
 			},
 		"mootools": {
 			"active": 0,
@@ -14551,6 +14866,10 @@
 			"flagValue": -1
 			},
 		"prototypejs": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"qunit": {
 			"active": 0,
 			"flagValue": -1
 			},
@@ -14778,6 +15097,7 @@
 	"slimAutoOutputPathStyle": 0,
 	"slimCompileOnly": 0,
 	"slimLogicless": 0,
+	"slimOutputFormat": 0,
 	"slimOutputStyle": 1,
 	"slimRailsCompatible": 0,
 	"stylusAutoOutputPathEnabled": 1,
@@ -14802,8 +15122,9 @@
 	"typescriptMinifyOutput": 0,
 	"typescriptModuleType": 0,
 	"typescriptNoImplicitAny": 0,
-	"typescriptNoResolve": 0,
+	"typescriptPreserveConstEnums": 0,
 	"typescriptRemoveComments": 0,
+	"typescriptSuppressImplicitAnyIndexErrors": 0,
 	"typescriptTargetECMAVersion": 0,
 	"uglifyDefinesString": "",
 	"uglifyFlags2": {
@@ -14840,6 +15161,10 @@
 			"flagValue": -1
 			},
 		"dead_code": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"drop_console": {
 			"active": 0,
 			"flagValue": -1
 			},
@@ -14883,6 +15208,10 @@
 			"active": 1,
 			"flagValue": -1
 			},
+		"keep_fargs": {
+			"active": 0,
+			"flagValue": -1
+			},
 		"loops": {
 			"active": 1,
 			"flagValue": -1
@@ -14895,8 +15224,16 @@
 			"active": 1,
 			"flagValue": 32000
 			},
+		"negate_iife": {
+			"active": 1,
+			"flagValue": -1
+			},
 		"properties": {
 			"active": 1,
+			"flagValue": -1
+			},
+		"pure_getters": {
+			"active": 0,
 			"flagValue": -1
 			},
 		"quote-keys": {

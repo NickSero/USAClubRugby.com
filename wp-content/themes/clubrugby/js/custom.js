@@ -1,4 +1,8 @@
-jQuery(document).ready(function($){
+jQuery(function($){
+
+  $(document).ready(function(){
+    console.log($('#desktop-site-navigation').innerWidth());
+  });
 
   $('.menu-item-divider, .menu-item-divider > a').css({'height':$('.before-divider').height()});
 
@@ -8,6 +12,11 @@ jQuery(document).ready(function($){
   });
 
   $('#news-menu').width($('#content').width());
+
+  $('ul.dropdown').css({'width':($('.desktop-header-wrapper').innerWidth())+'px'});
+
+  $('.news > a').attr('data-dropdown','news-drop');
+  $('.news > .dropdown').attr('id','news-drop');
 
 /*
   // free wall news feed
@@ -39,9 +48,5 @@ jQuery(document).ready(function($){
     return;
   }
 */
-
-  $(document).foundation();
   
-  FastClick.attach(document.body);
-
 });
