@@ -11619,7 +11619,7 @@ body {
 }
 body {
   font-family: "jaf-facitweb";
-  background: url(/USAClubRugby.com/wp-content/themes/clubrugby/img/background.jpg) no-repeat fixed center 100px #cccccc;
+  background: url(/usaclubrugby.com/wp-content/themes/clubrugby/img/background.jpg) no-repeat fixed center 100px #cccccc;
   background-size: cover;
   color: #fff;
 }
@@ -11785,11 +11785,8 @@ h5 {
   position: relative !important;
   top: -2px !important;
 }
-.single-union .tabs-content .content .panel ul.no-bullet {
-  margin-top: -12px;
-}
 .single-union .tabs-content .content .panel ul.no-bullet li {
-  font-size: 1rem;
+  font-size: 0.73rem;
 }
 .single-union .tabs-content .content p {
   font-family: "kulturista-web" !important;

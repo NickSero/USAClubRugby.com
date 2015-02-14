@@ -8028,7 +8028,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 431080,
+		"initialSize": 1.02706e+06,
 		"inputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/img\/background.png",
 		"outputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/img\/background.png",
 		"outputPathIsOutsideProject": 0,
@@ -14467,7 +14467,7 @@
 	},
 "projectAttributes": {
 	"bowerAbbreviatedPath": "",
-	"displayValue": "USAClubRugby.com",
+	"displayValue": "usaclubrugby.com",
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "brackets_blue"
 	},
@@ -14615,7 +14615,7 @@
 	"coffeeOutputStyle": 0,
 	"coffeeSyntaxCheckerStyle": 1,
 	"externalServerAddress": "http:\/\/localhost:7888",
-	"externalServerPreviewPathAddition": "\/USAClubRugby.com",
+	"externalServerPreviewPathAddition": "\/usaclubrugby.com",
 	"genericWebpageFileExtensionsString": "html, htm, shtml, shtm, xhtml, php, jsp, asp, aspx, erb, ctp",
 	"hamlAutoOutputPathEnabled": 1,
 	"hamlAutoOutputPathFilenamePattern": "*.html",
@@ -15282,7 +15282,7 @@
 			}
 		},
 	"uglifyReservedNamesString": "$",
-	"websiteRelativeRoot": "USAClubRugby.com"
+	"websiteRelativeRoot": ""
 	},
 "settingsFileVersion": "2"
 }

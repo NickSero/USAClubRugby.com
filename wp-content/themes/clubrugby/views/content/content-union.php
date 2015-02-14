@@ -3,16 +3,18 @@
 	<div class="tabs-content">
 
 		<div class="content active" id="about">
-			
 			<?php while (have_posts()) : the_post(); ?>
-
 				<div class="panel">
 					<ul class="no-bullet button-group even-5">
-						<li>Founded: <?php echo the_field('year_founded'); ?></li>
-						<li>Members: 8,231</li>
-						<li>Clubs: 189</li>
-						<li>President: Jeremiah Johnson</li>
-						<li>Congress Reps: <?php if(have_rows('congress_reps')) : while(have_rows('congress_reps')) : the_row(); the_sub_field('congress_reps_names'); endwhile; endif; ?></li>
+						<li><strong>Founded:</strong> <?php echo the_field('year_founded'); ?></li>
+						<li><strong>Members:</strong> <?php echo the_field('number_of_members'); ?></li>
+						<li><strong>Clubs:</strong> <?php echo the_field('number_of_clubs'); ?></li>
+						<li><strong>President:</strong> <?php echo the_field('current_union_president'); ?></li>
+						<li><strong>Congress Reps: </strong>
+							<?php $congress = get_field('congress'); if(have_rows('congress')) : while(have_rows('congress')) : the_row(); $names = get_sub_field('congress_reps'); ?> 
+								<?php $sep = ', '; $length = count($names); echo $length; ?>
+							<?php endwhile; endif; ?>
+						</li>
 					</ul>
 				</div>
 				<?php echo the_field('about'); ?>

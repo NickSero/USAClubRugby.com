@@ -61,8 +61,8 @@
 
 						<h1 class="site-branding">
 							<div id="logo-holder"><a href="<?php echo esc_url(home_url('/')); ?>" rel="home">
-								<img id="shield" src="/USAClubRugby.com/wp-content/themes/clubrugby/img/shield-digital.png" width="100%" />
-								<img id="logo-text" src="/USAClubRugby.com/wp-content/themes/clubrugby/img/club-rugby-text.png"/>
+								<img id="shield" src="/usaclubrugby.com/wp-content/themes/clubrugby/img/shield-digital.png" width="100%" />
+								<img id="logo-text" src="/usaclubrugby.com/wp-content/themes/clubrugby/img/club-rugby-text.png"/>
 							</a></div>			
 						</h1><!-- .site-branding -->
 
