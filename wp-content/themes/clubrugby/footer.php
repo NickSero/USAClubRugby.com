@@ -8,9 +8,9 @@
  */
 ?>
 
-			</main><!-- #content -->
+			</main>
 
-		</div><!-- #content-wrapper -->
+		</div>
 
 		<?php if(is_page()|is_single()): ?>
 		<div class="bottom edit column">
@@ -21,8 +21,8 @@
 		<footer id="footer" class="site-footer row" role="contentinfo">
 			<div class="column site-info">
 				<p>Website created &amp; designed by <a href="http://usarugby.org" rel="designer">USA Rugby Football Union Ltd.</a></p>
-			</div><!-- .site-info -->
-		</footer><!-- #footer -->
+			</div>
+		</footer>
 
 		<?php wp_footer(); ?>
 		<script src="<?php echo esc_url(home_url('/')); ?>wp-content/themes/clubrugby/js/foundation.min.js"></script>
@@ -43,7 +43,7 @@
   			});
 		</script>
 
-	</div><!-- #main-wrapper -->
-	<script> jQuery(document).foundation(); jQuery(function($){FastClick.attach(document.body)}); </script>
+	</div>
+	<script> jQuery(document).foundation(); </script>
 </body>
 </html>

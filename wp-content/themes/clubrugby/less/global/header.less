@@ -76,13 +76,13 @@
               border-left: 0;
             }
             &:not(:first-child) {
-              border-left: 1px solid @transwhite;
+              border-left: 0.0725rem solid @transwhite;
             }
             &:last-child {
               border-right: 0;
             }
             &:not(:last-child) {
-              border-right: 1px solid @transwhite;
+              border-right: 0.0725rem solid @transwhite;
             }
             &.menu-item-divider {
               position: relative;
@@ -97,9 +97,11 @@
               }
               &.hover {
                 .dropdown {
-                  display: block;
-                  background: @blue;
-                  height: 10rem !important;
+                  &.open {
+                    display: block;
+                    background: @blue;
+                    height: 25rem !important;
+                  }
                 }
               }
             }

@@ -1,20 +1,11 @@
-.block {
-  background: #555;
-  color: #fff;
-  font-family: "proxima-nova";
-  font-weight: light;
-  font-size: 1rem;
-  text-align: center;
-}
 .w100 {
   width: 100%;
 }
-.h350 {
-  height: 350px;
+.w350 {
+  background:url(http://placehold.it/350);
 }
-.square {
-  width: 400px;
-  height: 400px;
+.s400 {
+  background:url(http://placehold.it/400);
 }
 .pA {
   position: absolute;

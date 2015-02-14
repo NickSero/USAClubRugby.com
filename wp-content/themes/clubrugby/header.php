@@ -48,7 +48,7 @@
 					<section class="mobile-menu">
 						<aside id="mobile-site-navigation" class="left-off-canvas-menu" role="navigation">
 							<?php wp_nav_menu( array('theme_location' => 'main','menu_id' => 'mobile-site-menu','menu_class' => 'menu off-canvas-list')); ?>
-						</aside><!-- #site-navigation -->
+						</aside>
 					</section>
 					
 					<a class="exit-off-canvas"></a>
@@ -64,18 +64,18 @@
 								<img id="shield" src="/usaclubrugby.com/wp-content/themes/clubrugby/img/shield-digital.png" width="100%" />
 								<img id="logo-text" src="/usaclubrugby.com/wp-content/themes/clubrugby/img/club-rugby-text.png"/>
 							</a></div>			
-						</h1><!-- .site-branding -->
+						</h1>
 
 						<nav id="desktop-site-navigation" class="main-navigation top-bar" data-topbar role="navigation">
 							<section class="top-bar-section">
 								<?php wp_nav_menu(array('theme_location' => 'main','menu_id' => 'site-menu','container_class' => 'button-group even-11')); ?>
 							</section>
-						</nav><!-- #site-navigation -->
+						</nav>
 
 					</div>
 
 				</div>
 						
-			</header><!-- #masthead -->
+			</header>
 
-			<main id="content" class="row small-12 medium-12 large-12">
+			<main id="content" class="row small-12 medium-12 large-12 scroll-container" role="main">

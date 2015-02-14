@@ -1,8 +1,17 @@
 jQuery(function($){
 
   $(document).ready(function(){
-    console.log($('#desktop-site-navigation').innerWidth());
+    removeComma($('#about .no-bullet > li:last-child > span'));
   });
+
+  $('#mobile-menu-button').click(function(){
+    $(this).addClass('active');
+  });
+  $('.exit-off-canvas').click(function(){
+    $('#mobile-menu-button').removeClass('active');
+  });
+
+  $('#mobile-site-navigation #menu-item-70').remove();
 
   $('.menu-item-divider, .menu-item-divider > a').css({'height':$('.before-divider').height()});
 
@@ -18,35 +27,36 @@ jQuery(function($){
   $('.news > a').attr('data-dropdown','news-drop');
   $('.news > .dropdown').attr('id','news-drop');
 
-/*
-  // free wall news feed
-  if($('.home')){
-    var temp = "<div class='news-item brick' style='width:{width}px;'></div>";
-    var w = 1, h = 1, html = '', limitItem = 49;
-    for (var i = 0; i < limitItem; ++i) {
-      w = 1 + 3 * Math.random() << 0;
-      html += temp.replace(/\{width\}/g, w*150).replace("{index}", i + 1);
-    }
-    $("#container").html(html);
-    
-    var wall = new freewall("#container");
-    wall.reset({
-      selector: '.brick',
-      animate: true,
-      cellW: 150,
-      cellH: 'auto',
-      onResize: function() {
-        wall.fitWidth();
-      }
-    });
+  $('#about li div.text-center').css({'width':$(this).siblings('strong').innerWidth()+'px'});
 
-    var images = wall.container.find('.brick');
-    images.find('img').load(function() {
-      wall.fitWidth();
-    });
-  } else {
-    return;
+  $('.has-dropdown').click(function(){
+    $('ul.dropdown.f-dropdown.content.mega').toggleClass('open f-open-dropdown');
+  });
+  $('.has-dropdown').focusout(function(){
+    $('ul.dropdown.f-dropdown.content.mega').removeClass('open f-open-dropdown');
+  });
+  !$('.has-dropdown').click(function(){
+    $('.hover').removeClass('hover');
+  });
+
+  // UTILITY FUNCTIONS
+  function removeComma(el){
+    var str = $(el).text();
+    str = str.slice(0,str.length-1);
+    console.log(str);
+    $(el).text(str);
   }
-*/
+
+  $(window).resize(function(){
+    if($(window).width() >= 769) {
+      // do something
+    } else {
+      // smaller
+      
+    }
+  }).resize();
+
+
+
   
 });

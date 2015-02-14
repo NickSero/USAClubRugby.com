@@ -6,15 +6,12 @@
 			<?php while (have_posts()) : the_post(); ?>
 				<div class="panel">
 					<ul class="no-bullet button-group even-5">
-						<li><strong>Founded:</strong> <?php echo the_field('year_founded'); ?></li>
-						<li><strong>Members:</strong> <?php echo the_field('number_of_members'); ?></li>
-						<li><strong>Clubs:</strong> <?php echo the_field('number_of_clubs'); ?></li>
-						<li><strong>President:</strong> <?php echo the_field('current_union_president'); ?></li>
-						<li><strong>Congress Reps: </strong>
-							<?php $congress = get_field('congress'); if(have_rows('congress')) : while(have_rows('congress')) : the_row(); $names = get_sub_field('congress_reps'); ?> 
-								<?php $sep = ', '; $length = count($names); echo $length; ?>
-							<?php endwhile; endif; ?>
-						</li>
+						<li class="inline left"><div><strong>Founded:</strong><div class="text-center"><?php echo the_field('year_founded'); ?></div></div> </li>
+						<li class="inline"><div><strong>Members:</strong><div class="text-center"><?php echo the_field('number_of_members'); ?></div></div></li>
+						<li class="inline text-left"><div><strong style="padding:0 0.999999971rem;">Clubs:</strong><div class="text-center"><?php echo the_field('number_of_clubs'); ?></div></div></li>
+						<li class="inline"><div class="text-left"><strong>President:</strong><div><?php echo the_field('current_union_president'); ?></div></div></li>
+						<li class="inline right"><div><strong>Congress Reps:</strong></div> <span><?php $congress = get_field('congress'); if(have_rows('congress')) : while(have_rows('congress')) : the_row(); $names = get_sub_field('congress_reps'); ?>
+						<?php $sep = ''; $list = ''; if($names){ $sep = ','; $list .= "$names$sep"; echo $list; } ?><?php endwhile; endif; ?></span></li>
 					</ul>
 				</div>
 				<?php echo the_field('about'); ?>

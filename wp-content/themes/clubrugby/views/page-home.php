@@ -4,7 +4,7 @@ Template Name: Home
 */
 get_header(); ?>
 
-<section id="hero" class="small-12 medium-7 large-7">
+<section id="hero" class="small-12 medium-9 large-7">
 
 	<?php if(!dynamic_sidebar('hero')): ?>
 	<?php endif; ?>
