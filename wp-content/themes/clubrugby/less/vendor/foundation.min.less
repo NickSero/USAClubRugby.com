@@ -124,7 +124,7 @@ select {
     margin-right: auto;
     margin-top: 0;
     margin-bottom: 0;
-    max-width: 62.5rem;
+    max-width: 75rem;
     display: block;
 }
 .row:before,
@@ -2564,7 +2564,7 @@ meta.foundation-mq-topbar {
         height: auto !important;
         display: inline
     }
-    .top-bar-section ul li {
+    .top-bar-section ul:not(.dropdown.f-dropdown) li {
         float: left
     }
     .top-bar-section ul li .js-generated {
@@ -2651,7 +2651,7 @@ meta.foundation-mq-topbar {
         left: 0;
         top: auto;
         background: transparent;
-        min-width: 100%
+        min-width: 25%
     }
     .top-bar-section .dropdown li a {
         color: #fff;
@@ -3059,7 +3059,7 @@ meta.foundation-mq-topbar {
 .button-group.even-10 li .button {
     width: 100%
 }
-.button-group.even-11 ul:not(.sub-menu) > li {
+.button-group.even-11 ul:not(.sub-menu):not(.dropdown) > li {
     margin: 0 -1px;
     display: inline-block;
     width: 9.09%
@@ -6647,11 +6647,11 @@ ul.off-canvas-list li a:hover {
 .f-dropdown li a {
     display: block;
     padding: 0.5rem;
-    color: #555
+    color: @white;
 }
 .f-dropdown.content {
     position: absolute;
-    left: -9999px;
+    //left: -9999px;
     list-style: none;
     margin-left: 0;
     outline: none;
@@ -6662,7 +6662,7 @@ ul.off-canvas-list li a:hover {
     background: @blue;
     //border: solid 1px #ccc;
     font-size: 0.875rem;
-    z-index: 89;
+    z-index: 998;
     max-width: 200px
 }
 .f-dropdown.content>*:first-child {

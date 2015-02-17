@@ -52,6 +52,7 @@ get_header(); ?>
 			'order'				=>	'DESC'
 		);
 		$freewall = new WP_Query($args);
+		$author = get_the_author();
 		if($freewall->have_posts()) : while($freewall->have_posts()) : $freewall->the_post(); ?>
 
 			<div class="brick">
@@ -59,22 +60,26 @@ get_header(); ?>
 				<div class="news-item">
 
 					<?php if(has_post_thumbnail($post->ID)): ?>
-					<?php $image = wp_get_attachment_image_src(get_post_thumbnail_id($post->ID)); $d = 'F j, Y'; ?>
+					<?php $image = wp_get_attachment_image_src(get_post_thumbnail_id($post->ID), 'large');?>
 					<div class="image-content-wrapper">
 						
-						<div class="featured-image"><img src="<?php echo $image[0]; ?>" alt="<?php the_title(); ?>" /></div>
+						<div class="featured-image small-12"><img src="<?php echo $image[0]; ?>" alt="<?php the_title(); ?>" /></div>
 	
-						<h1><?php echo the_title(); ?></h1>
-	
-						<div><?php echo the_excerpt(); ?></div>
+						<h1 class="news-item-title small-12"><?php echo the_title(); ?></h1>
+						<h4 class="news-item-metadata small-12">
+							<span class="news-article-author" itemprop="author"><?php $author_alias = get_field('author_alias'); $author = get_the_author(); $d = 'F j, Y'; $date = get_the_date($d); if(!$author_alias) { echo $author; } else { echo $author_alias; } ?></span>
+							<span>&nbsp;&nbsp;|&nbsp;&nbsp;</span>
+							<span class="news-article-date"><?php echo $date; ?></span>
+						</h4>
+						<div class="news-item-excerpt small-12"><?php echo the_excerpt(); ?></div>
 					
 					</div>
 					
 					<?php else : ?>
 					
-					<h1><?php echo the_title(); ?></h1>
+					<h1 class="news-item-title small-12"><?php echo the_title(); ?></h1>
 	
-					<div><?php echo the_excerpt(); ?></div>
+					<div class="news-item-excerpt small-12"><?php echo the_excerpt(); ?></div>
 
 					<?php endif; ?>
 					

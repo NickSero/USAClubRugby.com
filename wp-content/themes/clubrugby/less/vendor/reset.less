@@ -454,7 +454,7 @@ a:active {
 	//z-index: 99999;
 }
 
-.main-navigation ul ul ul {
+.main-navigation ul ul:not(.open) ul {
 	left: -999em;
 	top: 0;
 }
@@ -464,7 +464,7 @@ a:active {
 }
 
 .main-navigation ul ul li {
-
+	float: none;
 }
 
 .main-navigation li:hover > a {

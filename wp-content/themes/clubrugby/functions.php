@@ -49,7 +49,7 @@ function GC_menu_set_dropdown($sorted_menu_items, $args) {
       // set the key of the parent
       $last_top = $key;
     } else {
-      $sorted_menu_items[$last_top]->classes['dropdown'] = 'has-dropdown';
+      $sorted_menu_items[$last_top]->classes['dropdown'] = 'has-dropdown not-click';
     }
   }
   return $sorted_menu_items;

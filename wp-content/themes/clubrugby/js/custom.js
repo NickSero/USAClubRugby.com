@@ -22,23 +22,29 @@ jQuery(function($){
 
   $('#news-menu').width($('#content').width());
 
-  $('ul.dropdown').css({'width':($('.desktop-header-wrapper').innerWidth())+'px'});
+  $('.meganav').css({'width':($('.desktop-header-wrapper').innerWidth())+'px'});
 
   $('.news > a').attr('data-dropdown','news-drop');
   $('.news > .dropdown').attr('id','news-drop');
 
   $('#about li div.text-center').css({'width':$(this).siblings('strong').innerWidth()+'px'});
+  
+  $('.has-dropdown').hover(function(){
+    $('ul.meganav.f-dropdown.content.mega').toggleClass('open f-open-dropdown');
+  });
+  $('.menu-item-116').html('<strong style="text-decoration:underline;">Competition Management</strong>');
 
+/*
   $('.has-dropdown').click(function(){
-    $('ul.dropdown.f-dropdown.content.mega').toggleClass('open f-open-dropdown');
+    $('div.meganav.f-dropdown.content.mega').toggleClass('open f-open-dropdown');
   });
   $('.has-dropdown').focusout(function(){
-    $('ul.dropdown.f-dropdown.content.mega').removeClass('open f-open-dropdown');
+    $('div.meganav.f-dropdown.content.mega').removeClass('open f-open-dropdown');
   });
   !$('.has-dropdown').click(function(){
     $('.hover').removeClass('hover');
   });
-
+*/
   // UTILITY FUNCTIONS
   function removeComma(el){
     var str = $(el).text();

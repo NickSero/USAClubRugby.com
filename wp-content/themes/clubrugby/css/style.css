@@ -462,12 +462,15 @@ a:active {
   position: absolute;
   top: 2.46em;
 }
-.main-navigation ul ul ul {
+.main-navigation ul ul:not(.open) ul {
   left: -999em;
   top: 0;
 }
 .main-navigation ul ul a {
   width: 200px;
+}
+.main-navigation ul ul li {
+  float: none;
 }
 .main-navigation ul li:hover > ul {
   left: auto;
@@ -3009,7 +3012,7 @@ select {
   margin-right: auto;
   margin-top: 0;
   margin-bottom: 0;
-  max-width: 62.5rem;
+  max-width: 75rem;
   display: block;
 }
 .row:before,
@@ -5420,7 +5423,7 @@ meta.foundation-mq-topbar {
     height: auto !important;
     display: inline;
   }
-  .top-bar-section ul li {
+  .top-bar-section ul:not(.dropdown.f-dropdown) li {
     float: left;
   }
   .top-bar-section ul li .js-generated {
@@ -5501,7 +5504,7 @@ meta.foundation-mq-topbar {
     left: 0;
     top: auto;
     background: transparent;
-    min-width: 100%;
+    min-width: 25%;
   }
   .top-bar-section .dropdown li a {
     color: #fff;
@@ -5907,7 +5910,7 @@ meta.foundation-mq-topbar {
 .button-group.even-10 li .button {
   width: 100%;
 }
-.button-group.even-11 ul:not(.sub-menu) > li {
+.button-group.even-11 ul:not(.sub-menu):not(.dropdown) > li {
   margin: 0 -1px;
   display: inline-block;
   width: 9.09%;
@@ -9467,11 +9470,10 @@ ul.off-canvas-list li a:hover {
 .f-dropdown li a {
   display: block;
   padding: 0.5rem;
-  color: #555555;
+  color: #ffffff;
 }
 .f-dropdown.content {
   position: absolute;
-  left: -9999px;
   list-style: none;
   margin-left: 0;
   outline: none;
@@ -9481,7 +9483,7 @@ ul.off-canvas-list li a:hover {
   max-height: none;
   background: #001830;
   font-size: 0.875rem;
-  z-index: 89;
+  z-index: 998;
   max-width: 200px;
 }
 .f-dropdown.content > *:first-child {
@@ -11652,11 +11654,6 @@ th.hide-for-touch {
   top: -26px;
   z-index: 9999;
 }
-#masthead .desktop-header-wrapper h1.site-branding #logo-holder a img#logo-text {
-  width: 11.5rem;
-  margin-left: -92px;
-  margin-top: -2px;
-}
 #masthead .desktop-header-wrapper #desktop-site-navigation {
   background: #001830;
   border-top: 2px solid #a80019;
@@ -11666,6 +11663,9 @@ th.hide-for-touch {
   border-top-left-radius: 0px;
   -webkit-border-top-right-radius: 0px;
   -moz-border-radius-topright: 0px;
+}
+#masthead .desktop-header-wrapper #desktop-site-navigation .top-bar-section:hover {
+  border-bottom: 1px solid #000c14;
 }
 #masthead .desktop-header-wrapper #desktop-site-navigation .menu {
   width: 100%;
@@ -11678,6 +11678,23 @@ th.hide-for-touch {
   text-align: center;
   font-size: 0.5rem;
   margin-bottom: 0;
+}
+#masthead .desktop-header-wrapper #desktop-site-navigation .menu li.menu-item .f-open-dropdown {
+  padding-top: 4.25rem !important;
+}
+#masthead .desktop-header-wrapper #desktop-site-navigation .menu li.menu-item .f-open-dropdown li {
+  width: 25%;
+  text-align: left;
+}
+#masthead .desktop-header-wrapper #desktop-site-navigation .menu li.menu-item .f-open-dropdown li.column-header {
+  border: 0 !important;
+  font-size: 1.25rem;
+  margin-bottom: 2rem;
+  text-align: center !important;
+  text-transform: uppercase;
+}
+#masthead .desktop-header-wrapper #desktop-site-navigation .menu li.menu-item .f-open-dropdown li:last-child {
+  border-right: 0.0725rem solid rgba(255, 255, 255, 0.3);
 }
 #masthead .desktop-header-wrapper #desktop-site-navigation .menu li.menu-item:last-child {
   border-left: 0;
@@ -11697,14 +11714,6 @@ th.hide-for-touch {
 }
 #masthead .desktop-header-wrapper #desktop-site-navigation .menu li.menu-item.menu-item-divider a {
   visibility: hidden;
-}
-#masthead .desktop-header-wrapper #desktop-site-navigation .menu li.menu-item.has-dropdown .dropdown {
-  display: none;
-}
-#masthead .desktop-header-wrapper #desktop-site-navigation .menu li.menu-item.has-dropdown.hover .dropdown.open {
-  display: block;
-  background: #001830;
-  height: 25rem !important;
 }
 #masthead .desktop-header-wrapper #desktop-site-navigation .menu li.menu-item a {
   font-family: "jaf-facitweb";
@@ -11958,6 +11967,27 @@ th.hide-for-touch {
     width: 7.3%;
   }
 }
+@media screen and (min-width: 1051px) and (max-width: 1440px) {
+  #masthead .desktop-header-wrapper h1.site-branding #logo-holder a img#logo-text {
+    width: 12%;
+    margin-top: 0px;
+    margin-left: -5.35rem;
+  }
+}
+@media screen and (min-width: 1441px) and (max-width: 1600px) {
+  #masthead .desktop-header-wrapper h1.site-branding #logo-holder a img#logo-text {
+    width: 12%;
+    margin-top: 0;
+    margin-left: 0;
+  }
+}
+@media screen and (min-width: 1601px) and (max-width: 1920px) {
+  #masthead .desktop-header-wrapper h1.site-branding #logo-holder a img#logo-text {
+    width: 12%;
+    margin-top: 30px;
+    margin-left: -7.15rem;
+  }
+}
 footer#footer {
   position: relative;
   bottom: 0;
@@ -12004,7 +12034,7 @@ body #main-wrapper #content-wrapper {
 }
 body #main-wrapper #content-wrapper #content {
   position: relative;
-  margin-top: 9rem;
+  margin-top: 11.5rem;
   margin-left: 0!important;
   margin-right: 0 !important;
   padding-top: 0;
@@ -12069,6 +12099,11 @@ h5 {
     margin-top: 0 !important;
   }
 }
+@media screen and (max-width: 1440px) {
+  body #main-wrapper #content-wrapper #content {
+    margin-top: 10rem;
+  }
+}
 .home #main-wrapper #content-wrapper #content #featured-matches {
   margin-top: 2rem;
 }
@@ -12095,6 +12130,24 @@ h5 {
 .home #main-wrapper #content-wrapper #content #latest-news-headlines #container .news-item img {
   margin: 0;
   display: block;
+}
+.home #main-wrapper #content-wrapper #content #latest-news-headlines #container .news-item h1 {
+  font-family: "jaf-facitweb";
+  font-size: 2rem;
+  font-weight: 700;
+  color: #001830;
+  padding-left: 7px;
+  text-shadow: 1px 1px 1px #ffffff;
+}
+.home #main-wrapper #content-wrapper #content #latest-news-headlines #container .news-item .news-item-excerpt {
+  padding-left: 7px;
+}
+.home #main-wrapper #content-wrapper #content #latest-news-headlines #container .news-item .news-item-metadata {
+  font-size: 1.25rem;
+  text-align: center;
+  color: #001830;
+  line-height: 1 !important;
+  text-shadow: 0 1px 1px #ffffff;
 }
 #news #news-menu {
   position: fixed;
@@ -12144,9 +12197,6 @@ h5 {
 @media screen and (max-width: 768px) {
   #hero {
     padding-right: 1.9rem;
-  }
-  #hero .royalSlider .rsOverflow {
-    width: 99.9% !important;
   }
 }
 .single-union .no-bottom-margin dt .font-icons a.font-icon {

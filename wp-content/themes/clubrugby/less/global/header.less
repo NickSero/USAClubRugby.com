@@ -44,11 +44,6 @@
                 top: -26px;
                 z-index: 9999;
               }
-              &#logo-text {
-                width: 11.5rem;
-                margin-left: -92px;
-                margin-top: -2px;
-              }
             } 
           }
         }
@@ -63,6 +58,9 @@
       border-top-left-radius: 0px;
       -webkit-border-top-right-radius: 0px;
       -moz-border-radius-topright: 0px;
+      .top-bar-section:hover {
+        border-bottom: 1px solid @darkblue;
+      }
       .menu {
         width: 100%; 
         li {
@@ -72,6 +70,23 @@
             text-align: center;
             font-size: 0.5rem;
             margin-bottom: 0;
+            .f-open-dropdown {
+              padding-top: 4.25rem !important;
+              li {
+                width: 25%;
+                &.column-header {
+                  border: 0 !important;
+                  font-size: 1.25rem;
+                  margin-bottom: 2rem;
+                  text-align: center !important;
+                  text-transform: uppercase;
+                }
+                &:last-child {
+                  border-right: 0.0725rem solid @transwhite;
+                }
+                text-align: left;
+              }
+            }
             &:last-child {
               border-left: 0;
             }
@@ -89,20 +104,6 @@
               min-height: 39px;
               a {
                 visibility: hidden;
-              }
-            }
-            &.has-dropdown {
-              .dropdown {
-                display: none;
-              }
-              &.hover {
-                .dropdown {
-                  &.open {
-                    display: block;
-                    background: @blue;
-                    height: 25rem !important;
-                  }
-                }
               }
             }
             a {
@@ -433,3 +434,87 @@
     }
   }
 }
+
+@media screen and (min-width : 1051px) and (max-width : 1440px) {
+  #masthead {
+    .desktop-header-wrapper {
+      h1.site-branding {
+        #logo-holder {
+          a {
+            img {
+              &#shield {
+                
+              }
+              &#logo-text {
+                width: 12%;
+                margin-top: 0px;
+                margin-left: -5.35rem;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width : 1441px) and (max-width : 1600px) {
+  #masthead {
+    .desktop-header-wrapper {
+      h1.site-branding {
+        #logo-holder {
+          a {
+            img {
+              &#shield {
+                
+              }
+              &#logo-text {
+                width: 12%;
+                margin-top: 0;
+                margin-left: 0;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width : 1601px) and (max-width : 1920px) {
+  #masthead {
+    .desktop-header-wrapper {
+      h1.site-branding {
+        #logo-holder {
+          a {
+            img {
+              &#shield {
+                
+              }
+              &#logo-text {
+                width: 12%;
+                margin-top: 30px;
+                margin-left: -7.15rem;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
