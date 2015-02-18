@@ -15,10 +15,10 @@
 <link rel="profile" href="http://gmpg.org/xfn/11">
 <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">
 <script src="<?php echo esc_url(home_url('/')); ?>wp-content/themes/clubrugby/js/jquery.js"></script>
-<!-- script src="<?php echo esc_url(home_url('/')); ?>wp-content/themes/clubrugby/js/masonry.min.js"></script -->
 <script src="<?php echo esc_url(home_url('/')); ?>wp-content/themes/clubrugby/js/cssua.min.js"></script>
 <script src="<?php echo esc_url(home_url('/')); ?>wp-content/themes/clubrugby/js/fastclick.js"></script>
 <script src="<?php echo esc_url(home_url('/')); ?>wp-content/themes/clubrugby/js/modernizr.min.js"></script>
+<script src="<?php echo esc_url(home_url('/')); ?>wp-content/themes/clubrugby/js/jquery.fittext.js"></script>
 <script src="//use.typekit.net/ebu2luj.js"></script>
 <script>try{Typekit.load();}catch(e){}</script>
 
@@ -27,13 +27,13 @@
 
 <body <?php body_class(); ?>>
 
-	<div id="main-wrapper" class="off-canvas-wrap" data-offcanvas>
+	<div id="main-wrapper" class="off-canvas-wrap scroll-container" data-offcanvas>
 
 		<div id="content-wrapper" class="inner-wrap">		
 
 			<header id="masthead" class="site-header" role="banner">
 
-				<div id="mobile-header" class="small-12 show-for-small-only show-for-portrait">
+				<div id="mobile-header" class="small-12 show-for-small-down hide-for-medium-up">
 
 					<a id="mobile-menu-button" class="left-off-canvas-toggle small-1" href="#mobile-site-navigation">
 						<span class="line line-1"></span>
@@ -55,20 +55,24 @@
 
 				</div>
 
-				<div id="desktop-header" class="medium-12 large-12 show-for-medium-up show-for-landscape">
+				<div id="desktop-header" class="medium-12 large-12 show-for-medium-up">
 
 					<div class="desktop-header-wrapper">
 
 						<h1 class="site-branding">
-							<div id="logo-holder"><a href="<?php echo esc_url(home_url('/')); ?>" rel="home">
-								<img id="shield" src="/usaclubrugby.com/wp-content/themes/clubrugby/img/shield-digital.png" width="100%" />
-								<img id="logo-text" src="/usaclubrugby.com/wp-content/themes/clubrugby/img/club-rugby-text.png"/>
-							</a></div>			
+
+							<center><div id="logo-holder"><a href="<?php echo esc_url(home_url('/')); ?>" rel="home">
+								<!-- img id="logo" src="/usaclubrugby.com/wp-content/themes/clubrugby/img/club-logo-web-horizontal.png" / -->
+							
+								<img id="shield" src="/usaclubrugby.com/wp-content/themes/clubrugby/img/club-shield.png" />
+								<img id="text" src="/usaclubrugby.com/wp-content/themes/clubrugby/img/club-text.png" />
+								
+							</a></div></center>			
 						</h1>
 
 						<nav id="desktop-site-navigation" class="main-navigation top-bar" data-topbar role="navigation">
 							<section class="top-bar-section">
-								<?php wp_nav_menu(array('theme_location' => 'main','menu_id' => 'site-menu','container_class' => 'button-group even-11')); ?>
+								<?php wp_nav_menu(array('theme_location' => 'main','sub_menu' => true,'menu_id' => 'site-menu','container_class' => 'button-group even-10')); ?>
 							</section>
 						</nav>
 
@@ -78,4 +82,4 @@
 						
 			</header>
 
-			<main id="content" class="row small-12 medium-12 large-12 scroll-container" role="main">
+			<main id="content" class="row small-12 medium-12 large-12" role="main">

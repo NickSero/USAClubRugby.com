@@ -33,16 +33,26 @@
           margin: 0 auto;
           position: relative;
           a {
-            width: 8.25%;
             img {
               position: absolute;
-              top: 65px;
-              margin-left: -3.8%;
+              margin-left: -3.95%;
               width: inherit;
-              z-index: 1;
+              z-index: 99;
+              &#logo {
+                width: 13.4%;
+                top: -48px;
+                margin-left: -6.95%;
+              }
+              // alt logo
               &#shield {
-                top: -26px;
-                z-index: 9999;
+                top: -46px;
+                margin-left: -9.25rem;
+                width: 3.8%;
+              }
+              &#text {
+                top: -36px;
+                margin-right: -5rem;
+                width: 13.4%;
               }
             } 
           }
@@ -61,30 +71,30 @@
       .top-bar-section:hover {
         border-bottom: 1px solid @darkblue;
       }
-      .menu {
-        width: 100%; 
+      #site-menu {
+        width: 100%;
+        position: relative;
         li {
-          margin-left: -0.02rem !important;
-          margin-right: -0.02rem !important;
+          margin-left: -0.03rem !important;
+          margin-right: -0.03rem !important;
           &.menu-item {
             text-align: center;
             font-size: 0.5rem;
             margin-bottom: 0;
-            .f-open-dropdown {
-              padding-top: 4.25rem !important;
-              li {
-                width: 25%;
-                &.column-header {
-                  border: 0 !important;
-                  font-size: 1.25rem;
-                  margin-bottom: 2rem;
-                  text-align: center !important;
-                  text-transform: uppercase;
-                }
-                &:last-child {
-                  border-right: 0.0725rem solid @transwhite;
-                }
-                text-align: left;
+            a {
+              position: relative;
+            }
+            .dropdown {
+              border-top: 2px solid @darkblue;
+              background: @blue;
+              position: fixed;
+              left: 0;
+              right: 0;
+              width: 100%;
+              height: 8rem !important;
+              .dropdown {
+                position: absolute;
+                left: 0;
               }
             }
             &:last-child {
@@ -116,7 +126,7 @@
               -moz-transition-duration: 0.25s;
               -webkit-transition-property: all;
               -webkit-transition-duration: 0.25s;
-              &:hover {
+              &:hover, &.hover {
                 background: rgba(255,255,255,.1);
                 text-shadow: 
                   0 0 1px @white,
@@ -288,8 +298,14 @@
         padding-bottom: 1.35rem;
         h1 {
           right: 6px;
-          top: 1.6rem !important;
+          font-size: 2.6rem;
+          top: 1.15rem !important;
         }
+      }
+    }
+    #content {
+      #hero {
+        padding-right: 0;
       }
     }
   }
@@ -426,8 +442,7 @@
       h1.site-branding {
         #logo-holder {
           a {
-            top: -41px;
-            width: 7.3%;
+
           }
         }
       }
@@ -442,13 +457,15 @@
         #logo-holder {
           a {
             img {
+              margin-left: -6rem;
               &#shield {
-                
+                top: -47px;
+                margin-left: -10.75rem;
+                width: 5.25%;
               }
-              &#logo-text {
-                width: 12%;
-                margin-top: 0px;
-                margin-left: -5.35rem;
+              &#text {
+                top: -35px;
+                width: 17.25%;
               }
             }
           }
@@ -468,11 +485,6 @@
               &#shield {
                 
               }
-              &#logo-text {
-                width: 12%;
-                margin-top: 0;
-                margin-left: 0;
-              }
             }
           }
         }
@@ -490,11 +502,6 @@
             img {
               &#shield {
                 
-              }
-              &#logo-text {
-                width: 12%;
-                margin-top: 30px;
-                margin-left: -7.15rem;
               }
             }
           }

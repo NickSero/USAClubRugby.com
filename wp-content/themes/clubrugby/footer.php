@@ -29,19 +29,9 @@
 		<script src="<?php echo esc_url(home_url('/')); ?>wp-content/themes/clubrugby/js/placeholder.js"></script>
 		<script src="<?php echo esc_url(home_url('/')); ?>wp-content/themes/clubrugby/js/jquery.cookie.js"></script>
 		<script src="<?php echo esc_url(home_url('/')); ?>wp-content/themes/clubrugby/js/jquery.fittext.js"></script>
+		<script src="//cdnjs.cloudflare.com/ajax/libs/masonry/3.2.2/masonry.pkgd.min.js"></script>
+		<!-- script src="<?php echo esc_url(home_url('/')); ?>wp-content/themes/clubrugby/js/masonry.min.js"></script -->
 		<script src="<?php echo esc_url(home_url('/')); ?>wp-content/themes/clubrugby/js/custom.js"></script>
-		<?php if(is_home()) : ?>
-			<script src="/USAClubrugby.com/wp-content/themes/clubrugby/js/jquery.royalslider.min.js"></script>
-		<?php endif; ?>
-		<script>
-			jQuery('#site-menu > li:not(.has-dropdown) > a').fitText(1);
-			jQuery('#site-menu > li.has-dropdown > a').fitText(0.79079);
-			jQuery('#site-menu > li.has-dropdown > .sub-menu > li > a').fitText();
-			jQuery('.rsContent').each(function(i){
-    			i = i+1;
-    			jQuery(this).addClass('rsContent-' + i);
-  			});
-		</script>
 
 	</div>
 	<script> jQuery(document).foundation(); </script>

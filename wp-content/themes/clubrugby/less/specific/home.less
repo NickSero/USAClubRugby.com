@@ -15,9 +15,9 @@
 						width: 100%;
 						margin: auto;
 						.brick {
-							width: 24%;
-							height: 100%;
-							margin: 5px;
+							//width: 24%;
+							//height: 100%;
+							padding: 5px;
 							float: left;
 							overflow: hidden;
 						}
@@ -28,7 +28,8 @@
 								display: block;
 							}
 							h1 {
-								font-family: @jaf;
+								font-family: @alt;
+								text-transform: uppercase;
 								font-size: 2rem;
 								font-weight: 700;
 								color: @blue;
@@ -37,12 +38,18 @@
 							}
 							.news-item-excerpt {
 								padding-left: 7px;
+								padding-bottom: 7px;
 							}
 							.news-item-metadata {
+								border-top: 1px solid @transwhite;
+								border-bottom: 1px solid @transwhite;
+								padding: 10px 0;
 								font-size: 1.25rem;
+								font-weight: 600;
 								text-align: center;
 								color: @blue;
 								line-height: 1 !important;
+								margin-top: -5px;
 								text-shadow: 0 1px 1px @white; 
 							}
 						}

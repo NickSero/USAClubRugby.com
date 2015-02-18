@@ -41,7 +41,7 @@ get_header(); ?>
 
 <hr/>
 
-<section id="latest-news-headlines">
+<section id="latest-news-headlines" class="small-12 medium-12 large-12">
 	
 	<div id="container" class="free-wall row">
 
@@ -55,7 +55,7 @@ get_header(); ?>
 		$author = get_the_author();
 		if($freewall->have_posts()) : while($freewall->have_posts()) : $freewall->the_post(); ?>
 
-			<div class="brick">
+			<div class="brick small-12 medium-6 large-4">
 				
 				<div class="news-item">
 
@@ -71,7 +71,7 @@ get_header(); ?>
 							<span>&nbsp;&nbsp;|&nbsp;&nbsp;</span>
 							<span class="news-article-date"><?php echo $date; ?></span>
 						</h4>
-						<div class="news-item-excerpt small-12"><?php echo the_excerpt(); ?></div>
+						<div class="news-item-excerpt small-12"><span class="excerpt"><?php echo get_the_excerpt(); ?></span></div>
 					
 					</div>
 					
@@ -79,7 +79,7 @@ get_header(); ?>
 					
 					<h1 class="news-item-title small-12"><?php echo the_title(); ?></h1>
 	
-					<div class="news-item-excerpt small-12"><?php echo the_excerpt(); ?></div>
+					<div class="news-item-excerpt small-12"><span class="excerpt"><?php echo get_the_excerpt(); ?></span></div>
 
 					<?php endif; ?>
 					

@@ -1,8 +1,21 @@
 jQuery(function($){
 
   $(document).ready(function(){
+    
     removeComma($('#about .no-bullet > li:last-child > span'));
+
+    if($('.home')){
+
+      // MASONRY HOME NEWS FEED
+      var $container = $('#container');
+      $container.masonry({
+        itemSelector: '.brick'
+      });
+
+    }
+
   });
+
 
   $('#mobile-menu-button').click(function(){
     $(this).addClass('active');
@@ -13,6 +26,12 @@ jQuery(function($){
 
   $('#mobile-site-navigation #menu-item-70').remove();
 
+  $('ul#site-menu ul.dropdown').css({'width':$('.top-bar-section').width()+'px'});
+  $('.dropdown').hover(function(){
+    $(this).toggleClass('open');
+    $(this).siblings('a').toggleClass('hover');
+  });
+
   $('.menu-item-divider, .menu-item-divider > a').css({'height':$('.before-divider').height()});
 
   $('.sub-nav > dd').click(function(){
@@ -22,17 +41,11 @@ jQuery(function($){
 
   $('#news-menu').width($('#content').width());
 
-  $('.meganav').css({'width':($('.desktop-header-wrapper').innerWidth())+'px'});
-
   $('.news > a').attr('data-dropdown','news-drop');
   $('.news > .dropdown').attr('id','news-drop');
 
   $('#about li div.text-center').css({'width':$(this).siblings('strong').innerWidth()+'px'});
-  
-  $('.has-dropdown').hover(function(){
-    $('ul.meganav.f-dropdown.content.mega').toggleClass('open f-open-dropdown');
-  });
-  $('.menu-item-116').html('<strong style="text-decoration:underline;">Competition Management</strong>');
+
 
 /*
   $('.has-dropdown').click(function(){
@@ -54,15 +67,23 @@ jQuery(function($){
   }
 
   $(window).resize(function(){
-    if($(window).width() >= 769) {
-      // do something
+    if($(window).width() < 1440) {
+      
+      // Home Page News Tweaks
+      if($('#site-menu > .menu-item > a').innerWidth() >= 83){
+        $('#site-menu > .menu-item > a').css('font-size','0.529999rem');
+      }
+      if($('.home h4.news-item-metadata').innerWidth() >= 270){
+        $('.home h4.news-item-metadata').css('font-size','1.25rem');
+      }
+   
     } else {
       // smaller
       
     }
   }).resize();
 
-
-
+// FITTEXT FOR HEADERS
+  $('h1').fitText();
   
 });

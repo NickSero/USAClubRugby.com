@@ -20,7 +20,10 @@ function usacr_setup() {
 
 	// Menus Locations ----------------------------------------------------------------------------
 	register_nav_menus( array(
-		'main'			=> __( 'Main Menu', 'usacr' ),
+		'main'				=> __( 'Main Menu', 'usacr' ),
+		'news'				=> __( 'News Menu', 'usacr' ),
+		'club'				=> __( 'Club Menu', 'usacr' ),
+		'resources'			=> __( 'Resources Menu', 'usacr' )
 	));
 
 }
@@ -55,7 +58,7 @@ function GC_menu_set_dropdown($sorted_menu_items, $args) {
   return $sorted_menu_items;
 }
 endif; // GC_menu_set_dropdown
-add_filter('wp_nav_menu_objects', 'GC_menu_set_dropdown', 10, 2);
+add_filter('wp_nav_menu_objects', 'GC_menu_set_dropdown', 10, 3);
 
 
 // Sidebars & Modules ------------------------------------------------------------------------
@@ -74,6 +77,16 @@ function usacr_widgets_init() {
 	register_sidebar( array(
 		'name'          => __( 'Club Menu Mod', 'usacr' ),
 		'id'            => 'club-menu-mod',
+		'description'   => '',
+		'before_widget' => '<div id="%1$s" class="widget %2$s">',
+		'after_widget'  => '</div>',
+		'before_title'  => '<h1 class="hide">',
+		'after_title'   => '</h1>',
+	));
+
+	register_sidebar( array(
+		'name'          => __( 'Resources Menu Mod', 'usacr' ),
+		'id'            => 'resources-menu-mod',
 		'description'   => '',
 		'before_widget' => '<div id="%1$s" class="widget %2$s">',
 		'after_widget'  => '</div>',
