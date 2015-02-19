@@ -20,7 +20,6 @@
 <script src="<?php echo esc_url(home_url('/')); ?>wp-content/themes/clubrugby/js/modernizr.min.js"></script>
 <script src="<?php echo esc_url(home_url('/')); ?>wp-content/themes/clubrugby/js/jquery.fittext.js"></script>
 <script src="//use.typekit.net/ebu2luj.js"></script>
-<script>try{Typekit.load();}catch(e){}</script>
 
 <?php wp_head(); ?>
 </head>
@@ -72,7 +71,19 @@
 
 						<nav id="desktop-site-navigation" class="main-navigation top-bar" data-topbar role="navigation">
 							<section class="top-bar-section">
-								<?php wp_nav_menu(array('theme_location' => 'main','sub_menu' => true,'menu_id' => 'site-menu','container_class' => 'button-group even-10')); ?>
+								<?php
+									wp_nav_menu(array('theme_location' => 'main','menu_id' => 'site-menu','container_class' => 'button-group even-10'));
+									wp_nav_menu('theme_location=news&container=false');
+									wp_nav_menu('theme_location=clubs&container=false');
+									wp_nav_menu('theme_location=schedules&container=false');
+									wp_nav_menu('theme_location=standings&container=false');
+									wp_nav_menu('theme_location=statistics&container=false');
+									wp_nav_menu('theme_location=championships&container=false');
+									wp_nav_menu('theme_location=social&container=false');
+									wp_nav_menu('theme_location=administration&container=false');
+									wp_nav_menu('theme_location=resources&container=false');
+									wp_nav_menu('theme_location=about&container=false');									
+								?>
 							</section>
 						</nav>
 

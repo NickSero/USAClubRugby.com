@@ -1,5 +1,39 @@
 jQuery(function($){
 
+  // MAIN MENU FUNCTIONALITY
+  var news = $('#menu-news-menu'),
+      clubs = $('#menu-clubs-menu'),
+      schedules = $('#menu-schedules-menu'),
+      standings = $('#menu-standings-menu'),
+      stats = $('#menu-statistics-menu'),
+      champs = $('#menu-championships-menu'),
+      social = $('#menu-social-hub-menu'),
+      admin = $('#menu-administration-menu'),
+      resources = $('#menu-resources'),
+      about = $('#menu-about-menu');
+
+  function resetMenus(k,v){
+    if(v){
+      v.addClass('dropdown').attr('data-dropdown-content');
+      $('li.'+k).addClass('has-dropdown not-click').append(v);
+      $('li.'+k).children('a[title]').attr({'data-dropdown':'menu-'+k+'-menu'});
+    }
+  }
+  resetMenus('news',news);
+  resetMenus('clubs',clubs);
+  resetMenus('schedules',schedules);
+  resetMenus('standings',standings);
+  resetMenus('statistics',stats);
+  resetMenus('championships',champs);
+  resetMenus('social',social);
+  resetMenus('administration',admin);
+  resetMenus('resources',resources);
+  resetMenus('about',about);
+  
+  $('a[title="Resources"]').attr('data-dropdown','menu-resources');
+  $('a[title="Social Hub"]').attr('data-dropdown','menu-social-hub-menu');
+
+
   $(document).ready(function(){
     
     removeComma($('#about .no-bullet > li:last-child > span'));
@@ -8,8 +42,25 @@ jQuery(function($){
 
       // MASONRY HOME NEWS FEED
       var $container = $('#container');
-      $container.masonry({
-        itemSelector: '.brick'
+      function triggerMasonry() {
+        // don't proceed if $container has not been selected
+        if ( !$container ) {
+          return;
+        }
+        // init Masonry
+        $container.masonry({
+          itemSelector: '.brick'
+        });
+      }
+      // trigger masonry on document ready
+      $(function(){
+        $container = $('#container');
+        triggerMasonry();
+      });
+      // trigger masonry when fonts have loaded
+      Typekit.load({
+        active: triggerMasonry,
+        inactive: triggerMasonry
       });
 
     }
@@ -47,17 +98,6 @@ jQuery(function($){
   $('#about li div.text-center').css({'width':$(this).siblings('strong').innerWidth()+'px'});
 
 
-/*
-  $('.has-dropdown').click(function(){
-    $('div.meganav.f-dropdown.content.mega').toggleClass('open f-open-dropdown');
-  });
-  $('.has-dropdown').focusout(function(){
-    $('div.meganav.f-dropdown.content.mega').removeClass('open f-open-dropdown');
-  });
-  !$('.has-dropdown').click(function(){
-    $('.hover').removeClass('hover');
-  });
-*/
   // UTILITY FUNCTIONS
   function removeComma(el){
     var str = $(el).text();
@@ -85,5 +125,7 @@ jQuery(function($){
 
 // FITTEXT FOR HEADERS
   $('h1').fitText();
+
+
   
 });

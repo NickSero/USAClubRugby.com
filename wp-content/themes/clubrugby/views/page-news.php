@@ -10,13 +10,7 @@ get_header(); ?>
 
 		<dl class="sub-nav" role="menu" title="Filter News Menu List">
 		  <dt>Sort By:</dt>
-		  <dd class="active"><a href="#">All</a></dd>
-		  <dd><a href="#">Competitions</a></dd>
-		  <dd><a href="#">Unions</a></dd>
-		  <dd><a href="#">Teams</a></dd>
-		  <dd><a href="#">Sex</a></dd>
-		  <dd><a href="#">Level</a></dd>
-		  <dd><a href="#">Competitive Region</a></dd>
+		  <?php echo do_shortcode('[searchandfilter taxonomies="unions,post_tag,divisions,sex,competitive_regions"]') ?>
 		</dl>
 		
 		<hr/>

@@ -12277,3 +12277,9 @@ i {
 .sub-nav dt:not(:active) a.font-icon .fa-twitter:hover {
   color: #55acee;
 }
+.dropdown {
+  display: none;
+}
+.no-js .dropdown {
+  display: block;
+}

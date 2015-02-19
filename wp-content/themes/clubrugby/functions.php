@@ -22,8 +22,15 @@ function usacr_setup() {
 	register_nav_menus( array(
 		'main'				=> __( 'Main Menu', 'usacr' ),
 		'news'				=> __( 'News Menu', 'usacr' ),
-		'club'				=> __( 'Club Menu', 'usacr' ),
-		'resources'			=> __( 'Resources Menu', 'usacr' )
+		'clubs'				=> __( 'Clubs Menu', 'usacr' ),
+		'schedules'			=> __( 'Schedules Menu', 'usacr' ),
+		'standings'			=> __( 'Standings Menu', 'usacr' ),
+		'statistics'		=> __( 'Statistics Menu', 'usacr' ),
+		'championships'		=> __( 'Championships Menu', 'usacr'),
+		'social'			=> __( 'Social Hub Menu', 'usacr'),
+		'administration'	=> __( 'Administration Menu', 'usacr'),
+		'resources'			=> __( 'Resources Menu', 'usacr' ),
+		'about'				=> __( 'About Menu', 'usacr')
 	));
 
 }
@@ -65,8 +72,8 @@ add_filter('wp_nav_menu_objects', 'GC_menu_set_dropdown', 10, 3);
 function usacr_widgets_init() {
 	
 	register_sidebar( array(
-		'name'          => __( 'News Menu Mod', 'usacr' ),
-		'id'            => 'news-menu-mod',
+		'name'          => __( 'News Menu', 'usacr' ),
+		'id'            => 'news-menu',
 		'description'   => '',
 		'before_widget' => '<div id="%1$s" class="widget %2$s">',
 		'after_widget'  => '</div>',
@@ -75,8 +82,8 @@ function usacr_widgets_init() {
 	));
 
 	register_sidebar( array(
-		'name'          => __( 'Club Menu Mod', 'usacr' ),
-		'id'            => 'club-menu-mod',
+		'name'          => __( 'Club Menu', 'usacr' ),
+		'id'            => 'clubs-menu',
 		'description'   => '',
 		'before_widget' => '<div id="%1$s" class="widget %2$s">',
 		'after_widget'  => '</div>',
@@ -85,8 +92,8 @@ function usacr_widgets_init() {
 	));
 
 	register_sidebar( array(
-		'name'          => __( 'Resources Menu Mod', 'usacr' ),
-		'id'            => 'resources-menu-mod',
+		'name'          => __( 'Resources Menu', 'usacr' ),
+		'id'            => 'resources-menu',
 		'description'   => '',
 		'before_widget' => '<div id="%1$s" class="widget %2$s">',
 		'after_widget'  => '</div>',
@@ -95,8 +102,8 @@ function usacr_widgets_init() {
 	));
 
 	register_sidebar( array(
-		'name'          => __( 'Schedule Menu Mod', 'usacr' ),
-		'id'            => 'schedule-menu-mod',
+		'name'          => __( 'Schedule Menu', 'usacr' ),
+		'id'            => 'schedules-menu',
 		'description'   => '',
 		'before_widget' => '<div id="%1$s" class="widget %2$s">',
 		'after_widget'  => '</div>',
@@ -105,8 +112,8 @@ function usacr_widgets_init() {
 	));
 
 	register_sidebar( array(
-		'name'          => __( 'Standings Menu Mod', 'usacr' ),
-		'id'            => 'standings-menu-mod',
+		'name'          => __( 'Standings Menu', 'usacr' ),
+		'id'            => 'standings-menu',
 		'description'   => '',
 		'before_widget' => '<div id="%1$s" class="widget %2$s">',
 		'after_widget'  => '</div>',
@@ -115,8 +122,8 @@ function usacr_widgets_init() {
 	));
 
 	register_sidebar( array(
-		'name'          => __( 'Stats Menu Mod', 'usacr' ),
-		'id'            => 'stats-menu-mod',
+		'name'          => __( 'Stats Menu', 'usacr' ),
+		'id'            => 'stats-menu',
 		'description'   => '',
 		'before_widget' => '<div id="%1$s" class="widget %2$s">',
 		'after_widget'  => '</div>',
@@ -125,8 +132,8 @@ function usacr_widgets_init() {
 	));
 
 	register_sidebar( array(
-		'name'          => __( 'Championships Menu Mod', 'usacr' ),
-		'id'            => 'championships-menu-mod',
+		'name'          => __( 'Championships Menu', 'usacr' ),
+		'id'            => 'championships-menu',
 		'description'   => '',
 		'before_widget' => '<div id="%1$s" class="widget %2$s">',
 		'after_widget'  => '</div>',
@@ -135,18 +142,8 @@ function usacr_widgets_init() {
 	));
 
 	register_sidebar( array(
-		'name'          => __( 'Social Menu Mod', 'usacr' ),
-		'id'            => 'social-menu-mod',
-		'description'   => '',
-		'before_widget' => '<div id="%1$s" class="widget %2$s">',
-		'after_widget'  => '</div>',
-		'before_title'  => '<h1 class="hide">',
-		'after_title'   => '</h1>',
-	));
-
-	register_sidebar( array(
-		'name'          => __( 'News Menu Mod', 'usacr' ),
-		'id'            => 'news-menu-mod',
+		'name'          => __( 'Social Menu', 'usacr' ),
+		'id'            => 'social-menu',
 		'description'   => '',
 		'before_widget' => '<div id="%1$s" class="widget %2$s">',
 		'after_widget'  => '</div>',
@@ -258,3 +255,13 @@ function category_id_class($classes) {
 }
 add_filter('post_class', 'category_id_class');
 add_filter('body_class', 'category_id_class');
+
+
+// Custom Config for Admin Area --------------------------------------------------------------------------------------------------
+function custom_admin_js() {
+    $url = esc_url(home_url('/')).'wp-content/themes/clubrugby/js/custom-admin.js';
+    echo '"<script type="text/javascript" src="'. $url . '"></script>"';
+}
+add_action('admin_footer', 'custom_admin_js');
+
+
