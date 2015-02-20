@@ -7,6 +7,10 @@
  * @package USA Club Rugby
  */
 ?><!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]> <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]> <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
 <html <?php language_attributes(); ?>>
 <head>
 <meta charset="<?php bloginfo('charset'); ?>">
@@ -60,13 +64,16 @@
 
 						<h1 class="site-branding">
 
-							<center><div id="logo-holder"><a href="<?php echo esc_url(home_url('/')); ?>" rel="home">
-								<!-- img id="logo" src="/usaclubrugby.com/wp-content/themes/clubrugby/img/club-logo-web-horizontal.png" / -->
-							
-								<img id="shield" src="/usaclubrugby.com/wp-content/themes/clubrugby/img/club-shield.png" />
-								<img id="text" src="/usaclubrugby.com/wp-content/themes/clubrugby/img/club-text.png" />
-								
-							</a></div></center>			
+							<center>
+								<div id="logo-holder">
+									<a href="<?php echo esc_url(home_url('/')); ?>" rel="home">
+										<!-- img id="logo" src="/usaclubrugby.com/wp-content/themes/clubrugby/img/club-logo-web-horizontal.png" / -->
+										<img id="shield" src="/usaclubrugby.com/wp-content/themes/clubrugby/img/club-shield.png" />
+										<img id="text" src="/usaclubrugby.com/wp-content/themes/clubrugby/img/club-text.png" />
+									</a>
+								</div>
+							</center>			
+						
 						</h1>
 
 						<nav id="desktop-site-navigation" class="main-navigation top-bar" data-topbar role="navigation">

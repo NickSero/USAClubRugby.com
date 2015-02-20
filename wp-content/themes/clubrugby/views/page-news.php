@@ -8,9 +8,9 @@ get_header(); ?>
 
 	<section id="news-menu" class="row">
 
-		<dl class="sub-nav" role="menu" title="Filter News Menu List">
+		<dl class="sub-nav" role="menu" title="Which news are you interested in?">
 		  <dt>Sort By:</dt>
-		  <?php echo do_shortcode('[searchandfilter taxonomies="unions,post_tag,divisions,sex,competitive_regions"]') ?>
+		  <?php echo do_shortcode('[searchandfilter taxonomies="unions,clubs,divisions,sex,competitive_regions" add_search_param="1"]') ?>
 		</dl>
 		
 		<hr/>
@@ -34,7 +34,7 @@ get_header(); ?>
 				'suppress_filters' => true,
 				'paged'			   => $paged
 			);
-			$terms = get_terms('union','level','sex','competitive_region',$args);
+			$terms = get_terms('union','club','level','sex','competitive_region',$args);
 			$clubnews = get_posts($args);
 
 			foreach($clubnews as $post) : setup_postdata($post);

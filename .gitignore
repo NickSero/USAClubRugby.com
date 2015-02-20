@@ -20,6 +20,7 @@ wp-signup.php
 wp-trackback.php
 
 xmlrpc.php
+
 index.php
 
 license.txt
@@ -39,70 +40,11 @@ wp-content/plugins/
 wp-content/uploads/
 
 wp-login.php
-wp-content/themes/clubrugby/img/background-4.png
 
-wp-content/themes/clubrugby/img/background.png
+wp-content/themes/clubrugby/img/
 
-wp-content/themes/clubrugby/img/club-rugby-text.psd
-
-wp-content/themes/clubrugby/js/min/foundation.min-min.js
-
-wp-content/themes/clubrugby/img/club-logo-web-horizontal.png
-
-wp-content/themes/clubrugby/img/club-logo-web-vertical.png
-
-wp-content/themes/clubrugby/img/club-shield.png
-
-wp-content/themes/clubrugby/img/club-text.png
-
-wp-content/themes/clubrugby/img/club-logo-web.png
-
-wp-content/themes/clubrugby/img/shield-digital-vector-v2.psd
-
-wp-content/themes/clubrugby/img/background.jpg
-
-wp-content/themes/clubrugby/dev-only/stats_files/9.png
-
-wp-content/themes/clubrugby/dev-only/stats_files/8.png
-
-wp-content/themes/clubrugby/dev-only/stats_files/bootstrap-datetimepicker.min.css
+wp-content/themes/clubrugby/dev-only/
 
 *.png
 
-wp-content/themes/clubrugby/dev-only/stats_files/bootstrap.min.css
-
-wp-content/themes/clubrugby/dev-only/stats_files/bootstrap.min.js
-
-wp-content/themes/clubrugby/dev-only/usar-stats.html
-
-wp-content/themes/clubrugby/dev-only/stats_files/style.css
-
-wp-content/themes/clubrugby/dev-only/stats_files/moment.js
-
-wp-content/themes/clubrugby/dev-only/stats_files/main-min.js
-
-wp-content/themes/clubrugby/dev-only/stats_files/jquery.min.js
-
-wp-content/themes/clubrugby/dev-only/stats_files/extra.js
-
-wp-content/themes/clubrugby/dev-only/stats_files/embedded.print.css
-
-wp-content/themes/clubrugby/dev-only/stats_files/embedded.css
-
-wp-content/themes/clubrugby/dev-only/stats_files/dqm3mdr.js
-
-wp-content/themes/clubrugby/dev-only/stats_files/custom-style-white.css
-
-wp-content/themes/clubrugby/dev-only/stats_files/bootstrap-datetimepicker.min.js
-
-wp-content/themes/clubrugby/dev-only/stats_files/bs3override.css
-
-wp-content/themes/clubrugby/dev-only/stats_files/chosen.jquery.min.js
-
-wp-content/themes/clubrugby/dev-only/stats_files/custom-style-blue.css
-
-wp-content/themes/clubrugby/dev-only/stats_files/custom-style-gray.css
-
-wp-content/themes/clubrugby/dev-only/stats_files/chosen.min.css
-
-wp-content/themes/clubrugby/dev-only/stats_files/custom-style-red.css
+wp-content/themes/clubrugby/js/min/

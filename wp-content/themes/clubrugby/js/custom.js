@@ -65,6 +65,15 @@ jQuery(function($){
 
     }
 
+    $(window).bind('scroll',function(){
+      if($(window).scrollTop() = 107){
+        $('#news-menu').addClass('fixed').css('position','fixed');
+        var filter = $('dl.sub-nav');
+        var sticky = $('<div class="contain-to-grid sticky"></div>');
+        sticky.append(filter.attr('data-options','sticky_on: large'));
+      }
+    });
+
   });
 
 

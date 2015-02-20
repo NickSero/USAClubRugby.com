@@ -12154,13 +12154,26 @@ h5 {
   text-shadow: 0 1px 1px #ffffff;
 }
 #news #news-menu {
-  position: fixed;
   background: #fff;
   z-index: 99;
 }
 #news #news-menu .sub-nav,
 #news #news-menu hr {
   max-width: 1200px;
+}
+#news #news-menu .sub-nav dt,
+#news #news-menu hr dt {
+  margin-bottom: -0.5rem;
+  margin-top: 0.5rem;
+}
+#news #news-menu .sub-nav form ul,
+#news #news-menu hr form ul {
+  line-height: 0;
+  margin-bottom: 0;
+}
+#news #news-menu .sub-nav form ul li select,
+#news #news-menu hr form ul li select {
+  margin: 0;
 }
 #news #news-articles {
   margin-top: 9.9875rem;
