@@ -3955,6 +3955,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/wp-content\/plugins\/admin-post-navigation\/admin-post-navigation.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/admin-post-navigation\/admin-post-navigation.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/wp-content\/plugins\/advanced-custom-fields-pro\/acf.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -5535,6 +5544,119 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/wp-content\/plugins\/automatic-post-tagger\/automatic-post-tagger.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/automatic-post-tagger\/automatic-post-tagger.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/automatic-post-tagger\/css\/apt-style.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/automatic-post-tagger\/css\/apt-style.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/automatic-post-tagger\/img\/apt-sprite-icons.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1997,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/automatic-post-tagger\/img\/apt-sprite-icons.png",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/automatic-post-tagger\/img\/apt-sprite-icons.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/plugins\/automatic-post-tagger\/js\/apt-meta-box.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/automatic-post-tagger\/js\/apt-meta-box.js",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/automatic-post-tagger\/js\/min\/apt-meta-box-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/plugins\/automatic-post-tagger\/js\/apt-options-page.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/automatic-post-tagger\/js\/apt-options-page.js",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/automatic-post-tagger\/js\/min\/apt-options-page-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/plugins\/bulk-creator\/bulk-creator.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/bulk-creator\/bulk-creator.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/bulk-creator\/css\/bulk-creator.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/bulk-creator\/css\/bulk-creator.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/bulk-creator\/images\/bulk-creator.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 714,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/bulk-creator\/images\/bulk-creator.png",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/bulk-creator\/images\/bulk-creator.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/plugins\/bulk-creator\/js\/bulk-creator.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/bulk-creator\/js\/bulk-creator.js",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/bulk-creator\/js\/min\/bulk-creator-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/plugins\/bulk-creator\/screenshot-1.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 204910,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/bulk-creator\/screenshot-1.png",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/bulk-creator\/screenshot-1.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/plugins\/bulk-creator\/screenshot-2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 165938,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/bulk-creator\/screenshot-2.png",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/bulk-creator\/screenshot-2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/wp-content\/plugins\/bulk-page-creator\/bulk-page-creator.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -5909,6 +6031,58 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/wp-content\/plugins\/index.php",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/menu-image\/Gruntfile.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/menu-image\/Gruntfile.js",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/menu-image\/min\/Gruntfile-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/plugins\/menu-image\/menu-image-admin.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/menu-image\/menu-image-admin.js",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/menu-image\/min\/menu-image-admin-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/plugins\/menu-image\/menu-image.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/menu-image\/menu-image.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/menu-image\/menu-image.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/menu-image\/menu-image.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/menu-image\/README.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/menu-image\/README.md",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/menu-image\/README.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -7449,6 +7623,229 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/wp-content\/plugins\/search-filter\/admin\/github.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/search-filter\/admin\/github.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/search-filter\/admin\/icon.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 532,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/search-filter\/admin\/icon.png",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/search-filter\/admin\/icon.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/plugins\/search-filter\/admin\/style.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/search-filter\/admin\/style.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/search-filter\/admin\/syntax.default.min.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/search-filter\/admin\/syntax.default.min.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/search-filter\/admin\/syntax.highlight.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/search-filter\/admin\/syntax.highlight.min.js",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/search-filter\/admin\/min\/syntax.highlight.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/plugins\/search-filter\/admin\/tomorrow-night-eighties.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/search-filter\/admin\/tomorrow-night-eighties.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/search-filter\/admin\/tomorrow-night.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/search-filter\/admin\/tomorrow-night.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/search-filter\/of-admin.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/search-filter\/of-admin.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/search-filter\/of-list-table.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/search-filter\/of-list-table.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/search-filter\/of-taxonomy-walker.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/search-filter\/of-taxonomy-walker.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/search-filter\/search-filter.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/search-filter\/search-filter.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/search-filter\/style.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/search-filter\/style.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/taxonomy-filter\/css\/tfp.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/taxonomy-filter\/css\/tfp.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/taxonomy-filter\/images\/icon32.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1307,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/taxonomy-filter\/images\/icon32.png",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/taxonomy-filter\/images\/icon32.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/plugins\/taxonomy-filter\/index.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/taxonomy-filter\/index.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/taxonomy-filter\/screenshot-1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 26256,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/taxonomy-filter\/screenshot-1.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/taxonomy-filter\/screenshot-1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/plugins\/taxonomy-filter\/screenshot-2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 16465,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/taxonomy-filter\/screenshot-2.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/taxonomy-filter\/screenshot-2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/plugins\/taxonomy-filter\/screenshot-3.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 13269,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/taxonomy-filter\/screenshot-3.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/taxonomy-filter\/screenshot-3.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/plugins\/taxonomy-filter\/screenshot-4.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 17191,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/taxonomy-filter\/screenshot-4.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/taxonomy-filter\/screenshot-4.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/plugins\/taxonomy-filter\/screenshot-5.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 13849,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/taxonomy-filter\/screenshot-5.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/taxonomy-filter\/screenshot-5.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/plugins\/taxonomy-filter\/taxonomy-filter-constants.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/taxonomy-filter\/taxonomy-filter-constants.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/taxonomy-filter\/taxonomy-filter-settings.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/taxonomy-filter\/taxonomy-filter-settings.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/taxonomy-filter\/taxonomy-filter.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/taxonomy-filter\/taxonomy-filter.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/wp-content\/plugins\/wp-migrate-db-pro-media-files\/asset\/css\/styles.css": {
 		"fileType": 16,
 		"ignore": 0,
@@ -7899,6 +8296,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/wp-content\/plugins\/wpcat2tag-importer\/wpcat2tag-importer.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/wpcat2tag-importer\/wpcat2tag-importer.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/wp-content\/themes\/clubrugby\/404.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -7946,6 +8352,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/wp-content\/themes\/clubrugby\/content.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/content.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/wp-content\/themes\/clubrugby\/css\/style.css": {
 		"fileType": 16,
 		"ignore": 1,
@@ -7960,6 +8375,433 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/dev-only\/blocks.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/themes\/clubrugby\/dev-only\/stats_files\/10.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 38285,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/dev-only\/stats_files\/10.png",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/dev-only\/stats_files\/10.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/themes\/clubrugby\/dev-only\/stats_files\/11.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 63914,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/dev-only\/stats_files\/11.png",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/dev-only\/stats_files\/11.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/themes\/clubrugby\/dev-only\/stats_files\/13.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 79623,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/dev-only\/stats_files\/13.png",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/dev-only\/stats_files\/13.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/themes\/clubrugby\/dev-only\/stats_files\/14.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 63583,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/dev-only\/stats_files\/14.png",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/dev-only\/stats_files\/14.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/themes\/clubrugby\/dev-only\/stats_files\/15.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 22906,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/dev-only\/stats_files\/15.png",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/dev-only\/stats_files\/15.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/themes\/clubrugby\/dev-only\/stats_files\/16.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 89419,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/dev-only\/stats_files\/16.png",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/dev-only\/stats_files\/16.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/themes\/clubrugby\/dev-only\/stats_files\/3.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 16796,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/dev-only\/stats_files\/3.png",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/dev-only\/stats_files\/3.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/themes\/clubrugby\/dev-only\/stats_files\/306.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 63914,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/dev-only\/stats_files\/306.png",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/dev-only\/stats_files\/306.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/themes\/clubrugby\/dev-only\/stats_files\/307.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 33539,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/dev-only\/stats_files\/307.png",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/dev-only\/stats_files\/307.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/themes\/clubrugby\/dev-only\/stats_files\/308.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 25055,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/dev-only\/stats_files\/308.png",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/dev-only\/stats_files\/308.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/themes\/clubrugby\/dev-only\/stats_files\/309.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 42546,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/dev-only\/stats_files\/309.png",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/dev-only\/stats_files\/309.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/themes\/clubrugby\/dev-only\/stats_files\/310.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 60752,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/dev-only\/stats_files\/310.png",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/dev-only\/stats_files\/310.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/themes\/clubrugby\/dev-only\/stats_files\/311.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 69265,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/dev-only\/stats_files\/311.png",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/dev-only\/stats_files\/311.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/themes\/clubrugby\/dev-only\/stats_files\/312.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 70118,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/dev-only\/stats_files\/312.png",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/dev-only\/stats_files\/312.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/themes\/clubrugby\/dev-only\/stats_files\/4.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 33539,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/dev-only\/stats_files\/4.png",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/dev-only\/stats_files\/4.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/themes\/clubrugby\/dev-only\/stats_files\/42.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 42128,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/dev-only\/stats_files\/42.png",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/dev-only\/stats_files\/42.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/themes\/clubrugby\/dev-only\/stats_files\/5.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 60706,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/dev-only\/stats_files\/5.png",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/dev-only\/stats_files\/5.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/themes\/clubrugby\/dev-only\/stats_files\/6.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 31456,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/dev-only\/stats_files\/6.png",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/dev-only\/stats_files\/6.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/themes\/clubrugby\/dev-only\/stats_files\/7.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 22906,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/dev-only\/stats_files\/7.png",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/dev-only\/stats_files\/7.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/themes\/clubrugby\/dev-only\/stats_files\/8.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 109805,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/dev-only\/stats_files\/8.png",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/dev-only\/stats_files\/8.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/themes\/clubrugby\/dev-only\/stats_files\/9.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 63914,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/dev-only\/stats_files\/9.png",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/dev-only\/stats_files\/9.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/themes\/clubrugby\/dev-only\/stats_files\/bootstrap-datetimepicker.min.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/dev-only\/stats_files\/bootstrap-datetimepicker.min.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/themes\/clubrugby\/dev-only\/stats_files\/bootstrap-datetimepicker.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/dev-only\/stats_files\/bootstrap-datetimepicker.min.js",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/dev-only\/stats_files\/min\/bootstrap-datetimepicker.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/themes\/clubrugby\/dev-only\/stats_files\/bootstrap.min.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/dev-only\/stats_files\/bootstrap.min.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/themes\/clubrugby\/dev-only\/stats_files\/bootstrap.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/dev-only\/stats_files\/bootstrap.min.js",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/dev-only\/stats_files\/min\/bootstrap.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/themes\/clubrugby\/dev-only\/stats_files\/bs3override.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/dev-only\/stats_files\/bs3override.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/themes\/clubrugby\/dev-only\/stats_files\/chosen.jquery.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/dev-only\/stats_files\/chosen.jquery.min.js",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/dev-only\/stats_files\/min\/chosen.jquery.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/themes\/clubrugby\/dev-only\/stats_files\/chosen.min.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/dev-only\/stats_files\/chosen.min.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/themes\/clubrugby\/dev-only\/stats_files\/custom-style-blue.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/dev-only\/stats_files\/custom-style-blue.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/themes\/clubrugby\/dev-only\/stats_files\/custom-style-gray.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/dev-only\/stats_files\/custom-style-gray.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/themes\/clubrugby\/dev-only\/stats_files\/custom-style-red.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/dev-only\/stats_files\/custom-style-red.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/themes\/clubrugby\/dev-only\/stats_files\/custom-style-white.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/dev-only\/stats_files\/custom-style-white.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/themes\/clubrugby\/dev-only\/stats_files\/dqm3mdr.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/dev-only\/stats_files\/dqm3mdr.js",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/dev-only\/stats_files\/min\/dqm3mdr-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/themes\/clubrugby\/dev-only\/stats_files\/embedded.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/dev-only\/stats_files\/embedded.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/themes\/clubrugby\/dev-only\/stats_files\/embedded.print.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/dev-only\/stats_files\/embedded.print.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/themes\/clubrugby\/dev-only\/stats_files\/extra.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/dev-only\/stats_files\/extra.js",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/dev-only\/stats_files\/min\/extra-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/themes\/clubrugby\/dev-only\/stats_files\/jquery.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/dev-only\/stats_files\/jquery.min.js",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/dev-only\/stats_files\/min\/jquery.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/themes\/clubrugby\/dev-only\/stats_files\/main-min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/dev-only\/stats_files\/main-min.js",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/dev-only\/stats_files\/min\/main-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/themes\/clubrugby\/dev-only\/stats_files\/moment.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/dev-only\/stats_files\/moment.js",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/dev-only\/stats_files\/min\/moment-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/themes\/clubrugby\/dev-only\/stats_files\/style.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/dev-only\/stats_files\/style.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/themes\/clubrugby\/dev-only\/usar-stats.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/dev-only\/usar-stats.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -8035,6 +8877,83 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/wp-content\/themes\/clubrugby\/img\/black-dust-texture.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 443947,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/img\/black-dust-texture.png",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/img\/black-dust-texture.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/themes\/clubrugby\/img\/black-pattern.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.01923e+06,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/img\/black-pattern.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/img\/black-pattern.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/themes\/clubrugby\/img\/black-texture-metal-hole.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 823861,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/img\/black-texture-metal-hole.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/img\/black-texture-metal-hole.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/themes\/clubrugby\/img\/black-texture.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 46564,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/img\/black-texture.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/img\/black-texture.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/themes\/clubrugby\/img\/club-logo-web-horizontal.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 319885,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/img\/club-logo-web-horizontal.png",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/img\/club-logo-web-horizontal.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/themes\/clubrugby\/img\/club-logo-web-vertical.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 290930,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/img\/club-logo-web-vertical.png",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/img\/club-logo-web-vertical.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/themes\/clubrugby\/img\/club-logo-web.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 224941,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/img\/club-logo-web.png",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/img\/club-logo-web.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/wp-content\/themes\/clubrugby\/img\/club-rugby-text.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -8046,6 +8965,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/wp-content\/themes\/clubrugby\/img\/club-shield.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 169915,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/img\/club-shield.png",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/img\/club-shield.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/themes\/clubrugby\/img\/club-text.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 102364,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/img\/club-text.png",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/img\/club-text.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/wp-content\/themes\/clubrugby\/img\/header-backdrop.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -8053,6 +8994,17 @@
 		"initialSize": 3.99488e+06,
 		"inputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/img\/header-backdrop.jpg",
 		"outputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/img\/header-backdrop.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/themes\/clubrugby\/img\/perforated-metal-texture.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3.56061e+06,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/img\/perforated-metal-texture.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/img\/perforated-metal-texture.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -8168,6 +9120,17 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/wp-content\/themes\/clubrugby\/js\/custom-admin.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/js\/custom-admin.js",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/js\/min\/custom-admin-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/wp-content\/themes\/clubrugby\/js\/custom.js": {
 		"fileType": 64,
 		"ignore": 0,
@@ -8273,6 +9236,17 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/js\/masonry.min.js",
 		"outputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/js\/min\/masonry.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/themes\/clubrugby\/js\/min\/custom-admin-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/js\/min\/custom-admin-min.js",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/js\/min\/min\/custom-admin-min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -8573,6 +9547,24 @@
 		"strictMath": 0,
 		"strictUnits": 0
 		},
+	"\/wp-content\/themes\/clubrugby\/niu\/archive__DEFAULT.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/niu\/archive__DEFAULT.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/themes\/clubrugby\/niu\/content-none__DEFAULT.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/niu\/content-none__DEFAULT.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/wp-content\/themes\/clubrugby\/niu\/content-single.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -8746,15 +9738,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/wp-content\/themes\/clubrugby\/views\/content.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/views\/content.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/wp-content\/themes\/clubrugby\/views\/content\/content-club.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -8832,15 +9815,6 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/views\/page-news.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/wp-content\/themes\/clubrugby\/views\/page.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/clubrugby\/views\/page.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -9031,6 +10005,50 @@
 		"initialSize": 187088,
 		"inputAbbreviatedPath": "\/wp-content\/uploads\/brfc-badge.png",
 		"outputAbbreviatedPath": "\/wp-content\/uploads\/brfc-badge.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/uploads\/Capital-GU-150x150.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 35896,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/Capital-GU-150x150.png",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/Capital-GU-150x150.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/uploads\/Capital-GU-300x225.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 73363,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/Capital-GU-300x225.png",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/Capital-GU-300x225.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/uploads\/Capital-GU-884x571.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 437424,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/Capital-GU-884x571.png",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/Capital-GU-884x571.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/uploads\/Capital-GU.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 446800,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/Capital-GU.png",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/Capital-GU.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -9350,6 +10368,17 @@
 		"initialSize": 932160,
 		"inputAbbreviatedPath": "\/wp-content\/uploads\/club-05.jpg",
 		"outputAbbreviatedPath": "\/wp-content\/uploads\/club-05.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/uploads\/epru.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 14107,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/epru.png",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/epru.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -12986,17 +14015,6 @@
 		"initialSize": 368,
 		"inputAbbreviatedPath": "\/wp-includes\/js\/tinymce\/skins\/wordpress\/images\/dashicon-edit.png",
 		"outputAbbreviatedPath": "\/wp-includes\/js\/tinymce\/skins\/wordpress\/images\/dashicon-edit.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/wp-includes\/js\/tinymce\/skins\/wordpress\/images\/dashicon-no-alt.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 164,
-		"inputAbbreviatedPath": "\/wp-includes\/js\/tinymce\/skins\/wordpress\/images\/dashicon-no-alt.png",
-		"outputAbbreviatedPath": "\/wp-includes\/js\/tinymce\/skins\/wordpress\/images\/dashicon-no-alt.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

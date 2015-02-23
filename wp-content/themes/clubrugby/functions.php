@@ -186,7 +186,7 @@ add_action( 'widgets_init', 'usacr_widgets_init' );
 
 // Enqueue scripts and styles ------------------------------------------------------------------------
 function usacr_scripts() {
-	wp_enqueue_style( 'usacr-style', get_template_directory_uri() . '/css/style.css', false, '1.0.0.1' );
+	wp_enqueue_style( 'usacr-style', get_template_directory_uri() . '/css/style.css', false );
 }
 add_action( 'wp_enqueue_scripts', 'usacr_scripts' );
 
@@ -194,7 +194,7 @@ add_action( 'wp_enqueue_scripts', 'usacr_scripts' );
 require get_template_directory() . '/inc/template-tags.php';
 
 // Add Image Sizes ---------------------------------------------------------------------------------------------------------------
-add_image_size( 'hero', 1030, 571, true );
+add_image_size( 'hero', 2060, 1160, true );
 
 // Selects Custom Post Type Templates for single and archive pages ---------------------------------------------------------------
 add_filter('template_include', 'custom_template_include');

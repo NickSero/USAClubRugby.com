@@ -4,14 +4,12 @@ Template Name: Home
 */
 get_header(); ?>
 
-<section id="hero" class="small-12 medium-9 large-7">
+<section id="hero" class="small-12 medium-12 large-7">
 
 	<?php if(!dynamic_sidebar('hero')): ?>
 	<?php endif; ?>
 
 </section>
-
-<hr/>
 
 <section id="featured-matches" class="small-12 medium-12 large-12">
 	

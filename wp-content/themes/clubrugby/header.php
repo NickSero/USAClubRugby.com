@@ -15,9 +15,16 @@
 <head>
 <meta charset="<?php bloginfo('charset'); ?>">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
 <title><?php wp_title('| USAClubRdugby.com',true,'right'); ?></title>
 <link rel="profile" href="http://gmpg.org/xfn/11">
 <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">
+<?php
+date_default_timezone_set('UTC');
+header("Cache-Control: no-cache, must-revalidate");
+header("Expires: ".gmdate("D, d M Y H:i:s"));
+header("X-UA-Compatible: IE=edge");
+?>
 <script src="<?php echo esc_url(home_url('/')); ?>wp-content/themes/clubrugby/js/jquery.js"></script>
 <script src="<?php echo esc_url(home_url('/')); ?>wp-content/themes/clubrugby/js/cssua.min.js"></script>
 <script src="<?php echo esc_url(home_url('/')); ?>wp-content/themes/clubrugby/js/fastclick.js"></script>
@@ -36,7 +43,7 @@
 
 			<header id="masthead" class="site-header" role="banner">
 
-				<div id="mobile-header" class="small-12 show-for-small-down hide-for-medium-up">
+				<div id="mobile-header" class="small-12">
 
 					<a id="mobile-menu-button" class="left-off-canvas-toggle small-1" href="#mobile-site-navigation">
 						<span class="line line-1"></span>
@@ -58,7 +65,7 @@
 
 				</div>
 
-				<div id="desktop-header" class="medium-12 large-12 show-for-medium-up">
+				<div id="desktop-header" class="medium-12 large-12">
 
 					<div class="desktop-header-wrapper">
 
@@ -76,10 +83,10 @@
 						
 						</h1>
 
-						<nav id="desktop-site-navigation" class="main-navigation top-bar" data-topbar role="navigation">
-							<section class="top-bar-section">
+						<nav id="desktop-site-navigation" class="main-navigation" role="navigation">
+							<section class="button-bar">
 								<?php
-									wp_nav_menu(array('theme_location' => 'main','menu_id' => 'site-menu','container_class' => 'button-group even-10'));
+									wp_nav_menu(array('theme_location' => 'main','menu_id' => 'site-menu','menu_class' => 'button-group even-10', 'container' => false));
 									wp_nav_menu('theme_location=news&container=false');
 									wp_nav_menu('theme_location=clubs&container=false');
 									wp_nav_menu('theme_location=schedules&container=false');

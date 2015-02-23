@@ -6,19 +6,37 @@
 		dl {
 
 		}
+		.sub-nav {
+			position: relative;
+			top: 7px;
+		}
 		.sub-nav, hr {
 			max-width: 1200px;
 			dt {
 				margin-bottom: -0.5rem;
 				margin-top: 0.5rem;
 			}
+			label.inline {
+				padding-left: 0.75rem;
+				padding-bottom: 0;
+				margin-bottom: 0;
+			}
 			form {
+				line-height: 0;
 				ul {
+					width: 100%;
 					line-height: 0;
 					margin-bottom: 0;
 					li {
+						margin-right: 0.25%;
+						&:last-child {
+							margin-right: 0;
+						}
 						select {
 							margin: 0;
+						}
+						input[type='submit'] {
+							font-size: 1.09rem;
 						}
 					}
 				}
@@ -26,6 +44,12 @@
 		}
 	}
 	#news-articles {
-		margin-top: 9.9875rem;
+		margin-top: 0;
+	}
+}
+
+@media screen and (max-width : 1024px) {
+	select {
+		font-size: 0.675rem;
 	}
 }

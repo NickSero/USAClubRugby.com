@@ -8,10 +8,10 @@ get_header(); ?>
 
 	<section id="news-menu" class="row">
 
-		<dl class="sub-nav" role="menu" title="Which news are you interested in?">
-		  <dt>Sort By:</dt>
-		  <?php echo do_shortcode('[searchandfilter taxonomies="unions,clubs,divisions,sex,competitive_regions" add_search_param="1"]') ?>
-		</dl>
+		<div class="sub-nav" role="menu" title="Which news are you interested in?">
+		  <label class="left inline small-1 medium-1 large-1">Sort By:</label>
+		  <?php echo do_shortcode('[searchandfilter class="left inline small-11 medium-11 large-11" taxonomies="unions,clubs,divisions,sex,competitive_regions" add_search_param="1"]') ?>
+		</div>
 		
 		<hr/>
 
