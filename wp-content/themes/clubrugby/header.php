@@ -52,7 +52,12 @@ header("X-UA-Compatible: IE=edge");
 					</a>
 
 					<h1 class="site-branding right small-11">
-						<a href="<?php echo esc_url(home_url('/')); ?>" rel="home">USAClubRugby<span>.com</span></a>			
+						<div id="logo-holder">
+							<a href="<?php echo esc_url(home_url('/')); ?>" rel="home">
+								<img id="shield" src="/usaclubrugby.com/wp-content/themes/clubrugby/img/club-shield.png" />
+								<img id="text" src="/usaclubrugby.com/wp-content/themes/clubrugby/img/club-text.png" />
+							</a>			
+						</div>					
 					</h1>
 
 					<section class="mobile-menu">

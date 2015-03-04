@@ -32,7 +32,7 @@ get_header(); ?>
 		      	}
 		   	endwhile;
 		   	//echo '<iframe src="http://usarugbystats.com/embed/squares/otf?matches='.$list.'" width="100%" height="144" frameborder="0" scrolling="0"></iframe>';
-		   	echo '<iframe src="http://192.168.1.51:5757/usaclubrugby.com/wp-content/themes/clubrugby/dev-only/usar-stats.html" class="small-12 medium-12 large-12"></iframe>';
+		   	echo '<iframe src="http://localhost:7888/usaclubrugby.com/wp-content/themes/clubrugby/dev-only/usar-stats.html" class="small-12 medium-12 large-12"></iframe>';
 		}
 	?>
 			

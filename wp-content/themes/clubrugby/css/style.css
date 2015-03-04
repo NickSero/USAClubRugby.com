@@ -11821,7 +11821,7 @@ th.hide-for-touch {
   z-index: 99;
 }
 #main-wrapper #mobile-header a:not([rel='home']) {
-  padding-top: 9px;
+  padding-top: 20px;
   padding-left: 33px;
   z-index: 999;
 }
@@ -11905,7 +11905,7 @@ th.hide-for-touch {
 }
 @media screen and (max-width: 320px) {
   #main-wrapper.move-right #masthead #mobile-header {
-    padding-bottom: 2.9rem;
+    padding-bottom: 2rem;
   }
   #main-wrapper #masthead .left-off-canvas-toggle {
     top: 30px !important;
@@ -11914,10 +11914,18 @@ th.hide-for-touch {
   #main-wrapper #masthead #mobile-header {
     padding-bottom: 1.35rem;
   }
-  #main-wrapper #masthead #mobile-header h1 {
+  #main-wrapper #masthead #mobile-header h1.site-branding {
     right: 6px;
     font-size: 2.6rem;
-    top: 1.15rem !important;
+    top: 0.35rem !important;
+  }
+  #main-wrapper #masthead #mobile-header h1.site-branding #logo-holder a img#shield {
+    width: 22.5% !important;
+    margin-left: 3px;
+  }
+  #main-wrapper #masthead #mobile-header h1.site-branding #logo-holder a img#text {
+    width: 63% !important;
+    margin-left: -5px;
   }
   #main-wrapper #content #hero {
     padding-right: 0;
@@ -11935,7 +11943,7 @@ th.hide-for-touch {
     left: 18px;
   }
   #main-wrapper #masthead #mobile-header {
-    padding-bottom: 3.5rem;
+    padding-bottom: 2rem;
   }
   #main-wrapper #masthead #mobile-header h1 {
     top: 1rem;
@@ -11943,14 +11951,14 @@ th.hide-for-touch {
 }
 @media screen and (max-width: 568px) {
   #main-wrapper.move-right #mobile-header {
-    padding-bottom: 5rem !important;
+    padding-bottom: 2rem !important;
   }
   #main-wrapper #masthead .left-off-canvas-toggle {
     top: 30px;
     left: 18px;
   }
   #main-wrapper #masthead #mobile-header {
-    padding-bottom: 3.5rem;
+    padding-bottom: 2rem;
   }
   #main-wrapper #masthead #mobile-header h1 {
     top: 12px;
