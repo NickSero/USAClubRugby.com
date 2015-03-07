@@ -5946,13 +5946,14 @@ blockquote p {
     position: relative;
     width: 100%;
 /* MODIFICATIONS */
-    overflow-y: auto;
+    overflow-y: scroll;
     overflow-x: hidden;
 /* END MODIFICATIONS */
 }
 .off-canvas-wrap.move-right,
 .off-canvas-wrap.move-left {
     min-height: 100%;
+    overflow: hidden;
     -webkit-overflow-scrolling: touch
 }
 .inner-wrap {
@@ -6069,9 +6070,11 @@ blockquote p {
     width: 15.625rem;
     top: 0;
     bottom: 0;
-    position: absolute;
+    /* MOD */
+    position: fixed;
     overflow-x: hidden;
-    overflow-y: auto;
+    overflow-y: hidden;
+    /* MOD */
     background: @blue;
     z-index: 1001;
     box-sizing: content-box;

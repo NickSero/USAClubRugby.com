@@ -1,6 +1,7 @@
 jQuery(function($){
 
 // MAIN MENU FUNCTIONALITY
+
   var news = $('#menu-news-menu'),
       clubs = $('#menu-clubs-menu'),
       schedules = $('#menu-schedules-menu'),
@@ -12,13 +13,15 @@ jQuery(function($){
       resources = $('#menu-resources'),
       about = $('#menu-about-menu');
 
+  $('#site-menu .news > .dropdown').attr('id','menu-news-menu').addClass('button-group even-4');
+  $('#site-menu .clubs > .dropdown').attr('id','menu-news-menu').addClass('button-group even-4');
+  $('#site-menu .schedules > .dropdown').attr('id','menu-schedules-menu').addClass('button-group even-5');
+  $('#site-menu .standings > .dropdown').attr('id','menu-standings-menu').addClass('button-group even-4');
+  $('#site-menu .statistics > .dropdown').attr('id','menu-statistics-menu').addClass('button-group even-4');
+  $('#site-menu .championships > .dropdown').attr('id','menu-championships-menu').addClass('button-group even-5');
+  $('#site-menu .social > .dropdown').attr('id','menu-social-menu').addClass('button-group even-4');
+
   news.addClass('button-group even-4');
-  clubs.addClass('button-group even-4');
-  schedules.addClass('button-group even-5');
-  standings.addClass('button-group even-4');
-  stats.addClass('button-group even-4');
-  champs.addClass('button-group even-5');
-  social.addClass('button-group even-4');
   admin.addClass('button-group even-4');
   resources.addClass('button-group even-5');
   about.addClass('button-group even-5');
@@ -27,7 +30,7 @@ jQuery(function($){
   function resetMenus(k,v){
     if(v){
       v.addClass('dropdown').attr('data-dropdown-content');
-      $('li.'+k).addClass('has-dropdown not-click').append(v);
+      $('li.'+k).addClass('has-dropdown').append(v);
       $('li.'+k).children('a[title]').attr({'data-dropdown':'menu-'+k+'-menu'});
     }
   }
@@ -50,6 +53,7 @@ jQuery(function($){
   $('a.menu-image-title-after').css({'font-size':($('ul#site-menu > li.menu-item').css('font-size'))});
   $('li.menu-item').addClass('button');
 
+  $('header').click(function(){$(this).toggleClass('active')});
   $('.has-dropdown').click(function(){
     $(this).toggleClass('open');
     $(this).children('a').toggleClass('hover');
@@ -58,10 +62,29 @@ jQuery(function($){
     $(this).siblings().children('.hover').removeClass('hover');
     $(this).siblings().children('.active').removeClass('active');
   });
-  $('.has-dropdown').focusout(function(){
-    $(this).removeClass('open');
-    $(this).children('a').removeClass('hover');
-    $(this).children('ul').removeClass('active');
+  
+  $('#content-wrapper').click(function(){
+    $('.open').removeClass('open');
+    $('#site-menu li').children('a').removeClass('hover');
+    $('#site-menu li').children('ul').removeClass('active');
+  });
+
+  $(window).bind("scroll",function(){
+    if($(window).scrollTop() = 107){
+      $('#news-menu').addClass('fixed').css('position','fixed');
+      var filter = $('dl.sub-nav');
+      var sticky = $('<div class="contain-to-grid sticky"></div>');
+      sticky.append(filter.attr('data-options','sticky_on: large'));
+    };
+    // sticky nav bar
+    if($(window).scrollTop() >= 129){
+      $('#desktop-site-navigation').css({position: 'fixed', top: '0px'});
+      $('#sticky').css('display', 'block');
+    }
+    else {
+      $('#desktop-site-navigation').css({position: 'static', top: '0px'});
+      $('#sticky').css('display', 'none');
+    }
   });
 
 
@@ -74,7 +97,7 @@ jQuery(function($){
 
     if($('.home')){
 // MASONRY HOME NEWS FEED
-      var $container = $('#container');
+      var $container;
       function triggerMasonry() {
 // don't proceed if $container has not been selected
         if ( !$container ) {
@@ -87,24 +110,22 @@ jQuery(function($){
       }
 // trigger masonry on document ready
       $(function(){
+        $container = $('#container');
         triggerMasonry();
+      });
+      $(function(){
+        $container = $('#container').masonry();
+        $container.imagesLoaded(function(){
+          $container.masonry();
+        });
       });
 // trigger masonry when fonts have loaded
       Typekit.load({
         active: triggerMasonry,
-        inactive: triggerMasonry,
+        inactive: triggerMasonry
       });
 
     }
-
-    $(window).bind('scroll',function(){
-      if($(window).scrollTop() = 107){
-        $('#news-menu').addClass('fixed').css('position','fixed');
-        var filter = $('dl.sub-nav');
-        var sticky = $('<div class="contain-to-grid sticky"></div>');
-        sticky.append(filter.attr('data-options','sticky_on: large'));
-      }
-    });
 
   });
 
@@ -163,7 +184,10 @@ jQuery(function($){
    
     } else {
 // smaller
-
+      $('.rsGCaption > .caption > h1.columns:first-child').fitText(2);
+      $('#featured-matches > h4').fitText(1.5);
+      $('#latest-news-headlines > h4').fitText(1.5);
+      $('footer#footer > .column > p').fitText(2, {minFontSize:'17px', maxFontSize:'17px'});
     }
   }).resize();
   

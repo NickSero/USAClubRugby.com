@@ -37,8 +37,6 @@ function usacr_setup() {
 endif; // usacr_setup
 add_action( 'after_setup_theme', 'usacr_setup' );
 
-
-/*
 // Make WP menus play nice with Foundation 5 ------------------------------------------------------------------------------
 class GC_walker_nav_menu extends Walker_Nav_Menu {
   // add classes to ul sub-menus
@@ -49,7 +47,7 @@ class GC_walker_nav_menu extends Walker_Nav_Menu {
     $output .= "\n" . $indent . '<ul class="dropdown">' . "\n";
   }
 }
-*/
+
 if (!function_exists('GC_menu_set_dropdown')) :
 function GC_menu_set_dropdown($sorted_menu_items, $args) {
   $last_top = 0;
@@ -59,7 +57,7 @@ function GC_menu_set_dropdown($sorted_menu_items, $args) {
       // set the key of the parent
       $last_top = $key;
     } else {
-      $sorted_menu_items[$last_top]->classes['dropdown'] = 'has-dropdown not-click';
+      $sorted_menu_items[$last_top]->classes['dropdown'] = 'has-dropdown';
     }
   }
   return $sorted_menu_items;

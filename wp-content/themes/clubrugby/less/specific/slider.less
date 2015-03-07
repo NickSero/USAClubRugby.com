@@ -88,8 +88,13 @@
 				padding-top: 4rem;
 				.caption {
 					h1 {
-						font-size: 1.5rem;
-						line-height: 1.5rem;
+						&:first-child {
+							font-size: 1.5rem !important;
+							line-height: 1.5rem !important;
+						}
+						&:last-child {
+							line-height: 1.5rem !important;
+						}
 					}
 					p {
 						font-size: 0.7rem;
@@ -101,7 +106,7 @@
 							bottom: 0rem;
 							&:before {
 								position: absolute;
-								bottom: -1px;
+								bottom: -3px;
 							}
 						}
 					}
@@ -118,6 +123,11 @@
 		.rsContent {
 			.rsGCaption {
 				.caption {
+					h1 {
+						&:last-child {
+							line-height: 1.5rem;
+						}
+					}
 					small {
 						.link {
 							.fa {
@@ -178,6 +188,7 @@
 		.rsContent {
 			.shadow {
 				height: 30%;
+				bottom: -1px;
 			}
 		}
 	}

@@ -11,8 +11,12 @@ get_header(); ?>
 
 </section>
 
+<hr/>
+
 <section id="featured-matches" class="small-12 medium-12 large-12">
 	
+	<h4>Featured Matches</h4>
+
 	<?php $matches = array(
 			'post_type' 		=> 'match',
 			'numberposts'		=> 1,
@@ -42,6 +46,8 @@ get_header(); ?>
 
 <section id="latest-news-headlines" class="small-12 medium-12 large-12">
 	
+	<h4 class="home-news">Latest Club Rugby News</h4>
+
 	<div id="container" class="free-wall row">
 
 		<?php $args = array(
@@ -67,7 +73,7 @@ get_header(); ?>
 						<h1 class="news-item-title small-12"><?php echo the_title(); ?></h1>
 						<h4 class="news-item-metadata small-12">
 							<span class="news-article-author" itemprop="author"><?php $author_alias = get_field('author_alias'); $author = get_the_author(); $d = 'F j, Y'; $date = get_the_date($d); if(!$author_alias) { echo $author; } else { echo $author_alias; } ?></span>
-							<span>&nbsp;&nbsp;|&nbsp;&nbsp;</span>
+							<span>&nbsp;|&nbsp;</span>
 							<span class="news-article-date"><?php echo $date; ?></span>
 						</h4>
 						<div class="news-item-excerpt small-12"><span class="excerpt"><?php echo get_the_excerpt(); ?></span></div>

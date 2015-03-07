@@ -29,7 +29,7 @@
 		<script src="<?php echo esc_url(home_url('/')); ?>wp-content/themes/clubrugby/js/placeholder.js"></script>
 		<script src="<?php echo esc_url(home_url('/')); ?>wp-content/themes/clubrugby/js/jquery.cookie.js"></script>
 		<script src="<?php echo esc_url(home_url('/')); ?>wp-content/themes/clubrugby/js/jquery.fittext.js"></script>
-		<script src="//cdnjs.cloudflare.com/ajax/libs/masonry/3.2.2/masonry.pkgd.min.js"></script>
+		<script src="<?php echo esc_url(home_url('/')); ?>wp-content/themes/clubrugby/js/masonry.min.js"></script>
 		<script src="<?php echo esc_url(home_url('/')); ?>wp-content/themes/clubrugby/js/custom.js"></script>
 
 	</div>
