@@ -188,8 +188,12 @@ function usacr_scripts() {
 }
 add_action( 'wp_enqueue_scripts', 'usacr_scripts' );
 
-// Custom Tags ------------------------------------------------------------------------
+// Custom & Infinite Scroll ------------------------------------------------------------------------
 require get_template_directory() . '/inc/template-tags.php';
+
+function clubrugby_infinite_scroll_init() {
+	get_template_part('content',get_post_format());
+}
 
 // Add Image Sizes ---------------------------------------------------------------------------------------------------------------
 add_image_size( 'hero', 2060, 1160, true );

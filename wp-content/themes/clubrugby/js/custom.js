@@ -86,7 +86,13 @@ jQuery(function($){
     
     removeComma($('#about .no-bullet > li:last-child > span'));
 
-    $('.main-navigation').fadeIn('slow');  
+    $('#freewall').fadeIn('slow');
+    $('#freewall').jscroll({
+      loadingHtml: '<img src="/usaclubrugby.com/wp-content/themes/clubrugby/img/ajax-loader.gif" alt="Loading"/> Loading...',
+      padding: 20,
+      contentSelector: 'div.brick'
+    });
+
 
     if($('.home')){
 // MASONRY HOME NEWS FEED
@@ -103,11 +109,11 @@ jQuery(function($){
       }
 // trigger masonry on document ready
       $(function(){
-        $container = $('#container');
+        $container = $('#freewall');
         triggerMasonry();
       });
       $(function(){
-        $container = $('#container').masonry();
+        $container = $('#freewall').masonry();
         $container.imagesLoaded(function(){
           $container.masonry();
         });

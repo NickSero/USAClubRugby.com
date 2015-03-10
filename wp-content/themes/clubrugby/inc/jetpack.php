@@ -12,8 +12,13 @@
  */
 function usacr_jetpack_setup() {
 	add_theme_support( 'infinite-scroll', array(
-		'container' => 'main',
-		'footer'    => 'page',
-	) );
+		'type'				=> 	'scroll',
+		'footer_widgets'	=>	false,
+		'container'			=>	'freewall',
+		'render'			=>	'clubrugby_infinite_scroll_init',
+		'wrapper'			=>	'brick',
+		'posts_per_page'	=>	false,
+		'footer'			=>	'freewall',
+	));
 }
 add_action( 'after_setup_theme', 'usacr_jetpack_setup' );

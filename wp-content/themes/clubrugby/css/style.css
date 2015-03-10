@@ -1,20 +1,20 @@
 /* Imports */
 /*
-Theme Name: Boulder Rugby
+Theme Name: USA Club Rugby
 Theme URI: http://underscores.me/
 Author: Davey Jacobson
 Author URI: http://underscores.me/
-Description: A custom theme for the Boulder Rugby Football Club
+Description: A custom theme for the USA Club Rugby website
 Version: 1.0-wpcom
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Text Domain: brfc
+Text Domain: usacr
 Tags:
 
 This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
 
- Boulder Rugby is based on Underscores http://underscores.me/, (C) 2012-2014 Automattic, Inc.
+ USA Club Rugby is based on Underscores http://underscores.me/, (C) 2012-2014 Automattic, Inc.
 
 Resetting and rebuilding styles have been helped along thanks to the fine work of
 Eric Meyer http://meyerweb.com/eric/tools/css/reset/index.html
@@ -11835,9 +11835,6 @@ th.hide-for-touch {
   top: 11px;
   right: 1rem;
 }
-#masthead .desktop-header-wrapper .main-navigation {
-  display: none;
-}
 #masthead .desktop-header-wrapper #desktop-site-navigation {
   border-top: 2px solid #a80019;
   text-align: center;
@@ -12217,8 +12214,6 @@ body {
 }
 body {
   font-family: "jaf-facitweb", Helvetica, Roboto, Arial, sans-serif;
-  background: url(/usaclubrugby.com/wp-content/themes/clubrugby/img/background.jpg) no-repeat fixed center 100px #000a15;
-  background-size: cover;
   color: #fff;
 }
 body a,
@@ -12227,7 +12222,11 @@ body a:active {
   color: #a80019;
 }
 body #main-wrapper {
+  background: url(/usaclubrugby.com/wp-content/themes/clubrugby/img/background.jpg) no-repeat center 100px #ffffff;
+  background-size: cover;
+  background-attachment: fixed !important;
   height: 100%;
+  margin-top: 9.2rem;
 }
 body #main-wrapper #content-wrapper {
   max-width: 75em;
@@ -12317,7 +12316,7 @@ h5 {
 }
 @media screen and (min-width: 1440px) {
   body #main-wrapper #content-wrapper #content {
-    margin-top: 8.05rem;
+    margin-top: 9.1rem;
   }
 }
 .home #main-wrapper #content-wrapper #content #featured-matches {
@@ -12362,23 +12361,23 @@ h5 {
   text-align: center;
   text-shadow: 0 1px 1px #001830;
 }
-.home #main-wrapper #content-wrapper #content #latest-news-headlines #container {
+.home #main-wrapper #content-wrapper #content #latest-news-headlines #freewall {
   width: 100%;
   margin: auto;
 }
-.home #main-wrapper #content-wrapper #content #latest-news-headlines #container .brick {
+.home #main-wrapper #content-wrapper #content #latest-news-headlines #freewall .brick {
   padding: 2.5px;
   float: left;
   overflow: hidden;
 }
-.home #main-wrapper #content-wrapper #content #latest-news-headlines #container .news-item {
+.home #main-wrapper #content-wrapper #content #latest-news-headlines #freewall .news-item {
   background: #eaeaea;
 }
-.home #main-wrapper #content-wrapper #content #latest-news-headlines #container .news-item img {
+.home #main-wrapper #content-wrapper #content #latest-news-headlines #freewall .news-item img {
   margin: 0;
   display: block;
 }
-.home #main-wrapper #content-wrapper #content #latest-news-headlines #container .news-item h1 {
+.home #main-wrapper #content-wrapper #content #latest-news-headlines #freewall .news-item h1 {
   font-family: "alternate-gothic-no-3-d", Helvetica, Roboto, Arial, sans-serif;
   text-transform: uppercase;
   font-size: 2rem;
@@ -12387,12 +12386,12 @@ h5 {
   padding-left: 7px;
   text-shadow: 1px 1px 1px #ffffff;
 }
-.home #main-wrapper #content-wrapper #content #latest-news-headlines #container .news-item .news-item-excerpt {
+.home #main-wrapper #content-wrapper #content #latest-news-headlines #freewall .news-item .news-item-excerpt {
   padding: 0 7px 7px;
   color: #000000;
   text-shadow: 0 1px 1px rgba(255, 255, 255, 0.5);
 }
-.home #main-wrapper #content-wrapper #content #latest-news-headlines #container .news-item .news-item-metadata {
+.home #main-wrapper #content-wrapper #content #latest-news-headlines #freewall .news-item .news-item-metadata {
   border-top: 1px solid rgba(255, 255, 255, 0.3);
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
   padding: 10px 0;

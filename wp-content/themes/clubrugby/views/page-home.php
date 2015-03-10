@@ -48,7 +48,7 @@ get_header(); ?>
 	
 	<h4 class="home-news">Latest Club Rugby News</h4>
 
-	<div id="container" class="free-wall row">
+	<div id="freewall" class="free-wall row">
 
 		<?php $args = array(
 			'post_type'			=>	'post',
@@ -58,7 +58,7 @@ get_header(); ?>
 		);
 		$freewall = new WP_Query($args);
 		$author = get_the_author();
-		if($freewall->have_posts()) : while($freewall->have_posts()) : $freewall->the_post(); ?>
+		while($freewall->have_posts()) : $freewall->the_post(); ?>
 
 			<div class="brick small-12 medium-6 large-4">
 				
@@ -92,9 +92,7 @@ get_header(); ?>
 				
 			</div>
 
-			<?php endwhile; wp_reset_postdata(); ?>
-
-		<?php endif; ?>
+		<?php endwhile; wp_reset_postdata(); ?>
 
 	</div>
 
