@@ -40,21 +40,25 @@ header("X-UA-Compatible: IE=edge");
 		<header id="masthead" class="site-header" role="banner">
 
 			<div id="mobile-header" class="small-12">
+					
+				<section class="site-branding">
 
-				<a id="mobile-menu-button" class="left-off-canvas-toggle small-1" href="#mobile-site-navigation">
-					<span class="line line-1"></span>
-					<span class="line line-2"></span>
-					<span class="line line-3"></span>
-				</a>
+					<a id="mobile-menu-button" class="left-off-canvas-toggle small-2" href="#mobile-site-navigation">
+						<span class="line line-1"></span>
+						<span class="line line-2"></span>
+						<span class="line line-3"></span>
+					</a>
 
-				<h1 class="site-branding right small-11">
-					<div id="logo-holder">
-						<a href="<?php echo esc_url(home_url('/')); ?>" rel="home">
-							<img id="shield" src="/usaclubrugby.com/wp-content/themes/clubrugby/img/club-shield.png" />
-							<img id="text" src="/usaclubrugby.com/wp-content/themes/clubrugby/img/club-text.png" />
-						</a>			
-					</div>					
-				</h1>
+					<figure class="right small-10">
+						<div id="logo-holder">
+							<a href="<?php echo esc_url(home_url('/')); ?>" rel="home">
+								<img id="shield" class="small-1" src="/usaclubrugby.com/wp-content/themes/clubrugby/img/logo-shield.png" />
+								<img id="text" class="small-9" src="/usaclubrugby.com/wp-content/themes/clubrugby/img/club-text.png" />
+							</a>			
+						</div>					
+					</figure>
+
+				</section>
 
 				<section class="mobile-menu">
 					<aside id="mobile-site-navigation" class="left-off-canvas-menu" role="navigation">
@@ -70,19 +74,19 @@ header("X-UA-Compatible: IE=edge");
 
 				<div class="desktop-header-wrapper">
 
-					<h1 class="site-branding">
+					<figure class="site-branding">
 
 						<center>
 							<div id="logo-holder">
 								<a href="<?php echo esc_url(home_url('/')); ?>" rel="home">
 									<!-- img id="logo" src="/usaclubrugby.com/wp-content/themes/clubrugby/img/club-logo-web-horizontal.png" / -->
-									<img id="shield" src="/usaclubrugby.com/wp-content/themes/clubrugby/img/club-shield.png" />
-									<img id="text" src="/usaclubrugby.com/wp-content/themes/clubrugby/img/club-text.png" />
+									<img id="shield" class="small-1" src="/usaclubrugby.com/wp-content/themes/clubrugby/img/logo-shield.png" />
+									<img id="text" class="small-3" src="/usaclubrugby.com/wp-content/themes/clubrugby/img/club-text.png" />
 								</a>
 							</div>
 						</center>			
 					
-					</h1>
+					</figure>
 
 					<nav id="desktop-site-navigation" class="main-navigation" role="navigation">
 						<section class="button-bar">

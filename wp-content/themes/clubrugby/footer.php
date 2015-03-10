@@ -25,14 +25,15 @@
 		</footer>
 
 		<?php wp_footer(); ?>
-		<script src="<?php echo esc_url(home_url('/')); ?>wp-content/themes/clubrugby/js/foundation.min.js"></script>
-		<script src="<?php echo esc_url(home_url('/')); ?>wp-content/themes/clubrugby/js/placeholder.js"></script>
-		<script src="<?php echo esc_url(home_url('/')); ?>wp-content/themes/clubrugby/js/jquery.cookie.js"></script>
-		<script src="<?php echo esc_url(home_url('/')); ?>wp-content/themes/clubrugby/js/jquery.fittext.js"></script>
-		<script src="<?php echo esc_url(home_url('/')); ?>wp-content/themes/clubrugby/js/masonry.min.js"></script>
-		<script src="<?php echo esc_url(home_url('/')); ?>wp-content/themes/clubrugby/js/custom.js"></script>
 
 	</div>
-	<script> jQuery(document).foundation(); </script>
+
+	<script src="<?php echo esc_url(home_url('/')); ?>wp-content/themes/clubrugby/js/foundation.min.js"></script>
+	<script src="<?php echo esc_url(home_url('/')); ?>wp-content/themes/clubrugby/js/placeholder.js"></script>
+	<script src="<?php echo esc_url(home_url('/')); ?>wp-content/themes/clubrugby/js/jquery.cookie.js"></script>
+	<script src="<?php echo esc_url(home_url('/')); ?>wp-content/themes/clubrugby/js/jquery.fittext.js"></script>
+	<script src="<?php echo esc_url(home_url('/')); ?>wp-content/themes/clubrugby/js/masonry.min.js"></script>
+	<script src="<?php echo esc_url(home_url('/')); ?>wp-content/themes/clubrugby/js/custom.js"></script>
+
 </body>
 </html>

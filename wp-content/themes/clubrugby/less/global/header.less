@@ -12,7 +12,6 @@
   }
   .desktop-header-wrapper {
     position: relative;
-    padding-top: 50px;
     margin-top: 0;
     &:before {
       content: "";
@@ -25,24 +24,24 @@
       background: @blue;
       background-size: 100% auto;
     }
-    h1 {
+    figure {
       &.site-branding {
         text-align: center;
-        margin-bottom: 25px;
-        padding-right: 0.985rem;
         font-family: @heading, Helvetica, Roboto, Arial, sans-serif;
         font-weight: 400;
         font-size: 5rem !important;
+        position: relative;
+        margin: 0;
         #logo-holder {
           margin: 0 318.5px;
           position: relative !important;
+          width: 487px;
+          height: 95px;
           a {
-            position: relative;
-            width: 387px;
-            top: -40px;
             img {
               position: absolute;
               width: inherit;
+              padding: 8px 0 !important;
               z-index: 99;
               &#logo {
                 width: 13.4%;
@@ -51,15 +50,13 @@
               }
               // alt logo
               &#shield {
-                width: auto !important;
-                height: calc(0.532125 * 129px) !important;
-                right: 0px;
-                top: -10px;
+                max-width: 100px;
+                left: 0;
               }
               &#text {
-                width: auto !important;
-                height: calc((33 / 80) * 129px) !important;
-                left: 0;
+                max-width: 365px;
+                top: 11px;
+                right: 1rem;
               }
             } 
           }
@@ -77,15 +74,15 @@
       border-top-left-radius: 0px;
       -webkit-border-top-right-radius: 0px;
       -moz-border-radius-topright: 0px;
-      .top-bar-section:hover {
-        border-bottom: 1px solid @darkblue;
-      }
+      //.top-bar-section:hover {
+        //border-bottom: 1px solid @darkblue;
+      //}
       #site-menu {
         width: 100%;
         position: relative;
         li {
-          margin-left: -0.03rem !important;
-          margin-right: -0.03rem !important;
+          //margin-left: -0.03rem !important;
+          //margin-right: -0.03rem !important;
           background: @blue;
           &.button {
             padding: 0;
@@ -115,7 +112,17 @@
               right: 0;
               &.active {
                 display: block;
-                top: 7.2rem;
+                top: 8.9rem;
+                z-index: 1;
+                li {
+                  a {
+                    font-size: 1rem;
+                    .fa {
+                      top: 0;
+                      left: -1px;
+                    }
+                  }
+                }
               }
               .sub-menu {
                 position: relative;
@@ -269,10 +276,40 @@
   overflow: hidden;
 }
 #mobile-header {
-  height: 5.03rem;
+  height: 95px;
   z-index: 99;
+  .site-branding {
+    position: relative;
+    #mobile-menu-button {
+      top: 33%;
+      left: 1rem;
+    }
+    figure {
+      position: absolute;
+      top: -1px;
+      right: 0;
+      margin: 0;
+      display: table;
+      height: inherit;
+      #logo-holder {
+        position: relative;
+        display: table-cell;
+        a {
+          img {
+            &#shield {
+              width: 100px;
+              margin-top: 0.5rem;
+            }
+            &#text {
+              margin-left: -10px;
+              margin-top: 1rem;
+            }
+          }
+        }
+      }
+    }
+  }
   a:not([rel='home']) {
-    padding-top: 20px;
     padding-left: 33px;
     z-index: 999;
   }
@@ -292,12 +329,12 @@
     //position: relative;
     #mobile-header {
       display: block;
-      h1 {
-        position: absolute;
-        right: 0;
+      .site-branding {
+        height: 100%;
+      }
+      figure {
         a {
-          right: 0;
-          margin-left: 33px;
+
         }
       }
     }
@@ -368,13 +405,12 @@
 @media screen and (max-width : 320px) {
   #masthead {
     .left-off-canvas-toggle {
-      top: 30px !important;
-      left: 5px !important;
+
     }
     #mobile-header {
       //padding-bottom: 1.35rem;
-      h1 {
-        &.site-branding {
+      figure {
+        &.right {
           right: 6px;
           font-size: 2.6rem;
           top: 0.35rem !important;
@@ -399,25 +435,14 @@
   }
   #masthead {
     #mobile-header {
+      position: relative;
       margin-left: 0;
       border-bottom: 1px solid @red;
-      h1 {
-        &.site-branding {
+      figure {
+        &.right {
           #logo-holder {
             a {
-              position: absolute;
-              left: 4%;
-              img {
-                &#shield {
-                  max-height: 81px;
-                  width: auto;
-                  margin-left: 3px;
-                }
-                &#text {
-                  width: calc(55%);
-                  margin-left: -3px;
-                }
-              }
+              
             }
           }
         }
@@ -429,13 +454,11 @@
 @media screen and (max-width : 480px) {
   #masthead {
     .left-off-canvas-toggle {
-      top: 30px;
-      left: 18px;
+
     }
     #mobile-header {
-      //padding-bottom: 2rem;
-      h1 {
-        top: 1rem;
+      figure {
+
       }
     }
   }
@@ -449,23 +472,14 @@
   }
   #masthead {
     .left-off-canvas-toggle {
-      top: 30px;
-      left: 18px;
+
     }
     #mobile-header {
-      //padding-bottom: 2rem;
-      h1 {
-        top: 12px;
-        &.site-branding {
+      figure {
+        &.right {
           #logo-holder {
             a {
-              position: absolute;
-              top: -2px;
-              img {
-                &#shield {
-                  width: 14.625% !important;
-                }
-              }
+
             }
           }
         }
@@ -477,26 +491,14 @@
 @media screen and (min-width : 569px) and (max-width: 640px) {
   #masthead {
     .left-off-canvas-toggle {
-      top: 15px;
-      left: 5px;
+
     }
     #mobile-header {
-      h1 {
-        top: 12px;
-        &.site-branding {
+      figure {
+        &.right {
           #logo-holder {
             a {
-              position: absolute;
-              top: -56px;
-              img {
-                &#shield {
-                  width: 8.625% !important;
-                }
-                &#text {
-                  width: 30.74375%;
-                  margin-left: -5px;
-                }
-              }
+
             }
           }
         }
@@ -512,29 +514,14 @@
     }
   }
   .left-off-canvas-toggle {
-    top: 30px !important;
-    left: 23px !important;
+
   }
   #mobile-header {
-    //padding-bottom: 2rem;
-    h1 {
-      &.site-branding {
+    figure {
+      &.right {
         #logo-holder {
           a {
-            position: absolute;
-            top: -39px;
-            img {
-              &#shield {
-                width: calc(25 / 160 * 100%) !important;
-                //height: calc(53 / 80 * 100%) !important;
-                margin-left: 3px;
-              }
-              &#text {
-                width: calc(80 / 160 * 100%) !important;
-                //height: calc(33 / 80 * 100%) !important;
-                margin-left: -5px;
-              }
-            }
+
           }
         }
       }
@@ -559,28 +546,15 @@
     }
   }
   .left-off-canvas-toggle {
-    top: 31px !important;
-    left: 30px !important;
+
   }
   #mobile-header {
-    //padding-bottom: 2.9rem;
-    h1 {
-      top: 0.2rem !important;
-      &.site-branding {
+    position: relative;
+    figure {
+      &.right {
         #logo-holder {
           a {
-            position: absolute;
-            top: -31px;
-            left: 18%;
-            img {
-              height: 55px !important;
-              &#shield {
-                width: auto !important;
-              }
-              &#text {
-                width: auto !important;
-              }
-            }
+
           }
         }
       }
@@ -600,6 +574,15 @@
   }
   #desktop-header {
     display: block;
+    .desktop-header-wrapper {
+      figure.right {
+        #logo-holder {
+          a {
+
+          }
+        }
+      }
+    }
   }
 }
 
@@ -609,10 +592,28 @@
   }
 }
 
+@media screen and (min-width : 893px) and (max-width : 1023px) {
+  #masthead {
+    .desktop-header-wrapper {
+      #desktop-site-navigation {
+        #site-menu {
+          &> li {
+            &.menu-item {
+              &> a {
+                font-size: 8px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
 @media screen and (max-width : 1024px) {
   #masthead {
     .desktop-header-wrapper {
-      h1.site-branding {
+      figure.right {
         #logo-holder {
           a {
             right: 27%;
@@ -626,29 +627,76 @@
 @media screen and (min-width : 1024px) and (max-width : 1050px) {
   #masthead {
     .desktop-header-wrapper {
-      h1.site-branding {
+      figure.right {
         
+      }
+    }
+    #desktop-site-navigation {
+      #site-menu {
+        &> li {
+          &.menu-item {
+            &> a {
+              font-size: 0.5625rem;
+            }
+          }
+        }
       }
     }
   }
 }
 
-@media screen and (min-width : 1051px) and (max-width : 1440px) {
+@media screen and (min-width : 1051px) and (max-width : 1280px) {
   #masthead {
     .desktop-header-wrapper {
-      h1.site-branding {
+      figure.right {
         #logo-holder {
           a {
-            img {
-              margin-left: -6rem;
-              &#shield {
-                top: -47px;
-                margin-left: -10.75rem;
-                width: 5.25%;
+
+          }
+        }
+      }
+      #desktop-site-navigation {
+        #site-menu {
+          &> li {
+            &.menu-item {
+              &> a {
+                font-size: 0.585rem;
               }
-              &#text {
-                top: -35px;
-                width: 17.25%;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width : 1281px) and (max-width : 1360px) {
+  #masthead {
+    .desktop-header-wrapper {
+      #desktop-site-navigation {
+        #site-menu {
+          &> li {
+            &.menu-item {
+              &> a {
+                font-size: 0.6875rem;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width : 1361px) and (max-width : 1440px) {
+  #masthead {
+    .desktop-header-wrapper {
+      #desktop-site-navigation {
+        #site-menu {
+          &> li {
+            &.menu-item {
+              &> a {
+                font-size: 0.79rem;
               }
             }
           }
@@ -661,12 +709,19 @@
 @media screen and (min-width : 1441px) and (max-width : 1600px) {
   #masthead {
     .desktop-header-wrapper {
-      h1.site-branding {
+      figure.right {
         #logo-holder {
           a {
-            img {
-              &#shield {
-                
+
+          }
+        }
+      }
+      #desktop-site-navigation {
+        #site-menu {
+          &> li {
+            &.menu-item {
+              &> a {
+                font-size: 0.8125rem;
               }
             }
           }
@@ -679,12 +734,19 @@
 @media screen and (min-width : 1601px) and (max-width : 1920px) {
   #masthead {
     .desktop-header-wrapper {
-      h1.site-branding {
+      figure.right {
         #logo-holder {
           a {
-            img {
-              &#shield {
-                
+
+          }
+        }
+      }
+      #desktop-site-navigation {
+        #site-menu {
+          &> li {
+            &.menu-item {
+              &> a {
+                font-size: 0.9375rem;
               }
             }
           }

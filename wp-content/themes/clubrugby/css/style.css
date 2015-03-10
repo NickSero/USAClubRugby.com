@@ -11786,7 +11786,6 @@ th.hide-for-touch {
 }
 #masthead .desktop-header-wrapper {
   position: relative;
-  padding-top: 50px;
   margin-top: 0;
 }
 #masthead .desktop-header-wrapper:before {
@@ -11802,43 +11801,39 @@ th.hide-for-touch {
   background: #001830;
   background-size: 100% auto;
 }
-#masthead .desktop-header-wrapper h1.site-branding {
+#masthead .desktop-header-wrapper figure.site-branding {
   text-align: center;
-  margin-bottom: 25px;
-  padding-right: 0.985rem;
   font-family: "refrigerator-deluxe", Helvetica, Roboto, Arial, sans-serif;
   font-weight: 400;
   font-size: 5rem !important;
+  position: relative;
+  margin: 0;
 }
-#masthead .desktop-header-wrapper h1.site-branding #logo-holder {
+#masthead .desktop-header-wrapper figure.site-branding #logo-holder {
   margin: 0 318.5px;
   position: relative !important;
+  width: 487px;
+  height: 95px;
 }
-#masthead .desktop-header-wrapper h1.site-branding #logo-holder a {
-  position: relative;
-  width: 387px;
-  top: -40px;
-}
-#masthead .desktop-header-wrapper h1.site-branding #logo-holder a img {
+#masthead .desktop-header-wrapper figure.site-branding #logo-holder a img {
   position: absolute;
   width: inherit;
+  padding: 8px 0 !important;
   z-index: 99;
 }
-#masthead .desktop-header-wrapper h1.site-branding #logo-holder a img#logo {
+#masthead .desktop-header-wrapper figure.site-branding #logo-holder a img#logo {
   width: 13.4%;
   top: -48px;
   margin-left: -6.95%;
 }
-#masthead .desktop-header-wrapper h1.site-branding #logo-holder a img#shield {
-  width: auto !important;
-  height: calc(68.644125px) !important;
-  right: 0px;
-  top: -10px;
-}
-#masthead .desktop-header-wrapper h1.site-branding #logo-holder a img#text {
-  width: auto !important;
-  height: calc(53.2125px) !important;
+#masthead .desktop-header-wrapper figure.site-branding #logo-holder a img#shield {
+  max-width: 100px;
   left: 0;
+}
+#masthead .desktop-header-wrapper figure.site-branding #logo-holder a img#text {
+  max-width: 365px;
+  top: 11px;
+  right: 1rem;
 }
 #masthead .desktop-header-wrapper .main-navigation {
   display: none;
@@ -11852,16 +11847,11 @@ th.hide-for-touch {
   -webkit-border-top-right-radius: 0px;
   -moz-border-radius-topright: 0px;
 }
-#masthead .desktop-header-wrapper #desktop-site-navigation .top-bar-section:hover {
-  border-bottom: 1px solid #000c14;
-}
 #masthead .desktop-header-wrapper #desktop-site-navigation #site-menu {
   width: 100%;
   position: relative;
 }
 #masthead .desktop-header-wrapper #desktop-site-navigation #site-menu li {
-  margin-left: -0.03rem !important;
-  margin-right: -0.03rem !important;
   background: #001830;
 }
 #masthead .desktop-header-wrapper #desktop-site-navigation #site-menu li.button {
@@ -11894,7 +11884,15 @@ th.hide-for-touch {
 }
 #masthead .desktop-header-wrapper #desktop-site-navigation #site-menu li.menu-item .dropdown.active {
   display: block;
-  top: 7.2rem;
+  top: 8.9rem;
+  z-index: 1;
+}
+#masthead .desktop-header-wrapper #desktop-site-navigation #site-menu li.menu-item .dropdown.active li a {
+  font-size: 1rem;
+}
+#masthead .desktop-header-wrapper #desktop-site-navigation #site-menu li.menu-item .dropdown.active li a .fa {
+  top: 0;
+  left: -1px;
 }
 #masthead .desktop-header-wrapper #desktop-site-navigation #site-menu li.menu-item .dropdown .sub-menu {
   position: relative;
@@ -12002,11 +12000,37 @@ th.hide-for-touch {
   overflow: hidden;
 }
 #mobile-header {
-  height: 5.03rem;
+  height: 95px;
   z-index: 99;
 }
+#mobile-header .site-branding {
+  position: relative;
+}
+#mobile-header .site-branding #mobile-menu-button {
+  top: 33%;
+  left: 1rem;
+}
+#mobile-header .site-branding figure {
+  position: absolute;
+  top: -1px;
+  right: 0;
+  margin: 0;
+  display: table;
+  height: inherit;
+}
+#mobile-header .site-branding figure #logo-holder {
+  position: relative;
+  display: table-cell;
+}
+#mobile-header .site-branding figure #logo-holder a img#shield {
+  width: 100px;
+  margin-top: 0.5rem;
+}
+#mobile-header .site-branding figure #logo-holder a img#text {
+  margin-left: -10px;
+  margin-top: 1rem;
+}
 #mobile-header a:not([rel='home']) {
-  padding-top: 20px;
   padding-left: 33px;
   z-index: 999;
 }
@@ -12023,13 +12047,8 @@ th.hide-for-touch {
   #masthead #mobile-header {
     display: block;
   }
-  #masthead #mobile-header h1 {
-    position: absolute;
-    right: 0;
-  }
-  #masthead #mobile-header h1 a {
-    right: 0;
-    margin-left: 33px;
+  #masthead #mobile-header .site-branding {
+    height: 100%;
   }
   #masthead #desktop-header {
     display: none;
@@ -12094,11 +12113,7 @@ th.hide-for-touch {
   }
 }
 @media screen and (max-width: 320px) {
-  #masthead .left-off-canvas-toggle {
-    top: 30px !important;
-    left: 5px !important;
-  }
-  #masthead #mobile-header h1.site-branding {
+  #masthead #mobile-header figure.right {
     right: 6px;
     font-size: 2.6rem;
     top: 0.35rem !important;
@@ -12109,84 +12124,9 @@ th.hide-for-touch {
 }
 @media screen and (min-width: 320px) and (max-width: 1024px) {
   #masthead #mobile-header {
+    position: relative;
     margin-left: 0;
     border-bottom: 1px solid #a80019;
-  }
-  #masthead #mobile-header h1.site-branding #logo-holder a {
-    position: absolute;
-    left: 4%;
-  }
-  #masthead #mobile-header h1.site-branding #logo-holder a img#shield {
-    max-height: 81px;
-    width: auto;
-    margin-left: 3px;
-  }
-  #masthead #mobile-header h1.site-branding #logo-holder a img#text {
-    width: calc(55%);
-    margin-left: -3px;
-  }
-}
-@media screen and (max-width: 480px) {
-  #masthead .left-off-canvas-toggle {
-    top: 30px;
-    left: 18px;
-  }
-  #masthead #mobile-header h1 {
-    top: 1rem;
-  }
-}
-@media screen and (max-width: 568px) {
-  #masthead .left-off-canvas-toggle {
-    top: 30px;
-    left: 18px;
-  }
-  #masthead #mobile-header h1 {
-    top: 12px;
-  }
-  #masthead #mobile-header h1.site-branding #logo-holder a {
-    position: absolute;
-    top: -2px;
-  }
-  #masthead #mobile-header h1.site-branding #logo-holder a img#shield {
-    width: 14.625% !important;
-  }
-}
-@media screen and (min-width: 569px) and (max-width: 640px) {
-  #masthead .left-off-canvas-toggle {
-    top: 15px;
-    left: 5px;
-  }
-  #masthead #mobile-header h1 {
-    top: 12px;
-  }
-  #masthead #mobile-header h1.site-branding #logo-holder a {
-    position: absolute;
-    top: -56px;
-  }
-  #masthead #mobile-header h1.site-branding #logo-holder a img#shield {
-    width: 8.625% !important;
-  }
-  #masthead #mobile-header h1.site-branding #logo-holder a img#text {
-    width: 30.74375%;
-    margin-left: -5px;
-  }
-}
-@media screen and (min-width: 640px) and (max-width: 767px) {
-  .left-off-canvas-toggle {
-    top: 30px !important;
-    left: 23px !important;
-  }
-  #mobile-header h1.site-branding #logo-holder a {
-    position: absolute;
-    top: -39px;
-  }
-  #mobile-header h1.site-branding #logo-holder a img#shield {
-    width: calc(15.625%) !important;
-    margin-left: 3px;
-  }
-  #mobile-header h1.site-branding #logo-holder a img#text {
-    width: calc(50%) !important;
-    margin-left: -5px;
   }
 }
 @media screen and (min-width: 641px) {
@@ -12199,26 +12139,8 @@ th.hide-for-touch {
   }
 }
 @media screen and (min-width: 768px) and (max-width: 892px) {
-  .left-off-canvas-toggle {
-    top: 31px !important;
-    left: 30px !important;
-  }
-  #mobile-header h1 {
-    top: 0.2rem !important;
-  }
-  #mobile-header h1.site-branding #logo-holder a {
-    position: absolute;
-    top: -31px;
-    left: 18%;
-  }
-  #mobile-header h1.site-branding #logo-holder a img {
-    height: 55px !important;
-  }
-  #mobile-header h1.site-branding #logo-holder a img#shield {
-    width: auto !important;
-  }
-  #mobile-header h1.site-branding #logo-holder a img#text {
-    width: auto !important;
+  #mobile-header {
+    position: relative;
   }
 }
 @media screen and (max-width: 892px) {
@@ -12234,23 +12156,44 @@ th.hide-for-touch {
     display: block;
   }
 }
+@media screen and (min-width: 893px) and (max-width: 1023px) {
+  #masthead .desktop-header-wrapper #desktop-site-navigation #site-menu > li.menu-item > a {
+    font-size: 8px;
+  }
+}
 @media screen and (max-width: 1024px) {
-  #masthead .desktop-header-wrapper h1.site-branding #logo-holder a {
+  #masthead .desktop-header-wrapper figure.right #logo-holder a {
     right: 27%;
   }
 }
-@media screen and (min-width: 1051px) and (max-width: 1440px) {
-  #masthead .desktop-header-wrapper h1.site-branding #logo-holder a img {
-    margin-left: -6rem;
+@media screen and (min-width: 1024px) and (max-width: 1050px) {
+  #masthead #desktop-site-navigation #site-menu > li.menu-item > a {
+    font-size: 0.5625rem;
   }
-  #masthead .desktop-header-wrapper h1.site-branding #logo-holder a img#shield {
-    top: -47px;
-    margin-left: -10.75rem;
-    width: 5.25%;
+}
+@media screen and (min-width: 1051px) and (max-width: 1280px) {
+  #masthead .desktop-header-wrapper #desktop-site-navigation #site-menu > li.menu-item > a {
+    font-size: 0.585rem;
   }
-  #masthead .desktop-header-wrapper h1.site-branding #logo-holder a img#text {
-    top: -35px;
-    width: 17.25%;
+}
+@media screen and (min-width: 1281px) and (max-width: 1360px) {
+  #masthead .desktop-header-wrapper #desktop-site-navigation #site-menu > li.menu-item > a {
+    font-size: 0.6875rem;
+  }
+}
+@media screen and (min-width: 1361px) and (max-width: 1440px) {
+  #masthead .desktop-header-wrapper #desktop-site-navigation #site-menu > li.menu-item > a {
+    font-size: 0.79rem;
+  }
+}
+@media screen and (min-width: 1441px) and (max-width: 1600px) {
+  #masthead .desktop-header-wrapper #desktop-site-navigation #site-menu > li.menu-item > a {
+    font-size: 0.8125rem;
+  }
+}
+@media screen and (min-width: 1601px) and (max-width: 1920px) {
+  #masthead .desktop-header-wrapper #desktop-site-navigation #site-menu > li.menu-item > a {
+    font-size: 0.9375rem;
   }
 }
 footer#footer {
@@ -12367,13 +12310,15 @@ h5 {
     margin-top: 6.78rem;
   }
 }
+@media screen and (max-width: 1023px) {
+  #main-wrapper {
+    margin-top: 5.95rem;
+  }
+}
 @media screen and (min-width: 1440px) {
   body #main-wrapper #content-wrapper #content {
     margin-top: 8.05rem;
   }
-}
-.home #main-wrapper {
-  margin-top: 5.03rem;
 }
 .home #main-wrapper #content-wrapper #content #featured-matches {
   margin-top: -0.5rem;

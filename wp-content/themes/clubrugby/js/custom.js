@@ -1,5 +1,7 @@
 jQuery(function($){
 
+  $(document).foundation();
+
 // MAIN MENU FUNCTIONALITY
 
   var news = $('#menu-news-menu'),
@@ -14,7 +16,7 @@ jQuery(function($){
       about = $('#menu-about-menu');
 
   $('#site-menu .news > .dropdown').attr('id','menu-news-menu').addClass('button-group even-4');
-  $('#site-menu .clubs > .dropdown').attr('id','menu-news-menu').addClass('button-group even-4');
+  $('#site-menu .clubs > .dropdown').attr('id','menu-clubs-menu').addClass('button-group even-4');
   $('#site-menu .schedules > .dropdown').attr('id','menu-schedules-menu').addClass('button-group even-5');
   $('#site-menu .standings > .dropdown').attr('id','menu-standings-menu').addClass('button-group even-4');
   $('#site-menu .statistics > .dropdown').attr('id','menu-statistics-menu').addClass('button-group even-4');
@@ -50,7 +52,7 @@ jQuery(function($){
 
   $('ul#site-menu ul.menu.dropdown').css({'width':$('.top-bar-section').width()+'px'});
   $('ul#site-menu').children('li').children('.menu-image-title-after').append('<i class="fa fa-sort-desc"></i>');
-  $('a.menu-image-title-after').css({'font-size':($('ul#site-menu > li.menu-item').css('font-size'))});
+  //$('a.menu-image-title-after').css({'font-size':($('ul#site-menu > li.menu-item').css('font-size'))});
   $('li.menu-item').addClass('button');
 
   $('header').click(function(){$(this).toggleClass('active')});
@@ -70,21 +72,12 @@ jQuery(function($){
   });
 
   $(window).bind("scroll",function(){
-    if($(window).scrollTop() = 107){
+    if($(window).scrollTop() >= 107){
       $('#news-menu').addClass('fixed').css('position','fixed');
       var filter = $('dl.sub-nav');
       var sticky = $('<div class="contain-to-grid sticky"></div>');
       sticky.append(filter.attr('data-options','sticky_on: large'));
     };
-    // sticky nav bar
-    if($(window).scrollTop() >= 129){
-      $('#desktop-site-navigation').css({position: 'fixed', top: '0px'});
-      $('#sticky').css('display', 'block');
-    }
-    else {
-      $('#desktop-site-navigation').css({position: 'static', top: '0px'});
-      $('#sticky').css('display', 'none');
-    }
   });
 
 
@@ -175,9 +168,6 @@ jQuery(function($){
   $(window).resize(function(){
     if($(window).width() > 892) {
 // Home Page News Tweaks
-      if($('#site-menu > .menu-item > a').innerWidth() >= 83){
-        $('#site-menu > .menu-item > a').css('font-size','0.9rem');
-      }
       if($('.home h4.news-item-metadata').innerWidth() >= 270){
         $('.home h4.news-item-metadata').css('font-size','1.25rem');
       }
