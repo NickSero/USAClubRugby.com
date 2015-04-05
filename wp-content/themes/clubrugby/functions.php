@@ -163,7 +163,7 @@ function usacr_widgets_init() {
 
 	register_sidebar( array(
 		'name'          => __( 'Sidebar', 'usacr' ),
-		'id'            => 'sidebar-1',
+		'id'            => 'sidebar',
 		'description'   => '',
 		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
 		'after_widget'  => '</aside>',
@@ -235,13 +235,13 @@ function usacr_scripts() {
 	wp_enqueue_script('fnd-jquery');
 	wp_enqueue_script('jq-cookie');
 	wp_enqueue_script('css-ua');
+	wp_enqueue_script('fastclick');
 	wp_enqueue_script('modernizr');
 	wp_enqueue_script('foundation');
 	wp_enqueue_script('placeholder');
 	wp_enqueue_script('fittext');
 	wp_enqueue_script('masonry');
 	wp_enqueue_script('usacr-custom');
-	//wp_enqueue_script('fastclick');
 
 	if(is_home()|is_front_page()){
 		wp_enqueue_script('royalslider');

@@ -18,7 +18,7 @@
 
 <div id="divider"></div>
 
-<aside id="sidebar-1" class="right column small-12 medium-3 large-3">
+<aside id="sidebar" class="right column small-12 medium-3 large-3">
 
 	<?php if(!dynamic_sidebar('Sidebar')): ?>
 	<?php endif; ?>

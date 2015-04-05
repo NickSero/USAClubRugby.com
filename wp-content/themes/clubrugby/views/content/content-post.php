@@ -41,10 +41,7 @@
 
 	</div><!-- .entry-content -->
 
-	<footer class="entry-footer">
-
-		<?php usacr_entry_footer(); ?>
-
-	</footer><!-- .entry-footer -->
-
 </article><!-- #post-## -->
+
+<?php if(!dynamic_sidebar('sidebar')) : ?>
+<?php endif; ?>

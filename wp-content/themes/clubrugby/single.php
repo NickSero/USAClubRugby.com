@@ -1,6 +1,6 @@
 <?php
 /**
- * @package D1A Rugby
+ * @package USA Club Rugby
  */
 ?>
 
@@ -17,7 +17,5 @@
     <?php endwhile;?> 
  
     </div>
-
-<?php edit_post_link( __( 'Edit', 'diarugby' ), '<span class="edit-link">', '</span>' ); ?>
 
 <?php get_footer(); ?>

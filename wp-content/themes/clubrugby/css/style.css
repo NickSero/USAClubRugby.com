@@ -764,21 +764,38 @@ object {
 }
 #mobile-header #mega-menu-wrap-main #mega-menu-main > li.mega-menu-item {
   width: 100% !important;
+  margin: 0 !important;
+  border: 0 !important;
   text-align: center !important;
 }
 #mobile-header #mega-menu-wrap-main #mega-menu-main > li.mega-menu-item a {
   text-align: center !important;
 }
-#mobile-header #mega-menu-wrap-main #mega-menu-main > li.mega-menu-megamenu.mega-menu-item {
+#mobile-header #mega-menu-wrap-main #mega-menu-main > li.mega-menu-megamenu {
   width: 100% !important;
 }
-#mobile-header #mega-menu-wrap-main #mega-menu-main > li.mega-menu-megamenu.mega-menu-item > .mega-sub-menu > li.mega-menu-item {
+#mobile-header #mega-menu-wrap-main #mega-menu-main > li.mega-menu-megamenu > .mega-sub-menu {
+  background: #f9f9f9;
+}
+#mobile-header #mega-menu-wrap-main #mega-menu-main > li.mega-menu-megamenu > .mega-sub-menu > li.mega-menu-item {
   width: 100% !important;
   text-align: center !important;
 }
-#mobile-header #mega-menu-wrap-main #mega-menu-main > li.mega-menu-megamenu.mega-menu-item > .mega-sub-menu > li.mega-menu-item > .mega-sub-menu > li.mega-menu-item {
+#mobile-header #mega-menu-wrap-main #mega-menu-main > li.mega-menu-megamenu > .mega-sub-menu > li.mega-menu-item a {
+  color: #001830 !important;
+}
+#mobile-header #mega-menu-wrap-main #mega-menu-main > li.mega-menu-megamenu > .mega-sub-menu > li.mega-menu-item > .mega-sub-menu > li.mega-menu-item {
   width: 100% !important;
   text-align: center !important;
+}
+#mobile-header #mega-menu-wrap-main #mega-menu-main > li.mega-menu-megamenu > .mega-sub-menu > li.mega-menu-item > .mega-sub-menu > li.mega-menu-item:hover {
+  background: #001830;
+}
+#mobile-header #mega-menu-wrap-main #mega-menu-main > li.mega-menu-megamenu > .mega-sub-menu > li.mega-menu-item > .mega-sub-menu > li.mega-menu-item:hover a:hover {
+  color: #fff !important;
+}
+#mobile-header #mega-menu-wrap-main #mega-menu-main > li.mega-menu-megamenu > .mega-sub-menu > li.mega-menu-item > .mega-sub-menu > li.mega-menu-item a {
+  color: #001830;
 }
 #mobile-header #mega-menu-wrap-main .mega-menu-toggle {
   width: 40px !important;
@@ -787,6 +804,12 @@ object {
   font-size: 40px !important;
   float: left !important;
   margin: 10px 5px !important;
+}
+#mobile-header #mega-menu-item-368,
+#mobile-header #mega-menu-item-370,
+#mobile-header #mega-menu-item-387,
+#mobile-header #mega-menu-item-389 {
+  background: inherit !important;
 }
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 /**
@@ -8979,7 +9002,7 @@ blockquote p {
   /* MOD */
   position: fixed;
   overflow-x: hidden;
-  overflow-y: hidden;
+  overflow-y: auto;
   /* MOD */
   background: #001830;
   z-index: 1001;
@@ -11961,7 +11984,7 @@ th.hide-for-touch {
 }
 #mobile-header .site-branding #mobile-menu-button {
   top: 0.5rem;
-  left: 1rem;
+  left: 0.7175rem;
 }
 #mobile-header .site-branding figure {
   margin: 0;
@@ -12239,6 +12262,37 @@ footer#footer .bottom {
   bottom: 10px;
   text-align: left;
 }
+.mobile-view #mobile-site-navigation {
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  overflow-y: auto;
+  transition: transform 500ms ease 0s;
+  -webkit-backface-visibility: hidden;
+  -webkit-overflow-scrolling: touch;
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+  -ms-transform: translate(-100%, 0);
+  -webkit-transform: translate3d(-100%, 0, 0);
+  -moz-transform: translate3d(-100%, 0, 0);
+  -ms-transform: translate3d(-100%, 0, 0);
+  -o-transform: translate3d(-100%, 0, 0);
+  transform: translate3d(-100%, 0, 0);
+}
+.mobile-view .mega-menu-wrap,
+.mobile-view #mega-menu-main {
+  position: fixed !important;
+  top: 0;
+  bottom: 0;
+  width: 100% !important;
+  min-height: 100% !important;
+  max-height: 100% !important;
+  overflow-y: auto !important;
+}
+.mobile-view #mega-menu-main li {
+  border: 0 !important;
+  margin: 0 !important;
+}
 html,
 body {
   -webkit-overflow-scrolling: touch;
@@ -12319,6 +12373,11 @@ h5 {
   body #main-wrapper #content-wrapper #content {
     margin-top: 9.1rem;
   }
+}
+.single-post article .entry-content p {
+  font-family: "proxima-nova";
+  font-size: 100%;
+  color: #000c14;
 }
 .home #content #hero {
   background: #fff;
@@ -12606,6 +12665,10 @@ h5 {
 @media screen and (min-width: 320px) and (max-width: 1023px) {
   .home #hero {
     margin-bottom: 25px !important;
+  }
+  .home #hero .new_royalslider_widget {
+    width: 100% !important;
+    border-right: 0 !important;
   }
   .home #featured-matches,
   .home #latest-news-headlines {
@@ -13006,6 +13069,9 @@ i {
 }
 .sub-nav dt:not(:active) a.font-icon .fa-twitter:hover {
   color: #55acee;
+}
+.overflow-hidden {
+  overflow: hidden !important;
 }
 .red-button {
   margin-top: 10px;

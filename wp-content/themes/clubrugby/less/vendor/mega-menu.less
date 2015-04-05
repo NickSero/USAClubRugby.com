@@ -58,21 +58,36 @@
 		#mega-menu-main {
 			&> li.mega-menu-item {
 				width: 100% !important;
+				margin: 0 !important;
+				border: 0 !important;
 				text-align: center !important;
 				a {
 					text-align: center !important;
 				}
 			}
-			&> li.mega-menu-megamenu.mega-menu-item {
+			&> li.mega-menu-megamenu {
 				width: 100% !important;
 				&> .mega-sub-menu {
+					background: #f9f9f9;
 					&> li.mega-menu-item {
 						width: 100% !important;
 						text-align: center !important;
+						a {
+							color: #001830 !important;
+						}
 						&> .mega-sub-menu {
 							&> li.mega-menu-item {
 								width: 100% !important;
 								text-align: center !important;
+								&:hover {
+									background: #001830;
+									a:hover {
+										color: #fff !important;
+									}
+								}
+								a {
+									color: #001830;
+								}
 							}
 						}
 					}
@@ -87,5 +102,9 @@
 				margin: 10px 5px !important;
 			}
 		}
+	}
+	#mega-menu-item-368, #mega-menu-item-370,
+	#mega-menu-item-387, #mega-menu-item-389 {
+		background: inherit !important;
 	}
 }

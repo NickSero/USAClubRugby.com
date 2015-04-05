@@ -8,7 +8,13 @@
  */
 ?>
 
-	</main>
+			</main>
+
+			<a class="exit-off-canvas"></a>
+
+		</div>
+
+	</div>
 
 	<footer id="footer" class="site-footer row" role="contentinfo">
 		
@@ -40,8 +46,6 @@
 
 	<!-- REMOVE BEFORE PUSH TO LIVE -->
 	<script src="https://togetherjs.com/togetherjs-min.js"></script>
-
-	<a class="exit-off-canvas"></a>
 
 </body>
 </html>

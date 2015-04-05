@@ -212,7 +212,7 @@ get_header(); ?>
 
 <hr/>
 
-<section id="featured-matches" class="small-12 medium-12 large-12">
+<section id="featured-matches" class="small-12 medium-12 large-12 clearfix">
 	
 	<h1>Saturday Six-Pack</h1>
 
@@ -235,7 +235,7 @@ get_header(); ?>
 		      	}
 		   	endwhile;
 		   	//echo '<iframe src="http://usarugbystats.com/embed/squares/otf?matches='.$list.'" width="100%" height="144" frameborder="0" scrolling="0"></iframe>';
-		   	echo '<iframe src="/usaclubrugby.com/wp-content/themes/clubrugby/dev-only/usar-stats.html" class="small-12 medium-12 large-12" height="106"></iframe>';
+		   	echo '<img src="http://placehold.it/160x160.jpg"/> <img src="http://placehold.it/160x160.jpg"/> <img src="http://placehold.it/160x160.jpg"/> <img src="http://placehold.it/160x160.jpg"/> <img src="http://placehold.it/160x160.jpg"/> <img src="http://placehold.it/160x160.jpg"/>';
 		}
 	?>
 			
@@ -243,7 +243,7 @@ get_header(); ?>
 
 <hr/>
 
-<section id="latest-news-headlines" class="small-12 medium-12 large-12">
+<section id="latest-news-headlines" class="small-12 medium-12 large-12 clearfix">
 	
 	<h1 class="home-news">Latest Club Rugby News</h1>
 
