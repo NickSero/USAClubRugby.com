@@ -3,7 +3,7 @@ jQuery(function($){
   $(document).foundation();
 
 // MAIN MENU FUNCTIONALITY
-
+/*
   var news = $('#menu-news-menu'),
       clubs = $('#menu-clubs-menu'),
       schedules = $('#menu-schedules-menu'),
@@ -64,13 +64,13 @@ jQuery(function($){
     $(this).siblings().children('.hover').removeClass('hover');
     $(this).siblings().children('.active').removeClass('active');
   });
-  
+
   $('#content-wrapper').click(function(){
     $('.open').removeClass('open');
     $('#site-menu li').children('a').removeClass('hover');
     $('#site-menu li').children('ul').removeClass('active');
   });
-
+*/
   $(window).bind("scroll",function(){
     if($(window).scrollTop() >= 107){
       $('#news-menu').addClass('fixed').css('position','fixed');
@@ -80,19 +80,34 @@ jQuery(function($){
     };
   });
 
+// FIRE AT ALL TIMES
+  $('img[alt="Capital GU"]').addClass('tall');
+
 
 // FIRE WHEN DOCUMENT'S READY
   $(document).ready(function(){
-    
+
+    $('#mega-menu-main > li').addClass('mega-menu-columns-1-of-10');
+    $('#mega-menu-main > li > .mega-sub-menu').css({'width':$('#nav-menu').width()});
+    $('#site-map > li').addClass('small-12');
+    $('#site-map > li > a').addClass('top-link');
+    $('.widget.new_royalslider_widget').addClass('small-12 medium-7 large-7 left');
+
+    $('#mega-menu-main > li.mega-menu-item > a').fitText(1,{minFontSize:'6.3px',maxFontSize:'12.6px'});
+    $('#featured-matches > h1').fitText(1.9);
+    $('#latest-news-headlines > h1').fitText(1.9);
+    $('footer#footer > .column > p').fitText(2, {minFontSize:'17px', maxFontSize:'17px'});
+
     removeComma($('#about .no-bullet > li:last-child > span'));
 
     $('#freewall').fadeIn('slow');
+/*
     $('#freewall').jscroll({
       loadingHtml: '<img src="/usaclubrugby.com/wp-content/themes/clubrugby/img/ajax-loader.gif" alt="Loading"/> Loading...',
       padding: 20,
       contentSelector: 'div.brick'
     });
-
+*/
 
     if($('.home')){
 // MASONRY HOME NEWS FEED
@@ -106,6 +121,7 @@ jQuery(function($){
         $container.masonry({
           itemSelector: '.brick'
         });
+        $container.fadeIn();
       }
 // trigger masonry on document ready
       $(function(){
@@ -128,7 +144,7 @@ jQuery(function($){
 
   });
 
-
+  $('.mega-menu-toggle').addClass('.mega-menu-open').removeClass('mega-menu-toggle');
   $('#mobile-menu-button').click(function(){
     $(this).addClass('active');
   });
@@ -145,8 +161,6 @@ jQuery(function($){
   });
   $('.left-submenu').append('<li class="back"><a href="#"><i class="fa fa-angle-double-left"></i>Back</a></li>');
 
-  //$('.menu-item-divider, .menu-item-divider > a').css({'height':$('.before-divider').height()});
-
   $('.sub-nav > dd').click(function(){
     $(this).toggleClass('active');
     $(this).siblings().removeClass('active');
@@ -161,7 +175,7 @@ jQuery(function($){
 
   $('#about li div.text-center').css({'width':$(this).siblings('strong').innerWidth()+'px'});
 
-  $('#masthead').fadeIn(1500);
+  $('body').fadeIn(2500);
 
 // UTILITY FUNCTIONS
   function removeComma(el){
@@ -174,15 +188,18 @@ jQuery(function($){
   $(window).resize(function(){
     if($(window).width() > 892) {
 // Home Page News Tweaks
+      $('#mega-menu-main > li > .mega-sub-menu').css({'width':$('#nav-menu').width()});
       if($('.home h4.news-item-metadata').innerWidth() >= 270){
         $('.home h4.news-item-metadata').css('font-size','1.25rem');
       }
-   
+      $('#featured-matches > h1').fitText(1.9);
+      $('#latest-news-headlines > h1').fitText(1.9);
+      $('footer#footer > .column > p').fitText(2);
     } else {
 // smaller
       $('.rsGCaption > .caption > h1.columns:first-child').fitText(2);
-      $('#featured-matches > h4').fitText(1.5);
-      $('#latest-news-headlines > h4').fitText(1.5);
+      $('#featured-matches > h1').fitText(1.9);
+      $('#latest-news-headlines > h1').fitText(1.9);
       $('footer#footer > .column > p').fitText(2, {minFontSize:'17px', maxFontSize:'17px'});
     }
   }).resize();

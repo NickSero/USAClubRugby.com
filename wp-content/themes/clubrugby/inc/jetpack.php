@@ -16,9 +16,9 @@ function usacr_jetpack_setup() {
 		'footer_widgets'	=>	false,
 		'container'			=>	'freewall',
 		'render'			=>	'clubrugby_infinite_scroll_init',
-		'wrapper'			=>	'brick',
+		'wrapper'			=>	true,
 		'posts_per_page'	=>	false,
-		'footer'			=>	'freewall',
+		'footer'			=>	'page',
 	));
 }
 add_action( 'after_setup_theme', 'usacr_jetpack_setup' );

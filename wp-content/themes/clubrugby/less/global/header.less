@@ -1,6 +1,5 @@
 #masthead {
   background: @blue;
-  box-shadow: 0 0 20px #000;
   position: fixed;
   top: 0;
   left: 0;
@@ -71,159 +70,34 @@
       border-top-left-radius: 0px;
       -webkit-border-top-right-radius: 0px;
       -moz-border-radius-topright: 0px;
-      //.top-bar-section:hover {
-        //border-bottom: 1px solid @darkblue;
-      //}
-      #site-menu {
+      #mega-menu-main {
         width: 100%;
         position: relative;
         li {
-          //margin-left: -0.03rem !important;
-          //margin-right: -0.03rem !important;
-          background: @blue;
+          
           &.button {
             padding: 0;
           }
-          &.menu-item {
+          &.mega-menu-item {
             text-align: center;
-            font-size: 0.45rem;
             margin-bottom: 0;
             a {
-              background: @blue !important;
               position: relative;
               color: @white;
               white-space: nowrap;
               width: 100%;
+              padding-left: 0.5rem;
               letter-spacing: 0.01rem;
+              &:after {
+                margin-top: 0 !important;
+                margin-right: 0 !important;
+              }
               .fa {
                 position: relative;
                 bottom: 2px;
                 left: 5px;
               }
             }
-            .dropdown {
-              border-top: 2px solid @darkblue;
-              background: @blue;
-              position: fixed;
-              left: 0;
-              right: 0;
-              &.active {
-                display: block;
-                top: 8.9rem;
-                z-index: 1;
-                li {
-                  a {
-                    font-size: 1rem;
-                    .fa {
-                      top: 0;
-                      left: -1px;
-                    }
-                  }
-                }
-              }
-              .sub-menu {
-                position: relative;
-                left: 0;
-                top: 0;
-                &>li {
-                  //width: 144px;
-                }
-              }
-              &.open {
-                .column-header {
-                  a {
-                    font-weight: bold;
-                    font-size: 1.5rem;
-                  }
-                }
-              }
-            }
-            &:last-child {
-              //border-left: 0;
-            }
-            &:not(:first-child) {
-              //border-left: 0.0725rem solid @transwhite;
-            }
-            &:last-child {
-              //border-right: 0;
-            }
-            &:not(:last-child) {
-              //border-right: 0.0725rem solid @transwhite;
-            }
-            &.menu-item-divider {
-              position: relative;
-              min-height: 39px;
-              a {
-                visibility: hidden;
-              }
-            }
-            a {
-              font-family: @jaf, Helvetica, Roboto, Arial, sans-serif;
-              font-weight: 700;
-              padding-top: 1rem;
-              padding-bottom: 1.0625rem;
-              text-transform: uppercase;
-              transition-property: all;
-              transition-duration: 0.25s;
-              -moz-transition-property: all;
-              -moz-transition-duration: 0.25s;
-              -webkit-transition-property: all;
-              -webkit-transition-duration: 0.25s;
-              &:hover, &.hover {
-                background: rgba(255,255,255,.1);
-                /*
-                text-shadow: 
-                  0 0 1px @white,
-                  0 0 2px @white,
-                  0 0 20px @neonblue;
-                */
-                letter-spacing: .025rem;
-                transition-property: all;
-                transition-duration: 0.25s;
-                -moz-transition-property: all;
-                -moz-transition-duration: 0.25s;
-                -webkit-transition-property: all;
-                -webkit-transition-duration: 0.25s;
-              }
-            }
-            .sub-menu {
-              li {
-                a {
-                  white-space: nowrap;
-                }
-              }
-            }
-          }
-          &.current_page_item {
-            background: @gray;
-            margin-bottom: 1px;
-            z-index: 999;
-            &.home {
-              -webkit-border-top-left-radius: 0;
-              -moz-border-radius-topleft: 0;
-              border-top-left-radius: 0;
-              -o-border-top-left-radius: 0;
-              -ms-border-radius-topleft: 0;
-            }
-            a, a:hover {
-              color: #f00;
-              text-shadow: 0 1px 1px rgba(0,0,0,.5);
-              letter-spacing: 0;
-            }
-            /*
-            &:after {
-              content: "";
-              position: absolute;
-              bottom: -15px;
-              left: 42%;
-              border-width: 15px 15px 0;
-              border-style: solid;
-              border-color: @gray rgba(0, 0, 0, 0);
-              display: block;
-              width: 0;
-              z-index: 99;
-            }
-            */
           }
         }
       }
@@ -240,30 +114,19 @@
     }
   }
 }
-.button-group.even-10 {
-  li {
-    .button-group.even-4 {
-      .button {
-        width: 25%;
-        float: left;
-        ul.sub-menu {
-          li {
-            width: 100%;
-          }
-        }
-      }
-    }
-    .button-group.even-5 {
-      .button {
-        width: 20%;
-        float: left;
-        ul.sub-menu {
-          li {
-            width: 100%;
-          }
-        }
-      }
-    }
+
+.mega-menu-columns-1-of-10 {
+  width: 9.5% !important;
+  margin: 0 1px !important;
+  border-left: 1px solid rgba(255,255,255,0.3) !important;
+  &:first-child {
+    border-left: 0 !important;
+  }
+  &:last-child {
+    border-right: 0 !important;
+  }
+  a {
+    text-transform: uppercase !important;
   }
 }
 
@@ -273,12 +136,12 @@
   overflow: hidden;
 }
 #mobile-header {
-  height: 95px;
+  height: 65px;
   z-index: 99;
   .site-branding {
     position: relative;
     #mobile-menu-button {
-      top: 33%;
+      top: 30%;
       left: 1rem;
     }
     figure {
@@ -294,11 +157,11 @@
         a {
           img {
             &#shield {
-              width: 100px;
+              width: 75px;
               margin-top: 0.5rem;
             }
             &#text {
-              margin-left: -10px;
+              margin-left: -4px;
               margin-top: 1rem;
             }
           }
@@ -326,12 +189,13 @@
     //position: relative;
     #mobile-header {
       display: block;
+      height: 95px !important;
       .site-branding {
         height: 100%;
-      }
-      figure {
-        a {
-
+        figure {
+          #logo-holder {
+            top: -11px;
+          }
         }
       }
     }
@@ -405,12 +269,29 @@
 
     }
     #mobile-header {
-      //padding-bottom: 1.35rem;
+      
       figure {
         &.right {
           right: 6px;
           font-size: 2.6rem;
           top: 0.35rem !important;
+        }
+        #logo-holder {
+          top: 3px !important;
+          left: 32px !important;
+          a {
+            img {
+              &#shield {
+                width: 55px;
+                margin-top: -1.5rem;
+              }
+              &#text {
+                margin-top: -1rem;
+                margin-left: -10px;
+                width: 65% !important;
+              }
+            }
+          }
         }
       }
     }
@@ -423,18 +304,12 @@
 }
 
 @media screen and (min-width : 320px) and (max-width : 1024px) {
-  .move-right {
-    #masthead {
-      #mobile-header {
-        // padding-bottom: 2rem;
-      }
-    }
-  }
   #masthead {
     #mobile-header {
       position: relative;
       margin-left: 0;
       border-bottom: 1px solid @red;
+      height: 65px !important;
       figure {
         &.right {
           #logo-holder {
@@ -462,21 +337,16 @@
 }
 
 @media screen and (max-width : 568px) {
-  .move-right {
-    #mobile-header {
-      //padding-bottom: 3.5rem !important;
-    }
-  }
-  #masthead {
-    .left-off-canvas-toggle {
-
-    }
-    #mobile-header {
+  #mobile-header {
+    .site-branding {
       figure {
-        &.right {
-          #logo-holder {
-            a {
-
+        #logo-holder {
+          top: -11px !important;
+          a {
+            img {
+              &#shield {
+                margin-top: .85rem;
+              }
             }
           }
         }
@@ -537,21 +407,16 @@
 }
 
 @media screen and (min-width : 768px) and (max-width : 892px) {
-  .move-right {
-    #mobile-header {
-     // padding-bottom: 5.25rem;
-    }
-  }
-  .left-off-canvas-toggle {
-
-  }
   #mobile-header {
     position: relative;
     figure {
       &.right {
         #logo-holder {
+          top: -10px;
           a {
-
+            img {
+              margin-top: 0.8rem !important;
+            }
           }
         }
       }

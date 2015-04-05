@@ -1,0 +1,30 @@
+/* Staff Chat
+--------------------------------------------------------------------------------- */
+#staff-chat {
+  float: right;
+  color: #fff;
+  background: #c02240;
+  border: 0;
+  height: 32px;
+  width: 83px;
+}
+#staff-chat .svg {
+  height: 27px;
+  margin-top: 2px;
+}
+#staff-chat:hover {
+  cursor: pointer;
+  background: #333;
+}
+#staff-chat:hover .svg path {
+  fill: #45bbe6 !important;
+  -webkit-filter: drop-shadow(0px 1px 1px rgba(0,0,0,0.85));
+  filter: drop-shadow(0px 1px 1px rgba(0,0,0,0.85));
+  filter: url(shadow.svg#drop-shadow);
+  -ms-filter: progid:DXImageTransform.Microsoft.Dropshadow(OffX=0, OffY=1, Color='#444');
+  filter: progid:DXImageTransform.Microsoft.Dropshadow(OffX=0, OffY=1, Color='#444');
+}
+
+#wp-admin-bar-my-account.hover .ab-sub-wrapper {
+  right: -83px !important;
+}

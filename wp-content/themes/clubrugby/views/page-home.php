@@ -4,10 +4,208 @@ Template Name: Home
 */
 get_header(); ?>
 
-<section id="hero" class="small-12 medium-12 large-7">
+<script> 
+	jQuery(document).ready(function ($) {
+		$("#headlines").royalSlider({
+			autoHeight: true,
+		 	arrowsNav: false,
+		 	controlNavigation: 'tabs', 
+		 	sliderDrag: false,
+		 	navigateByClick: false
+		});
+		 var slider = $('#headlines');
+    	 slider.append(slider.find('.rsNav'));
+	});
+</script>
+
+<section id="hero" class="small-12 medium-12 large-12 left">
 
 	<?php if(!dynamic_sidebar('hero')): ?>
 	<?php endif; ?>
+
+	<div id="headlines" class="large-5 medium-5 small-12 right">
+			
+		<div id="news-articles-list" class="clearfix">
+
+			<?php if(!dynamic_sidebar('lastest-headlines')): ?>
+			<?php
+			// get posts in sticky-1 category
+			$paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
+			$args = array(
+				'posts_per_page'   => 3,
+				'offset'           => 0,
+				'orderby'          => 'post_date',
+				'cat'			   => 81,
+				'order'            => 'DESC',
+				'post_type'        => 'post',
+				'post_status'      => 'publish',
+				'suppress_filters' => true,
+				'paged'			   => $paged
+			);
+			$sticky = get_posts($args);
+
+			foreach($sticky as $post) : setup_postdata($post); $do_not_duplicate = $post->ID;
+			?>
+			<article class="item clearfix">
+
+				<div class="ranking-item">
+				
+					<a class="post-link" href="<?php the_permalink(); ?>">
+					
+						<span class="featured-image left small-5 medium-5 large-5">
+
+							<?php the_post_thumbnail(medium); ?>
+
+						</span>					
+
+						<span class="news-article-metadata right small-7 medium-7 large-7">
+							
+							<h2 class="news-article-title" itemprop="headline"><?php the_title(); ?></h2>
+						
+							<div class="news-article-excerpt" itemprop="description">
+							
+								<?php the_excerpt(); ?>
+							
+							</div>
+						
+						</span>
+
+					</a>
+
+				</div>
+
+			</article>
+
+			<hr/>
+
+			<?php endforeach; ?>
+			<?php endif; wp_reset_postdata(); ?>
+
+			<div class="rsTmb">Latest News</div>
+
+		</div>
+
+		<div id="rankings" class="clearfix">
+		
+			<?php if(!dynamic_sidebar('current-rankings')): ?>
+			<?php
+			// get posts in sticky-2 category
+			$paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
+			$args = array(
+				'posts_per_page'   => 3,
+				'offset'           => 0,
+				'orderby'          => 'post_date',
+				'cat'			   => 82,
+				'order'            => 'DESC',
+				'post_type'        => 'post',
+				'post_status'      => 'publish',
+				'suppress_filters' => true,
+				'paged'			   => $paged
+			);
+			$ranking = get_posts($args);
+
+			foreach($ranking as $post) : setup_postdata($post); $do_not_duplicate = $post->ID;
+			?>
+			<article class="item clearfix">
+
+				<div class="ranking-item">
+				
+					<a class="post-link" href="<?php the_permalink(); ?>">
+					
+						<span class="featured-image left small-5 medium-5 large-5">
+
+							<?php the_post_thumbnail(medium); ?>
+
+						</span>					
+
+						<span class="news-article-metadata right small-7 medium-7 large-7">
+							
+							<h2 class="news-article-title" itemprop="headline"><?php the_title(); ?></h2>
+						
+							<div class="news-article-excerpt" itemprop="description">
+							
+								<?php the_excerpt(); ?>
+							
+							</div>
+						
+						</span>
+
+					</a>
+
+				</div>
+
+			</article>
+
+			<hr/>
+
+			<?php endforeach; ?>
+			<?php endif; wp_reset_postdata(); ?>
+			
+			<div class="rsTmb">Current Rankings</div>
+
+		</div>
+
+		<div id="announcements" class="clearfix">
+		
+			<?php if(!dynamic_sidebar('announcements')): ?>
+			<?php
+			// get posts in sticky-3 category
+			$paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
+			$args = array(
+				'posts_per_page'   => 3,
+				'offset'           => 0,
+				'orderby'          => 'post_date',
+				'cat'			   => 83,
+				'order'            => 'DESC',
+				'post_type'        => 'post',
+				'post_status'      => 'publish',
+				'suppress_filters' => true,
+				'paged'			   => $paged
+			);
+			$announcement = get_posts($args);
+
+			foreach($announcement as $post) : setup_postdata($post); $do_not_duplicate = $post->ID;
+			?>
+			<article class="item clearfix">
+
+				<div class="ranking-item">
+				
+					<a class="post-link" href="<?php the_permalink(); ?>">
+					
+						<span class="featured-image left small-5 medium-5 large-5">
+
+							<?php the_post_thumbnail(medium); ?>
+
+						</span>					
+
+						<span class="news-article-metadata right small-7 medium-7 large-7">
+							
+							<h2 class="news-article-title" itemprop="headline"><?php the_title(); ?></h2>
+						
+							<div class="news-article-excerpt" itemprop="description">
+							
+								<?php the_excerpt(); ?>
+							
+							</div>
+						
+						</span>
+
+					</a>
+
+				</div>
+
+			</article>
+
+			<hr/>
+
+			<?php endforeach; ?>
+			<?php endif; wp_reset_postdata(); ?>
+			
+			<div class="rsTmb">Announcements</div>
+
+		</div>		
+
+	</div>
 
 </section>
 
@@ -15,13 +213,13 @@ get_header(); ?>
 
 <section id="featured-matches" class="small-12 medium-12 large-12">
 	
-	<h4>Featured Matches</h4>
+	<h1>Saturday Six-Pack</h1>
 
 	<?php $matches = array(
 			'post_type' 		=> 'match',
 			'numberposts'		=> 1,
 			'posts_per_page'	=> 1,
-			'order'				=> 'DESC'
+			'order'				=> 'DESC',
 		);
 		$query = null;
 		$query = new WP_Query($matches);
@@ -36,7 +234,7 @@ get_header(); ?>
 		      	}
 		   	endwhile;
 		   	//echo '<iframe src="http://usarugbystats.com/embed/squares/otf?matches='.$list.'" width="100%" height="144" frameborder="0" scrolling="0"></iframe>';
-		   	echo '<iframe src="http://localhost:7888/usaclubrugby.com/wp-content/themes/clubrugby/dev-only/usar-stats.html" class="small-12 medium-12 large-12"></iframe>';
+		   	echo '<iframe src="/usaclubrugby.com/wp-content/themes/clubrugby/dev-only/usar-stats.html" class="small-12 medium-12 large-12"></iframe>';
 		}
 	?>
 			
@@ -46,56 +244,25 @@ get_header(); ?>
 
 <section id="latest-news-headlines" class="small-12 medium-12 large-12">
 	
-	<h4 class="home-news">Latest Club Rugby News</h4>
+	<h1 class="home-news">Latest Club Rugby News</h1>
 
 	<div id="freewall" class="free-wall row">
-
-		<?php $args = array(
-			'post_type'			=>	'post',
-			'post_status'		=>	'publish',
-			'posts_per_page'	=>	-1,
-			'order'				=>	'DESC'
-		);
-		$freewall = new WP_Query($args);
-		$author = get_the_author();
-		while($freewall->have_posts()) : $freewall->the_post(); ?>
-
-			<div class="brick small-12 medium-6 large-4">
-				
-				<div class="news-item">
-
-					<?php if(has_post_thumbnail($post->ID)): ?>
-					<?php $image = wp_get_attachment_image_src(get_post_thumbnail_id($post->ID), 'large');?>
-					<div class="image-content-wrapper">
-						
-						<div class="featured-image small-12"><img src="<?php echo $image[0]; ?>" alt="<?php the_title(); ?>" /></div>
-	
-						<h1 class="news-item-title small-12"><?php echo the_title(); ?></h1>
-						<h4 class="news-item-metadata small-12">
-							<span class="news-article-author" itemprop="author"><?php $author_alias = get_field('author_alias'); $author = get_the_author(); $d = 'F j, Y'; $date = get_the_date($d); if(!$author_alias) { echo $author; } else { echo $author_alias; } ?></span>
-							<span>&nbsp;|&nbsp;</span>
-							<span class="news-article-date"><?php echo $date; ?></span>
-						</h4>
-						<div class="news-item-excerpt small-12"><span class="excerpt"><?php echo get_the_excerpt(); ?></span></div>
-					
-					</div>
-					
-					<?php else : ?>
-					
-					<h1 class="news-item-title small-12"><?php echo the_title(); ?></h1>
-	
-					<div class="news-item-excerpt small-12"><span class="excerpt"><?php echo get_the_excerpt(); ?></span></div>
-
-					<?php endif; ?>
-					
-				</div>
-				
-			</div>
-
-		<?php endwhile; wp_reset_postdata(); ?>
+		<?php
+			$paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
+			$args = array(
+				'post_type'			=>	'post',
+				'post_status'		=>	'publish',
+				'posts_per_page'	=>	24,
+				'order'				=>	'DESC',
+				'paged'				=> $paged,
+				'pagination'		=> true
+			);
+			$freewall = new WP_Query($args);
+		?>
+		<?php while($freewall->have_posts()) : $freewall->the_post(); clubrugby_infinite_scroll_init(); ?>
+		<?php endwhile; ?>
 
 	</div>
-
 </section>
 
 <?php get_footer(); ?>

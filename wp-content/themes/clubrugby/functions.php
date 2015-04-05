@@ -13,7 +13,7 @@ function usacr_setup() {
 	// Add default posts and comments RSS feed links to head.
 	add_theme_support( 'automatic-feed-links' );
 	add_theme_support( 'html5', array( 'search-form', 'comment-form', 'comment-list', 'gallery', 'caption', ));
-	add_theme_support( 'post-formats', array( 'aside', 'image', 'video', 'quote', 'link', ));
+	//add_theme_support( 'post-formats', array( 'aside', 'image', 'video', 'quote', 'link', ));
 	
 	// Thumbnails ----------------------------------------------------------------------------
 	add_theme_support( 'post-thumbnails' );
@@ -30,14 +30,16 @@ function usacr_setup() {
 		'social'			=> __( 'Social Hub Menu', 'usacr'),
 		'administration'	=> __( 'Administration Menu', 'usacr'),
 		'resources'			=> __( 'Resources Menu', 'usacr' ),
-		'about'				=> __( 'About Menu', 'usacr')
+		'about'				=> __( 'About Menu', 'usacr'),
+		'site-map'			=> __( 'Site Map', 'usacr'),
 	));
 
 }
 endif; // usacr_setup
 add_action( 'after_setup_theme', 'usacr_setup' );
 
-// Make WP menus play nice with Foundation 5 ------------------------------------------------------------------------------
+
+//Make WP menus play nice with Foundation 5 ------------------------------------------------------------------------------
 class GC_walker_nav_menu extends Walker_Nav_Menu {
   // add classes to ul sub-menus
   function start_lvl(&$output, $depth) {
@@ -62,8 +64,8 @@ function GC_menu_set_dropdown($sorted_menu_items, $args) {
   }
   return $sorted_menu_items;
 }
-endif; // GC_menu_set_dropdown
-add_filter('wp_nav_menu_objects', 'GC_menu_set_dropdown', 10, 3);
+endif;
+add_filter('wp_nav_menu_objects', 'GC_menu_set_dropdown', 10, 2);
 
 
 // Sidebars & Modules ------------------------------------------------------------------------
@@ -179,6 +181,36 @@ function usacr_widgets_init() {
 		'after_title'   => '</h1>',
 	));
 
+	register_sidebar( array(
+		'name'          => __( 'Latest Headlines', 'usacr' ),
+		'id'            => 'latest-headlines',
+		'description'   => '',
+		'before_widget' => '<div id="%1$s" class="widget %2$s">',
+		'after_widget'  => '</div>',
+		'before_title'  => '<h1 class="hide">',
+		'after_title'   => '</h1>',
+	));
+
+	register_sidebar( array(
+		'name'          => __( 'Current Rankings', 'usacr' ),
+		'id'            => 'current-rankings',
+		'description'   => '',
+		'before_widget' => '<div id="%1$s" class="widget %2$s">',
+		'after_widget'  => '</div>',
+		'before_title'  => '<h1 class="hide">',
+		'after_title'   => '</h1>',
+	));
+
+	register_sidebar( array(
+		'name'          => __( 'Announcements', 'usacr' ),
+		'id'            => 'announcements',
+		'description'   => '',
+		'before_widget' => '<div id="%1$s" class="widget %2$s">',
+		'after_widget'  => '</div>',
+		'before_title'  => '<h1 class="hide">',
+		'after_title'   => '</h1>',
+	));
+
 }
 add_action( 'widgets_init', 'usacr_widgets_init' );
 
@@ -190,9 +222,11 @@ add_action( 'wp_enqueue_scripts', 'usacr_scripts' );
 
 // Custom & Infinite Scroll ------------------------------------------------------------------------
 require get_template_directory() . '/inc/template-tags.php';
+require get_template_directory() . '/inc/jetpack.php';
+include("widgets/posts-widget.php");
 
 function clubrugby_infinite_scroll_init() {
-	get_template_part('content',get_post_format());
+	get_template_part('freewall',get_post_format());
 }
 
 // Add Image Sizes ---------------------------------------------------------------------------------------------------------------
@@ -260,8 +294,13 @@ add_filter('body_class', 'category_id_class');
 
 
 // Custom Config for Admin Area --------------------------------------------------------------------------------------------------
+add_action('admin_head', 'custom_admin_css');
+function custom_admin_css() {
+    echo '<link rel="stylesheet" href="/wp-content/themes/clubrugby/css/custom.admin.css"/>';
+}
+
 function custom_admin_js() {
-    $url = esc_url(home_url('/')).'wp-content/themes/clubrugby/js/custom-admin.js';
+    $url = esc_url(home_url('/')).'wp-content/themes/clubrugby/js/custom.admin.js';
     echo '"<script type="text/javascript" src="'. $url . '"></script>"';
 }
 add_action('admin_footer', 'custom_admin_js');

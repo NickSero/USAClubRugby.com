@@ -52,8 +52,8 @@ header("X-UA-Compatible: IE=edge");
 					<figure class="right small-10">
 						<div id="logo-holder">
 							<a href="<?php echo esc_url(home_url('/')); ?>" rel="home">
-								<img id="shield" class="small-1" src="/usaclubrugby.com/wp-content/themes/clubrugby/img/logo-shield.png" />
-								<img id="text" class="small-9" src="/usaclubrugby.com/wp-content/themes/clubrugby/img/club-text.png" />
+								<img id="shield" class="small-1" src="<?php echo esc_url(home_url('/')); ?>wp-content/themes/clubrugby/img/logo-shield.png" />
+								<img id="text" class="small-5" src="<?php echo esc_url(home_url('/')); ?>wp-content/themes/clubrugby/img/club-text.png" />
 							</a>			
 						</div>					
 					</figure>
@@ -65,8 +65,6 @@ header("X-UA-Compatible: IE=edge");
 						<?php wp_nav_menu( array('theme_location' => 'main','menu_id' => 'mobile-site-menu','menu_class' => 'menu off-canvas-list')); ?>
 					</aside>
 				</section>
-				
-				<a class="exit-off-canvas"></a>
 
 			</div>
 
@@ -80,28 +78,26 @@ header("X-UA-Compatible: IE=edge");
 							<div id="logo-holder">
 								<a href="<?php echo esc_url(home_url('/')); ?>" rel="home">
 									<!-- img id="logo" src="/usaclubrugby.com/wp-content/themes/clubrugby/img/club-logo-web-horizontal.png" / -->
-									<img id="shield" class="small-1" src="/usaclubrugby.com/wp-content/themes/clubrugby/img/logo-shield.png" />
-									<img id="text" class="small-3" src="/usaclubrugby.com/wp-content/themes/clubrugby/img/club-text.png" />
+									<img id="shield" class="small-1" src="<?php echo esc_url(home_url('/')); ?>wp-content/themes/clubrugby/img/logo-shield.png" />
+									<img id="text" class="small-3" src="<?php echo esc_url(home_url('/')); ?>wp-content/themes/clubrugby/img/club-text.png" />
 								</a>
 							</div>
 						</center>			
 					
 					</figure>
 
-					<nav id="desktop-site-navigation" class="main-navigation" role="navigation">
-						<section class="button-bar">
-							<?php
-								wp_nav_menu(array('theme_location' => 'main','menu_id' => 'site-menu','menu_class' => 'button-group even-10','container' => false));
-//								wp_nav_menu('theme_location=news&container=false');
-//								wp_nav_menu('theme_location=clubs&container=false');
-//								wp_nav_menu('theme_location=schedules&container=false');
-//								wp_nav_menu('theme_location=standings&container=false');
-//								wp_nav_menu('theme_location=statistics&container=false');
-//								wp_nav_menu('theme_location=championships&container=false');
-//								wp_nav_menu('theme_location=social&container=false');
-								wp_nav_menu('theme_location=administration&container=false');
-								wp_nav_menu('theme_location=resources&container=false');
-								wp_nav_menu('theme_location=about&container=false');									
+					<nav id="desktop-site-navigation" class="top-bar" data-topbar data-options="mobile_show_parent_link: true">
+						<section id="nav-menu" class="top-bar-section" role="navigation">
+							<?php 
+							$options = array(
+								'theme_location' => 'main',
+								'menu_id' => 'site-menu',
+								'menu_class' => 'button-group even-10',
+								'container' => false,
+								'depth' => 2,
+								'items_wrap' => '<ul id="%1$s" class="%2$s">%3$s</ul>',
+								'walker' => new GC_walker_nav_menu());
+							wp_nav_menu($options);															
 							?>
 						</section>
 					</nav>
@@ -112,8 +108,4 @@ header("X-UA-Compatible: IE=edge");
 					
 		</header>
 
-		<div id="main-wrapper">
-
-			<div id="content-wrapper">		
-
-				<main id="content" class="row small-12 medium-12 large-12" role="main">
+		<main id="content" class="row small-12 medium-12 large-12" role="main">
