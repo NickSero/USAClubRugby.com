@@ -71,17 +71,25 @@ jQuery(function($){
     $('#site-menu li').children('ul').removeClass('active');
   });
 */
+  $('.page-footer .left > a').addClass('red-button');
+  $('.page-footer .right.previous > a').addClass('red-button');
+
+
+// UNIVERSAL SIZING
+  var fullWidth = $(window).width();
+
   $(window).bind("scroll",function(){
-    if($(window).scrollTop() >= 107){
-      $('#news-menu').addClass('fixed').css('position','fixed');
+    if($(window).scrollTop() >= 1){
+      $('#news-menu').addClass('fixed').css({'top':'137px'});
+      $('#news-menu .sub-nav').css('width',fullWidth);
       var filter = $('dl.sub-nav');
       var sticky = $('<div class="contain-to-grid sticky"></div>');
       sticky.append(filter.attr('data-options','sticky_on: large'));
-    };
+    } else {
+      $('#news-menu').removeClass('fixed');
+    }
   });
 
-// FIRE AT ALL TIMES
-  $('img[alt="Capital GU"]').addClass('tall');
 
 
 // FIRE WHEN DOCUMENT'S READY
@@ -91,9 +99,9 @@ jQuery(function($){
     $('#mega-menu-main > li > .mega-sub-menu').css({'width':$('#nav-menu').width()});
     $('#site-map > li').addClass('small-12');
     $('#site-map > li > a').addClass('top-link');
-    $('.widget.new_royalslider_widget').addClass('small-12 medium-7 large-7 left');
 
     $('#mega-menu-main > li.mega-menu-item > a').fitText(1,{minFontSize:'6.3px',maxFontSize:'12.6px'});
+    $('h2.news-article-title').fitText();
     $('#featured-matches > h1').fitText(1.9);
     $('#latest-news-headlines > h1').fitText(1.9);
     $('footer#footer > .column > p').fitText(2, {minFontSize:'17px', maxFontSize:'17px'});
@@ -101,13 +109,6 @@ jQuery(function($){
     removeComma($('#about .no-bullet > li:last-child > span'));
 
     $('#freewall').fadeIn('slow');
-/*
-    $('#freewall').jscroll({
-      loadingHtml: '<img src="/usaclubrugby.com/wp-content/themes/clubrugby/img/ajax-loader.gif" alt="Loading"/> Loading...',
-      padding: 20,
-      contentSelector: 'div.brick'
-    });
-*/
 
     if($('.home')){
 // MASONRY HOME NEWS FEED
@@ -150,6 +151,7 @@ jQuery(function($){
   });
   $('.exit-off-canvas').click(function(){
     $('#mobile-menu-button').removeClass('active');
+    $('#masthead').css('top',0);
   });
 
   $('#mobile-site-navigation #menu-item-70').remove();
@@ -183,25 +185,113 @@ jQuery(function($){
     str = str.slice(0,str.length-1);
     $(el).text(str);
   }
+  var getTextNodesIn = function(el) {
+    return $(el).find(":not(iframe)").addBack().contents().filter(function(){
+        return this.nodeType == 3;
+    });
+  };
+
+// DYNAMIC MARGIN ADJUSTMENT
+  $('main#content').css({'margin-top':$('#masthead').height()});
+  var rsHeight = $('#headlines .rsContainer').height();
+  $('.home #headlines .rsTabs').css({'margin-top':rsHeight});
+
+  // slider
+  $('.widget.new_royalslider_widget').addClass('small-12 medium-12 large-7 left');
+  var rsWidth = $('#new-royalslider-1').width()-1+'px';
+  
+  setTimeout(function(){$('#new-royalslider-1 .rsOverflow').css({'width':rsWidth});},1);
+
+  var iconHeight = $('small').css('font-size');
+  $('.rsGCaption > .caption > h1.columns:last-child small .fa').css({'font-size':iconHeight});
+  $('.rsGCaption > .caption > h1.columns:first-child').fitText(2);
+  $('#headlines .rsTmb').fitText(1,{minFontSize:'11.25px'});
+
+  $('img[alt="Capital GU"]').addClass('tall');
+  var headerHeight = document.getElementsByClassName('site-branding').offsetHeight;
+  $('#mobile-header #logo-holder img').css({'height':headerHeight+'px'});
 
 // RESPONSIVE CONFIGS
   $(window).resize(function(){
+    $('main#content').css({'margin-top':$('#masthead').height()});
+    
+    $('#mega-menu-main > li > .mega-sub-menu').css({'width':$('#nav-menu').width()});
+    
+    $('.home #headlines .rsTabs').css({'margin-top':rsHeight});
+
+    $('.rsGCaption > .caption > h1.columns:first-child').fitText(2);
+
     if($(window).width() > 892) {
-// Home Page News Tweaks
-      $('#mega-menu-main > li > .mega-sub-menu').css({'width':$('#nav-menu').width()});
       if($('.home h4.news-item-metadata').innerWidth() >= 270){
         $('.home h4.news-item-metadata').css('font-size','1.25rem');
       }
       $('#featured-matches > h1').fitText(1.9);
       $('#latest-news-headlines > h1').fitText(1.9);
-      $('footer#footer > .column > p').fitText(2);
-    } else {
-// smaller
-      $('.rsGCaption > .caption > h1.columns:first-child').fitText(2);
+      $('footer#footer > .column > p').fitText(2, {minFontSize:'17px', maxFontSize:'17px'});
+    }
+    else {
       $('#featured-matches > h1').fitText(1.9);
       $('#latest-news-headlines > h1').fitText(1.9);
       $('footer#footer > .column > p').fitText(2, {minFontSize:'17px', maxFontSize:'17px'});
     }
   }).resize();
-  
+
 });
+
+
+
+
+
+
+/* ------------------------------------------------------------------------
+  Usage: $(node).shortNumber(4711) sets the contents of `node` (to "4.7k")
+         $(node).shortNumber() reads that actual number back from the node
+
+  If you want to pre-shorten some DOM node with a value on the server side,
+  be sure to set the data-shortnumber="4711" or whatever number on it, too:
+
+  Likes: <span data-shortnumber="<% _num %>"><% short_number _num %></span>
+
+  (To just format arbitrary numbers to tiny strings use shortNumber(4711).)
+---------------------------------------------------------------------------- */
+
+(function(global, $) {
+  var name = 'shortNumber';
+  global[name] = shortenNumber;
+ 
+  $.fn[name] = function(set_to) {
+    return set_to != null ? this.text(shortenNumber(set_to)).data(name, set_to)
+                          : this.data(name) || +/\d+/.exec(this.text());
+  };
+ 
+  name = name.toLowerCase(); // using lowercase data attributes dodges problems
+ 
+  // shortenNumber(n): fit integers in 4 chars w/SI suffixes (5 for negatives)
+  // 1 000..9 999 => 1k..9.9k;         10 000..999 999 => 10k..999k;
+  // 1 000 000..9 999 999 => 1M..9.9M; 10 000 000..999 999 999 => 10M..999M; ...
+  function shortenNumber(n) {
+    if ('number' !== typeof n) n = Number(n);
+    var sgn      = n < 0 ? '-' : ''
+      , suffixes = ['k', 'M', 'G', 'T', 'P', 'E', 'Z', 'Y']
+      , overflow = Math.pow(10, suffixes.length * 3 + 3)
+      , suffix, digits;
+    n = Math.abs(Math.round(n));
+    if (n < 1000) return sgn + n;
+    if (n >= 1e100) return sgn + 'many';
+    if (n >= overflow) return (sgn + n).replace(/(\.\d*)?e\+?/i, 'e'); // 1e24
+ 
+    do {
+      n      = Math.floor(n);
+      suffix = suffixes.shift();
+      digits = n % 1e6;
+      n      = n / 1000;
+      if (n >= 1000) continue; // 1M onwards: get them in the next iteration
+      if (n >= 10 && n < 1000 // 10k ... 999k
+       || (n < 10 && (digits % 1000) < 100) // Xk (X000 ... X099)
+         )
+        return sgn + Math.floor(n) + suffix;
+      return (sgn + n).replace(/(\.\d).*/, '$1') + suffix; // #.#k
+    } while (suffixes.length)
+    return sgn + 'many';
+  }
+})(this, jQuery);

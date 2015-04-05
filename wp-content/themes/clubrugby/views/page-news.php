@@ -19,7 +19,7 @@ get_header(); ?>
 	
 	<section id="news-articles" class="small-12 medium-12 large-12">
 		
-		<ul id="news-articles-list">
+		<ul id="news-articles-list" class="no-bullet">
 
 		<?php
 			// get posts in news category
@@ -44,9 +44,9 @@ get_header(); ?>
 	
 				<div class="news-article-item clearfix">
 					
-					<a class="post-link" href="<?php the_permalink(); ?>">
+					<a class="post-link small-3 medium-3 large-3 left columns" href="<?php the_permalink(); ?>">
 						
-						<span class="featured-image small-3 medium-3 large-3">
+						<span class="featured-image">
 
 							<?php the_post_thumbnail(medium); ?>
 
@@ -54,37 +54,35 @@ get_header(); ?>
 					
 					</a>
 
-					<span class="news-article-metadata small-9 medium-9 large-9">
+					<span class="news-article-metadata small-9 medium-9 large-9 right columns">
 						
-						<a class="post-link" href="<?php the_permalink(); ?>"><h1 class="news-article-title" itemprop="headline"><?php the_title(); ?></h1></a>
+						<h1 class="news-article-title" itemprop="headline"><a class="post-link" href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h1>
 
 						<h4 class="clearfix">
 
 							<span class="news-article-author" itemprop="author"><?php $author_alias = get_field('author_alias'); $author = get_the_author(); $d = 'F j, Y'; $date = get_the_date($d); if(!$author_alias) { echo $author; } else { echo $author_alias; } ?></span>
-							<span>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;</span>
+							<span class="splitter">&nbsp;&nbsp;\&nbsp;&nbsp;</span>
 							<span class="news-article-date"><?php echo $date; ?></span>
+							<span class="splitter">&nbsp;&nbsp;\&nbsp;&nbsp;</span>
+							<span class="facebook-likes"><i class="fa fa-facebook-official"></i> <span class="likes-count"><?php fbCount(get_permalink($post->post_id)); ?></span></span>
+							<span class="tweets"><i class="fa fa-twitter"></i> <?php echo wds_post_tweet_count( $post_id ); ?></span>
+							<span class="news-article-comments"><i class="fa fa-comment-o"></i> <span class="comments-number"><?php comments_number('0','1','%'); ?></span></span>
 
 						</h4>
 					
 						<div class="news-article-excerpt" itemprop="description">
 						
-							<?php the_excerpt(); ?>
+							<?php echo get_the_excerpt() . '&nbsp;&nbsp;&nbsp;<a class="post-link" href="<?php the_permalink(); ?>" itemprop="url"><i class="fa fa-chevron-circle-right"></i></a><a href="' . get_the_permalink() . '"> Continue Reading</a>'; ?>
 						
 						</div>
-
-						<div class="read-more">
-
-							<a class="post-link" href="<?php the_permalink(); ?>" itemprop="url"><i class="fa fa-chevron-circle-right"></i></a><a href="<?php the_permalink(); ?>"> Continue Reading</a>
-						
-						</div>
-					
+	
 					</span>
 
 				</div>
 
-				<hr/>
-
 			</li>
+
+			<hr/>
 
 		<?php endforeach; ?>
 		</ul>
@@ -137,7 +135,7 @@ get_header(); ?>
 			?>
 
 			<div class="left"><?php previous_posts_link('&laquo; Latest News',0) ?></div>
-			<div class="left previous"><?php next_posts_link('Previous News &raquo;',$number_of_pages) ?></div>
+			<div class="right previous"><?php next_posts_link('Previous News <i class="fa fa-angle-double-right"></i>',$number_of_pages) ?></div>
 		</div>
 
 	</section>

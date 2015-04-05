@@ -25,6 +25,7 @@ header("Cache-Control: no-cache, must-revalidate");
 header("Expires: ".gmdate("D, d M Y H:i:s"));
 header("X-UA-Compatible: IE=edge");
 ?>
+
 <script src="//use.typekit.net/ebu2luj.js"></script>
 
 <?php wp_head(); ?>
@@ -33,7 +34,7 @@ header("X-UA-Compatible: IE=edge");
 <body <?php body_class('inner-wrap'); ?>>
 		<header id="masthead" class="site-header" role="banner">
 
-			<nav id="mobile-header" class="tab-bar small-12">
+			<div id="mobile-header" class="small-12">
 					
 				<section class="site-branding">
 
@@ -46,8 +47,8 @@ header("X-UA-Compatible: IE=edge");
 					<figure class="right small-10">
 						<div id="logo-holder">
 							<a href="<?php echo esc_url(home_url('/')); ?>" rel="home">
-								<img id="shield" src="<?php echo esc_url(home_url('/')); ?>wp-content/themes/clubrugby/img/logo-shield.png" />
-								<img id="text" src="<?php echo esc_url(home_url('/')); ?>wp-content/themes/clubrugby/img/club-text.png" />
+								<img id="shield" class="small-1" src="<?php echo esc_url(home_url('/')); ?>wp-content/themes/clubrugby/img/logo-shield.png" />
+								<img id="text" class="small-5" src="<?php echo esc_url(home_url('/')); ?>wp-content/themes/clubrugby/img/club-text.png" />
 							</a>			
 						</div>					
 					</figure>
@@ -56,11 +57,11 @@ header("X-UA-Compatible: IE=edge");
 
 				<section class="mobile-menu">
 					<aside id="mobile-site-navigation" class="left-off-canvas-menu" role="navigation">
-						<?php wp_nav_menu( array('theme_location' => 'main','menu_id' => 'mobile-site-menu','menu_class' => 'menu off-canvas-list','container' => false)); ?>
+						<?php wp_nav_menu( array('theme_location' => 'main','menu_id' => 'mobile-site-menu','menu_class' => 'menu off-canvas-list')); ?>
 					</aside>
 				</section>
 
-			</nav>
+			</div>
 
 			<div id="desktop-header" class="medium-12 large-12">
 

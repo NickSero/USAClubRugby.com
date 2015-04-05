@@ -155,7 +155,7 @@ function usacr_widgets_init() {
 		'name'          => __( 'Hero', 'usacr' ),
 		'id'            => 'hero',
 		'description'   => '',
-		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+		'before_widget' => '<aside id="%1$s" class="widget clearfix %2$s">',
 		'after_widget'  => '</aside>',
 		'before_title'  => '<h1 class="hide">',
 		'after_title'   => '</h1>',
@@ -217,8 +217,44 @@ add_action( 'widgets_init', 'usacr_widgets_init' );
 // Enqueue scripts and styles ------------------------------------------------------------------------
 function usacr_scripts() {
 	wp_enqueue_style( 'usacr-style', get_template_directory_uri() . '/css/style.css', false );
+
+	wp_deregister_script('jquery');
+	wp_register_script('fnd-jquery', get_template_directory_uri() . '/js/jquery.js', array(), '2.1.3');
+	//wp_register_script('jq-cookie', get_template_directory_uri() . '/js/jquery.cookie.js', array('fnd-jquery'), '1.4.1');
+	wp_register_script('jq-no-conflict', get_template_directory_uri() . '/js/jquery.noconflict.js', array(fnd-jquery), '1.0.0');
+	wp_register_script('css-ua', get_template_directory_uri() . '/js/cssua.min.js', array(), '2.1.28');
+	wp_register_script('fastclick', get_template_directory_uri() . '/js/fastclick.js', array(), '1.0.6');
+	wp_register_script('modernizr', get_template_directory_uri() . '/js/modernizr.min.js', array(), '2.8.3');
+	wp_register_script('royalslider', plugins_url() . '/new-royalslider/lib/royalslider/jquery.royalslider.min.js', array(), '9.5.7');		
+	wp_register_script('foundation', get_template_directory_uri() . '/js/foundation.min.js', array('fnd-jquery'), '5.5.1', true);
+	wp_register_script('placeholder', get_template_directory_uri() . '/js/placeholder.js', array('fnd-jquery'), '2.0.8', true);
+	wp_register_script('fittext', get_template_directory_uri() . '/js/jquery.fittext.js', array('fnd-jquery'), '1.2', true);
+	wp_register_script('masonry', get_template_directory_uri() . '/js/masonry.min.js', array('fnd-jquery'), '0.6.1', true);
+	wp_register_script('usacr-custom', get_template_directory_uri() . '/js/custom.js', array('fnd-jquery'), '', true);
+
+	wp_enqueue_script('fnd-jquery');
+	wp_enqueue_script('jq-cookie');
+	wp_enqueue_script('css-ua');
+	wp_enqueue_script('modernizr');
+	wp_enqueue_script('foundation');
+	wp_enqueue_script('placeholder');
+	wp_enqueue_script('fittext');
+	wp_enqueue_script('masonry');
+	wp_enqueue_script('usacr-custom');
+	//wp_enqueue_script('fastclick');
+
+	if(is_home()|is_front_page()){
+		wp_enqueue_script('royalslider');
+	}
+	if (is_singular() && comments_open() && get_option('thread_comments')) {
+		wp_enqueue_script('comment-reply');
+	}
+
 }
+
 add_action( 'wp_enqueue_scripts', 'usacr_scripts' );
+
+
 
 // Custom & Infinite Scroll ------------------------------------------------------------------------
 require get_template_directory() . '/inc/template-tags.php';
@@ -229,8 +265,12 @@ function clubrugby_infinite_scroll_init() {
 	get_template_part('freewall',get_post_format());
 }
 
+
+
 // Add Image Sizes ---------------------------------------------------------------------------------------------------------------
-add_image_size( 'hero', 2060, 1160, true );
+add_image_size( 'hero', 1030, 615, true );
+
+
 
 // Selects Custom Post Type Templates for single and archive pages ---------------------------------------------------------------
 add_filter('template_include', 'custom_template_include');
@@ -254,12 +294,15 @@ function custom_template_include($template) {
     return $template;
 }
 
+
+
 // Read More text ---------------------------------------------------------------------------------------------------------------
 function new_content_more($more) {
        global $post;
        return ' <a href="' . get_permalink() . ' " class="more-link ajax">Read More...</a> ';
 }   
 add_filter( 'the_content_more_link', 'new_content_more' );
+
 
 
 // Adjust Match Post Title ------------------------------------------------------------------------------------------------------
@@ -270,6 +313,8 @@ function change_default_title($title){
      }
 }
 add_filter( 'enter_title_here', 'change_default_title' );
+
+
 
 // Exerpt Filter ----------------------------------------------------------------------------------------------------------------
 function get_excerpt($count){
@@ -282,6 +327,8 @@ function get_excerpt($count){
   return $excerpt;
 }
 
+
+
 // Using Categories as Classes --------------------------------------------------------------------------------------------------
 function category_id_class($classes) {
     global $post;
@@ -291,6 +338,7 @@ function category_id_class($classes) {
 }
 add_filter('post_class', 'category_id_class');
 add_filter('body_class', 'category_id_class');
+
 
 
 // Custom Config for Admin Area --------------------------------------------------------------------------------------------------
@@ -306,3 +354,44 @@ function custom_admin_js() {
 add_action('admin_footer', 'custom_admin_js');
 
 
+
+// GET FACEBOOK & TWITTER COUNTS FOR ARTICLE
+function fbCount($url) {
+  	$content = file_get_contents("http://api.ak.facebook.com/restserver.php?v=1.0&method=fql.query&query=select%20url,%20total_count%20from%20link_stat%20where%20url%20in%20('".$url."')&format=xml");
+  	$fbCount = simplexml_load_string($content);
+  	echo $fbCount->link_stat->total_count;
+	if(is_bool($fbCount)){
+    	print '0';
+    } else{
+    	echo $fbCount;
+    }
+}
+/**
+ * Get tweet count from Twitter API (v1.1)
+ */
+function wds_post_tweet_count( $post_id ) {
+ 
+  // Check for transient
+  if ( ! ( $count = get_transient( 'wds_post_tweet_count' . $post_id ) ) ) {
+ 
+    // Do API call
+    $response = wp_remote_retrieve_body( wp_remote_get( 'https://cdn.api.twitter.com/1/urls/count.json?url=' . urlencode( get_permalink( $post_id ) ) ) );
+ 
+    // If error in API call, stop and don't store transient
+    if ( is_wp_error( $response ) )
+      return 'error';
+ 
+    // Decode JSON
+    $json = json_decode( $response );
+ 
+    // Set total count
+    $count = absint( $json->count );
+ 
+    // Set transient to expire every 30 minutes
+    set_transient( 'wds_post_tweet_count' . $post_id, absint( $count ), 30 * MINUTE_IN_SECONDS );
+ 
+  }
+ 
+ return absint( $count );
+ 
+}

@@ -65,6 +65,7 @@
     #desktop-site-navigation {
       border-top: 2px solid @red;
       text-align: center;
+      position: relative;
       -webkit-border-top-left-radius: 0px;
       -moz-border-radius-topleft: 0px;
       border-top-left-radius: 0px;
@@ -94,8 +95,8 @@
               }
               .fa {
                 position: relative;
-                bottom: 2px;
-                left: 5px;
+                bottom: 0;
+                left: -5px;
               }
             }
           }
@@ -141,31 +142,20 @@
   .site-branding {
     position: relative;
     #mobile-menu-button {
-      top: 30%;
+      top: 0.5rem;
       left: 1rem;
     }
     figure {
-      position: absolute;
-      top: -1px;
-      right: 0;
       margin: 0;
       display: table;
       height: inherit;
+      position: absolute;
+      width: 100%;
+      top: 0;
       #logo-holder {
         position: relative;
         display: table-cell;
-        a {
-          img {
-            &#shield {
-              width: 75px;
-              margin-top: 0.5rem;
-            }
-            &#text {
-              margin-left: -4px;
-              margin-top: 1rem;
-            }
-          }
-        }
+        vertical-align: middle !important;
       }
     }
   }
@@ -189,12 +179,23 @@
     //position: relative;
     #mobile-header {
       display: block;
-      height: 95px !important;
       .site-branding {
         height: 100%;
         figure {
+          text-align: center;
           #logo-holder {
-            top: -11px;
+            a {
+              img {
+                &#shield {
+                  height: 3%;
+                  width: auto;
+                }
+                &#text {
+                  height: 10% !important;
+                  width: auto;
+                }
+              }
+            }
           }
         }
       }
@@ -205,15 +206,16 @@
   }
   .left-off-canvas-toggle {
     position: relative;
-    padding: 15px;
+    padding: 15px 0 15px 15px;
   }
   .left-off-canvas-toggle .line {
     display: block;
     background: #fff;
-    height: 4px;
+    height: 3px;
     position: absolute;
-    left: 10px;
-    right: 12px;
+    left: 0;
+    right: 7px;
+    margin-right: 0;
     transition: all 0.3s;
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
@@ -221,22 +223,23 @@
   .left-off-canvas-toggle.active .line {
     display: block;
     background: #fff;
-    height: 4px;
+    height: 3px;
     position: absolute;
-    left: 10px;
-    right: 12px;
+    left: 0;
+    right: 7px;
+    margin-right: 0;
     transition: all 0.3s;
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
   }
   .left-off-canvas-toggle .line.line-1 {
-    top: 18px;
+    top: 19px;
   }
   .left-off-canvas-toggle .line.line-2 {
     top: 27px;
   }
   .left-off-canvas-toggle .line.line-3 {
-    top: 36px;
+    top: 35px;
   }
   .left-off-canvas-toggle:hover .line-1 {
     transform: translateY(-1px);
@@ -249,50 +252,25 @@
     -moz-transform: translateY(1px);
   }
   .left-off-canvas-toggle.active .line-1 {
-    transform: translateY(10px) translateX(0) rotate(45deg);
-    -webkit-transform: translateY(10px) translateX(0) rotate(45deg);
-    -moz-transform: translateY(10px) translateX(0) rotate(45deg);
+    transform: translateY(9px) translateX(0) rotate(45deg);
+    -webkit-transform: translateY(9px) translateX(0) rotate(45deg);
+    -moz-transform: translateY(9px) translateX(0) rotate(45deg);
   }
   .left-off-canvas-toggle.active .line-2 {
     opacity: 0;
   }
   .left-off-canvas-toggle.active .line-3 {
-    transform: translateY(-8px) translateX(0) rotate(-45deg);
-    -webkit-transform: translateY(-8px) translateX(0) rotate(-45deg);
-    -moz-transform: translateY(-8px) translateX(0) rotate(-45deg);
+    transform: translateY(-7px) translateX(0) rotate(-45deg);
+    -webkit-transform: translateY(-7px) translateX(0) rotate(-45deg);
+    -moz-transform: translateY(-7px) translateX(0) rotate(-45deg);
   }
 }
 
 @media screen and (max-width : 320px) {
   #masthead {
-    .left-off-canvas-toggle {
-
-    }
     #mobile-header {
-      
       figure {
-        &.right {
-          right: 6px;
-          font-size: 2.6rem;
-          top: 0.35rem !important;
-        }
-        #logo-holder {
-          top: 3px !important;
-          left: 32px !important;
-          a {
-            img {
-              &#shield {
-                width: 55px;
-                margin-top: -1.5rem;
-              }
-              &#text {
-                margin-top: -1rem;
-                margin-left: -10px;
-                width: 65% !important;
-              }
-            }
-          }
-        }
+        padding-left: 0.45rem;
       }
     }
   }
@@ -308,13 +286,13 @@
     #mobile-header {
       position: relative;
       margin-left: 0;
-      border-bottom: 1px solid @red;
+      border-bottom: 2px solid @red;
       height: 65px !important;
       figure {
         &.right {
           #logo-holder {
             a {
-              
+              vertical-align: middle !important;
             }
           }
         }
@@ -341,11 +319,11 @@
     .site-branding {
       figure {
         #logo-holder {
-          top: -11px !important;
+
           a {
             img {
               &#shield {
-                margin-top: .85rem;
+
               }
             }
           }
@@ -377,7 +355,7 @@
 @media screen and (min-width : 640px) and (max-width : 767px) {
   .move-right {
     #mobile-header {
-      //padding-bottom: 4.5rem;
+
     }
   }
   .left-off-canvas-toggle {
@@ -412,10 +390,10 @@
     figure {
       &.right {
         #logo-holder {
-          top: -10px;
+
           a {
             img {
-              margin-top: 0.8rem !important;
+
             }
           }
         }

@@ -1,4 +1,10 @@
+.new_royalslider_widget {
+	border-right: 1px solid #fff !important;
+}
 .royalSlider {
+	.rsOverflow {
+
+	}
 	.rsContent {
 		position: relative;
 		.shadow {
@@ -35,16 +41,13 @@
 				small {
 					position: relative;
 					top: -0.7rem;
-					.link {
-						.fa {
-							color: #f00;
-							font-size: 2rem;
-							position: absolute;
-							bottom: 0rem;
-							margin-left: 0.5rem;
-							&:before {
-								text-shadow: 1px 1px 1px rgba(0,0,0,.75);
-							}
+					.fa {
+						color: #f00;
+						vertical-align: middle !important;
+						margin-left: 0.4rem;
+						&:before {
+							text-shadow: 1px 1px 1px rgba(0,0,0,.75);
+							vertical-align: super !important;
 						}
 					}
 				}
@@ -54,7 +57,6 @@
 	.rsNav {
 		background: url(../img/black-texture-metal-hole.jpg) no-repeat center 0 #000;
 		background-size: cover;
-		box-shadow: 0 1px 1px rgba(0,0,0,.75);
 		-webkit-border-bottom-left-radius: 0;
     -moz-border-radius-bottomleft: 0;
     border-bottom-left-radius: 0;
@@ -76,7 +78,7 @@
 .rsUni, .rsUni .rsOverflow, .rsUni .rsSlide, .rsUni .rsVideoFrameHolder, .rsUni .rsThumbs {
 	background: @blue !important;
 }
-
+// IPHONE 3-4-5
 @media screen and (max-width : 320px) {
 	.royalSlider {
 		.rsContent {
@@ -96,14 +98,11 @@
 						font-size: 0.7rem;
 						line-height: 1.11rem;
 					}
-					.link {
-						.fa {
-							font-size: 1.1rem;
-							bottom: 0rem;
-							&:before {
-								position: absolute;
-								bottom: -3px;
-							}
+					.fa {
+						bottom: 0rem;
+						&:before {
+							position: absolute;
+							bottom: -1px;
 						}
 					}
 				}
@@ -111,7 +110,73 @@
 		}
 	}
 }
-@media screen and (min-width : 489px) and (max-width : 568px) {
+// IPHONE 6
+@media screen and (max-width : 375px) {
+	.royalSlider {
+		.rsContent {
+			.rsGCaption {
+				padding-top: 4rem;
+				.caption {
+					h1 {
+						&:first-child {
+							font-size: 1.5rem !important;
+							line-height: 1.5rem !important;
+						}
+						&:last-child {
+							line-height: 1.5rem !important;
+						}
+					}
+					p {
+						font-size: 0.7rem;
+						line-height: 1.11rem;
+					}
+					.fa {
+						bottom: 0rem;
+						&:before {
+							position: absolute;
+							bottom: -1px;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+// IPHONE 6+
+@media screen and (max-width : 414px) {
+	.royalSlider {
+		.rsContent {
+			.rsGCaption {
+				padding-top: 4rem;
+				.caption {
+					h1 {
+						&:first-child {
+							font-size: 1.5rem !important;
+							line-height: 1.5rem !important;
+						}
+						&:last-child {
+							line-height: 1.5rem !important;
+						}
+					}
+					p {
+						font-size: 0.7rem;
+						line-height: 1.11rem;
+					}
+					.fa {
+						bottom: 0rem;
+						&:before {
+							position: absolute;
+							bottom: -1px;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+// IPHONE 5 LANDSCAPE
+@media screen and (min-width : 415px) and (max-width : 568px) {
 	h1 {
 		font-size: 2.25rem !important;
 	}
@@ -125,10 +190,8 @@
 						}
 					}
 					small {
-						.link {
-							.fa {
-								bottom: -0.2rem;
-							}
+						.fa {
+							bottom: 0rem;
 						}
 					}
 				}
@@ -136,7 +199,46 @@
 		}
 	}
 }
-@media screen and (min-width : 569px) and (max-width : 768px) {
+// IPHONE 6 LANDSCAPE
+@media screen and (min-width : 569px) and (max-width : 667px) {
+	.royalSlider {
+		.rsContent {
+			.rsGCaption {
+				.caption {
+					h1 {
+						margin-bottom: 0rem;
+						font-size: 2rem !important;
+						line-height: 2rem !important;
+					}
+					p {
+						font-size: 2.5rem !important;
+					}
+				}
+			}
+		}
+	}
+}
+// IPHONE 6+ LANDSCAPE
+@media screen and (min-width : 668px) and (max-width : 736px) {
+	.royalSlider {
+		.rsContent {
+			.rsGCaption {
+				.caption {
+					h1 {
+						margin-bottom: 0rem;
+						font-size: 2rem !important;
+						line-height: 2rem !important;
+					}
+					p {
+						font-size: 2.5rem !important;
+					}
+				}
+			}
+		}
+	}
+}
+// GRAY AREA
+@media screen and (min-width : 737px) and (max-width : 768px) {
 	.royalSlider {
 		.rsContent {
 			.rsGCaption {
@@ -154,12 +256,16 @@
 		}
 	}
 }
-
+// IPAD MINI PORTRAIT
 @media screen and (max-width : 768px) {
 	#hero {
 		padding-right: 0rem;
 		.royalSlider {
 			.rsContent {
+				.shadow {
+					height: 30%;
+					bottom: -1px;
+				}
 				.rsGCaption {
 					.caption {
 						h1 {
@@ -179,17 +285,8 @@
 		}
 	}
 }
-@media screen and (min-width : 768px) {
-	.royalSlider {
-		.rsContent {
-			.shadow {
-				height: 30%;
-				bottom: -1px;
-			}
-		}
-	}
-}
-@media screen and (min-width : 769px) {
+// IPAD MINI LANDSCAPE
+@media screen and (min-width : 769px) and (max-width : 892px) {
 	.royalSlider {
 		.rsContent {
 			.shadow {
@@ -205,7 +302,7 @@
 		}
 	}
 }
-@media screen and (min-width : 892px) {
+@media screen and (min-width : 892px) and (max-width : 1023px) {
 	#hero {
 
 	}
@@ -213,14 +310,11 @@
 		.rsContent {
 			.rsGCaption {
 				.caption {
-					.link {
-						.fa {
-							font-size: 1.1rem;
-							bottom: 0;
-							&:before {
-								position: absolute;
-								bottom: -2.5px;
-							}
+					.fa {
+						bottom: 0;
+						&:before {
+							position: absolute;
+							bottom: -2.5px;
 						}
 					}
 				}
