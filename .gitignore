@@ -1,54 +1,62 @@
 
-wp-activate.php
+*wp-activate.php
 
-wp-admin/
+*wp-admin/
 
-wp-cron.php
+*wp-cron.php
 
-wp-includes/
+*wp-includes/
 
-wp-links-opml.php
+*wp-links-opml.php
 
-wp-load.php
+*wp-load.php
 
-wp-mail.php
+*wp-mail.php
 
-wp-settings.php
+*wp-settings.php
 
-wp-signup.php
+*wp-signup.php
 
-wp-trackback.php
+*wp-trackback.php
 
-xmlrpc.php
+*xmlrpc.php
 
-index.php
+*index.php
 
-license.txt
+*license.txt
 
-readme.html
+*readme.html
 
-wp-blog-header.php
+*wp-blog-header.php
 
-wp-comments-post.php
+*wp-comments-post.php
 
-wp-config-sample.php
+*wp-config-sample.php
 
-wp-config.php
+*wp-config.php
 
-wp-content/plugins/
+*wp-content/plugins/
 
-wp-content/uploads/
+*wp-content/uploads/
 
-wp-login.php
+*wp-login.php
 
-wp-content/themes/clubrugby/img/
+*wp-content/themes/clubrugby/img/
 
-wp-content/themes/clubrugby/dev-only/
+*wp-content/themes/clubrugby/dev-only/
 
 *.png
 
-wp-content/themes/clubrugby/js/min/
+*wwwroot/wp-content/themes/clubrugby/js/min/
 
 *.txt
 
+*wwwroot/wp-content/plugins
 
+*assets/wordpress/
+
+*.jpg
+
+*.png
+
+*.pot
