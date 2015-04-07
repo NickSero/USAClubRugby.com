@@ -48,3 +48,7 @@ wp-content/themes/clubrugby/dev-only/
 *.png
 
 wp-content/themes/clubrugby/js/min/
+
+*.txt
+
+
