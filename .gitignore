@@ -60,3 +60,21 @@
 *.png
 
 *.pot
+
+wwwroot/wp-content/themes/clubrugby/dev-only/stats_files/custom-style-gray.css
+
+wwwroot/wp-content/themes/clubrugby/dev-only/stats_files/dqm3mdr.js
+
+wwwroot/wp-content/themes/clubrugby/dev-only/stats_files/bs3override.css
+
+*.psd
+
+*.svg
+
+*.gif
+
+*.css
+
+*.js
+
+wwwroot/wp-content/themes/clubrugby/dev-only/usar-stats.html
